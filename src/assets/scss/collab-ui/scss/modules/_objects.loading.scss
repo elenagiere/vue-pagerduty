@@ -1,0 +1,41 @@
+/*------------------------------------*\
+    #LOADING ELLIPSIS
+\*------------------------------------*/
+
+.cs-loading {
+  .btn & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn--circle & {
+    font-size: .25em;
+  }
+  span {
+    font-size: .5em;
+    animation-name: loading;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    &:nth-child(2) {
+      margin-left: .25rem;
+      animation-delay: .2s;
+    }
+    &:nth-child(3) {
+      margin-left: .25rem;
+      animation-delay: .4s;
+    }
+  }
+}
+
+@keyframes loading {
+  0%,
+  100% {
+    opacity: .1;
+    transform: scale(0, 0);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}

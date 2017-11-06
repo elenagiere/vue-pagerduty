@@ -1,0 +1,238 @@
+/* --------- NAVBAR --------- */
+
+.top-bar {
+  border: none;
+  box-shadow: 0px 0px 0px 1px $gray-light-2;
+
+  &.top-bar-fixed-top {
+    position: fixed;
+    min-height: vr-adjust(56);
+    width: 100%;
+    z-index: 2;
+  }
+}
+
+.top-bar .dropdown-menu,
+.top-bar-nav > li > .dropdown-menu {
+  margin-top: 0;
+
+  > li:first-child > a,
+  > li:last-child > a {
+    border-radius: 0;
+  }
+}
+
+.top-bar-brand {
+  font-family: $brand-font-extra-light, $Cisco-Toolkit-Icons;
+  font-size: 24px;
+  margin-right: 20px;
+  @extend .icon-cisco-logo;
+
+  > img {
+    display: inline-block;
+  }
+
+  &:before {
+    margin-right: 15px;
+    display: inline-block;
+  }
+}
+
+.top-bar-nav > li {
+  margin-right: 3px;
+
+  > a {
+    padding: 15px 30px;
+  }
+
+  &.active {
+    > a {
+      border-bottom: 1px solid $brand-primary-dark;
+      margin-bottom: -1px;
+    }
+  }
+}
+
+.top-bar-default {
+  .top-bar-brand {
+    color: $gray;
+  }
+}
+
+.top-bar-inverse {
+  @include box-shadow(0 1px 3px 0px rgba(0, 0, 0, 0.6));
+
+  .top-bar-brand {
+    color: $gray-lighter;
+    @extend .icon-cisco-logo;
+  }
+
+  .top-bar-nav > li > a {
+    background: $gray-darker;
+  }
+}
+
+// Admin top-bar
+.top-bar-admin {
+  .header-title {
+    position: relative;
+    top: 1px;
+  }
+
+  .inverse & .top-bar {
+    background-color: $gray-dark-3;
+    border-bottom-color: $gray-dark-3;
+    color: $gray-light-2;
+
+    .header-title, .top-bar-orgname {
+      color: $top-bar-admin-border;
+    }
+  }
+
+  .container-fluid {
+    position: relative;
+    padding-right: 0;
+  }
+
+  .top-bar-brand {
+    font-size: 17px;
+    line-height: 35px;
+    color: $top-bar-admin-brand-color;
+    padding: 10px 15px;
+    margin-left: -15px;
+    vertical-align: top;
+
+    &:before {
+      font-size: 35px;
+    }
+
+    &:hover,
+    &:focus {
+      color: $top-bar-admin-brand-hover-color;
+      background-color: $top-bar-admin-brand-hover-bg;
+    }
+  }
+
+  .top-bar-orgname {
+    border-left: 1px solid $top-bar-admin-border;
+    margin-left: 7px;
+    padding-left: 20px;
+    font-size: 17px;
+    max-width: 98%;
+    color: $gray-dark;
+    font-family: $brand-font-extra-light;
+    -webkit-font-smoothing: antialiased;
+    display: none;
+
+    .inverse & {
+      border-color: $top-bar-inverse-border;
+    }
+
+
+    @media (min-width: 800px) {
+      display: inline-block;
+    }
+
+    .top-bar-title {
+      @include text-overflow;
+    }
+  }
+
+  .top-bar-text {
+    color: $top-bar-admin-color;
+  }
+
+  .top-bar-nav {
+    > li > a {
+      color: $top-bar-admin-link-color;
+
+      &:hover, &:focus {
+        color: $top-bar-admin-link-hover-color;
+        background-color: $top-bar-admin-link-hover-bg;
+      }
+    }
+
+    > .active > a {
+      &, &:hover, &:focus {
+        color: $top-bar-admin-link-active-color;
+        background-color: $top-bar-admin-link-active-bg;
+      }
+    }
+
+    > .disabled > a {
+      &, &:hover, &:focus {
+        color: $top-bar-admin-link-disabled-color;
+        background-color: $top-bar-admin-link-disabled-bg;
+      }
+    }
+  }
+
+  .top-bar-toggle {
+    border-color: $top-bar-admin-toggle-border-color;
+
+    &:hover, &:focus {
+      background-color: $top-bar-admin-toggle-hover-bg;
+    }
+
+    .icon-bar {
+      background-color: $top-bar-admin-toggle-icon-bar-bg;
+    }
+  }
+
+  .top-bar-collapse,
+  .top-bar-form {
+    border-color: $top-bar-admin-border;
+  }
+
+  // Dropdown menu items
+  .top-bar-nav {
+    // Remove background color from open dropdown
+    > .open > a {
+      &, &:hover, &:focus {
+        background-color: $top-bar-admin-link-active-bg;
+        color: $top-bar-admin-link-active-color;
+      }
+    }
+
+    @media (max-width: $grid-float-breakpoint-max) {
+      // Dropdowns get custom display when collapsed
+      .open .dropdown-menu {
+        > li > a {
+          color: $top-bar-admin-link-color;
+
+          &:hover, &:focus {
+            color: $top-bar-admin-link-hover-color;
+            background-color: $top-bar-admin-link-hover-bg;
+          }
+        }
+
+        > .active > a {
+          &, &:hover, &:focus {
+            color: $top-bar-admin-link-active-color;
+            background-color: $top-bar-admin-link-active-bg;
+          }
+        }
+
+        > .disabled > a {
+          &, &:hover, &:focus {
+            color: $top-bar-admin-link-disabled-color;
+            background-color: $top-bar-admin-link-disabled-bg;
+          }
+        }
+      }
+    }
+  }
+
+  // Links in top-bars
+  //
+  // Add a class to ensure links outside the top-bar nav are colored correctly.
+  .top-bar-link {
+    color: $top-bar-admin-link-color;
+
+    &:hover {
+      color: $top-bar-admin-link-hover-color;
+    }
+  }
+}
+
+/* --------- END NAVBAR --------- */

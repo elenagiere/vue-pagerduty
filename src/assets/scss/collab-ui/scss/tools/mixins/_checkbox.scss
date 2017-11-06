@@ -1,0 +1,11 @@
+// Checkbox
+
+@mixin checkboxSetup($backgroundcolor, $bordercolor, $bordersize){
+   background: $backgroundcolor;
+   height: $checkboxSize;
+   width: $checkboxSize;
+   display:inline-block;
+   padding: 0 0 0 0px;
+   border: $bordersize solid $bordercolor;
+   @include border-radius(3px);
+}

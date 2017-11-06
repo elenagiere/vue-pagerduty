@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    #overlay PANEL
+\*------------------------------------*/
+
+.overlay-panel {
+  position: fixed;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: ($top-bar-height + 2) 0 0 0;
+  width: 100vw;
+  height: 100vh;
+  background: $brand-white;
+  z-index: $zindex-top-bar-fixed - 5;
+}
+
+.overlay-panel__header {
+  @extend .page-header__left;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: $page-side-padding;
+  .title {
+    @extend .page-header__title;
+  }
+  .close:before {
+    color: $gray-darker;
+    font-size: rem(40);
+  }
+}

@@ -1,0 +1,16 @@
+.user-img {
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-image: none;
+  background-size: cover;
+  background-color: lighten($gray-dark, 25%);
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  overflow: hidden;
+
+  .icon {
+      color: $brand-white;
+      margin: 0;
+    }
+}

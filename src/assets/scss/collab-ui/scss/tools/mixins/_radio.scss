@@ -1,0 +1,20 @@
+// Radio Button
+
+@mixin radiobuttonSetup($backgroundcolor, $bordercolor, $bordersize){
+   background: $backgroundcolor;
+   height: $radiobuttonSize;
+   width: $radiobuttonSize;
+   display:inline-block;
+   padding: 0 0 0 0px;
+   border: $bordersize solid $bordercolor;
+   @include border-radius(50%);
+}
+
+@mixin selectedSetup($backgroundcolor){
+    height:($radiobuttonSize/2);
+    width: ($radiobuttonSize/2);
+    background:$backgroundcolor;
+    margin-top: 4px;
+    margin-left: 4px;
+    @include border-radius(50%);
+}

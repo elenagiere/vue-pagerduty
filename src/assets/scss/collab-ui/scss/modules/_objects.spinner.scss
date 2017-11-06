@@ -1,0 +1,44 @@
+.icon-spinner {
+  border: 1px solid $gray;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  margin: 2px;
+  display: inline-block;
+
+  &:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: calc(1em + 2px);
+    height: calc(1em + 2px);
+    text-indent: -9999em;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid $color-primary;
+    animation: load8 1s infinite linear;
+    top: -2px;
+    left: -2px;
+  }
+
+}
+
+
+@-webkit-keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

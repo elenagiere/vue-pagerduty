@@ -1,0 +1,40 @@
+// Buttons
+
+@mixin button-variant($color, $background, $border) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+  &:hover {
+    color: $color;
+    background-color: darken($background, 8%);
+    border-color: darken($border, 8%);
+  }
+  &:focus {
+    border-color: $focus-color;
+    outline: none;
+  }
+  &:active:focus {
+    border-color: $border;
+    @include box-shadow(none);
+  }
+  &:active,
+  &:active,
+  .open > &.dropdown-toggle {
+    background-color: darken($background, 8%);
+    border-color: darken($border, 8%);
+    outline: none;
+  }
+  &.disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &, &:hover, &:focus, &:active, &.active {
+      background-color: lighten($btn-default-bg, 30%);
+      border-color: lighten($btn-default-bg, 30%);
+      color: $btn-disabled-color;
+    }
+  }
+  .badge {
+    color: $background;
+    background-color: $color;
+  }
+}

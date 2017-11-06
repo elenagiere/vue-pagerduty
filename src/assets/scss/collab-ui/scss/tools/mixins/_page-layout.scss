@@ -1,0 +1,59 @@
+//------------------------------------
+//    Page Layout Placeholders
+//------------------------------------
+.content-container {
+  padding: 0;
+  margin: 0;
+}
+
+// Grid page with cs-page-header ONLY
+%grid-header {
+  .grid-container,
+  .gridStyle {
+    height: calc(100vh - (#{$top-bar-height} + (#{$top-bar-border-width} * 2) + #{$page-header-height}));
+  }
+}
+
+// Grid page with cs-page-header AND cs-page-sub-header
+%grid-subheader {
+  .grid-container,
+  .gridStyle {
+    height: calc(100vh - (#{$top-bar-height} + (#{$top-bar-border-width} * 2) + #{$page-header-height} + #{$page-sub-header-height}));
+  }
+}
+
+// Content page with cs-page-header ONLY
+%content-header {
+  .content-container {
+    height: calc(100vh - (#{$top-bar-height} + (#{$top-bar-border-width} * 2) + #{$page-header-height}));
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+// Content page with cs-page-header AND cs-page-sub-header
+%content-subheader {
+  .content-container {
+    height: calc(100vh - (#{$top-bar-height} + (#{$top-bar-border-width} * 2) + #{$page-header-height} + #{$page-sub-header-height}));
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+// Page Gray Background
+%page-background-white {
+  background-color: $white;
+}
+
+%page-content-padding {
+  .content-container {
+    padding: 1rem 1.5rem;
+  }
+}
+
+%card-container-padding {
+  .cs-card-container {
+    padding-top: $page-side-padding / 2;
+    padding-bottom: $page-side-padding / 2;
+  }
+}

@@ -1,0 +1,88 @@
+/*------------------------------------*\
+	#Input
+\*------------------------------------*/
+
+.cs-input-deprecated {
+	position: relative;
+    width: 100%;
+	&.alert {
+            div.ellipsis {
+                color: $color-alerts;
+                span.icon {
+                    @extend .icon-error;
+                    color: $color-alerts;
+                    font-size: .75rem;
+                }
+            }
+            input {
+                border: 1px solid $color-alerts;
+            }
+            div.message {
+                color: $color-alerts;
+                border: 1px solid $color-alerts;
+            }
+        }
+
+	&.warn {
+		div.ellipsis {
+            color: $color-attention;
+            span.icon {
+                @extend .icon-warning;
+                color: $color-attention;
+                font-size: .75rem;
+            }
+		}
+		input {
+			border: 1px solid $color-attention;
+		}
+		div.message {
+			color: $color-attention;
+            border: 1px solid $color-attention;
+		}
+	}
+    div.ellipsis {
+		padding: 6px 12px 5px 5px;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		font-size: .75rem;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		position: relative;
+		height: 1.45rem;
+		padding-right: 20px;
+		white-space: normal;
+		z-index: 0;
+        span.text-wrap {
+		  font-size: .75rem;
+        }
+        span.text-wrap:before {
+            content: '\2026';
+            bottom: 0px;
+            right: 0px;
+            position: absolute;
+            font-size: .95rem;
+        }
+        span.text-wrap:after {
+            content: '';
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            background-color: $color-white;
+	   }
+	}
+
+	div.ellipsis.pointer {
+		cursor: pointer;
+	}
+
+	div.message {
+		width: calc(100% - 1.375rem);
+		padding: 11px;
+		font-size: .75rem;
+		position: absolute;
+		background-color: $color-white;
+		z-index: $zindex-popover;
+		right: 0px;
+	}
+}

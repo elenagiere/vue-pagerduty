@@ -1,0 +1,74 @@
+.cs-timepicker {
+  &-container {
+    display: inline-block;
+  }
+
+  &_wrapper {
+    display: inline-block;
+  }
+
+  &__dropdown {
+    @include vr-spacing(ph, 0.5, $border: 1px);
+    @include vr-spacing(pv, 0.25);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $f-dropdown-bg;
+    border: $f-dropdown-border-style $f-dropdown-border-width $f-dropdown-border-color;
+    z-index: 89;
+    @include radius($f-dropdown-radius);
+    border-color: $gray-light-1;
+
+    &-container {
+      position: relative;
+      display: inline-block;
+      height: 0;
+      float: left;
+    }
+
+    i.icon,
+    input[type=text] {
+      width: 100%;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .icon {
+      font-size: 1.5rem;
+
+      &:hover {
+        color: $primary-color;
+        cursor: pointer;
+      }
+    }
+
+    .inline-flex {
+      display: inline-flex;
+
+      input {
+        margin: 0;
+      }
+
+      div {
+        @include vr-spacing(ph, 0.5, $border: 1px);
+        & > * {
+          width: 3rem;
+          display: inline-block;
+        }
+      }
+
+      &:nth-child(odd) {
+        div {
+          & > i {
+            line-height: vr-adjust(36px);
+          }
+        }
+      }
+    }
+
+    .cs-input__messages {
+      @include vr-spacing(ph, 0.5);
+      @include vr-spacing(pb, 0.5);
+    }
+  }
+}

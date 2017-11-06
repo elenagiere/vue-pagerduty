@@ -1,0 +1,1829 @@
+// generated from a gulp-iconfont-css template
+// 456 icons
+@function char-from-code($iso-char) {
+  @return unquote('"\\#{$iso-char}"');
+}
+
+$icon-ac-power: char-from-code("E001");
+%icon-ac-power { content: char-from-code("E001"); }
+.icon-ac-power { &:before { content: char-from-code("E001"); } }
+
+$icon-account: char-from-code("E002");
+%icon-account { content: char-from-code("E002"); }
+.icon-account { &:before { content: char-from-code("E002"); } }
+
+$icon-acessibility: char-from-code("E003");
+%icon-acessibility { content: char-from-code("E003"); }
+.icon-acessibility { &:before { content: char-from-code("E003"); } }
+
+$icon-active-speaker-cross: char-from-code("E004");
+%icon-active-speaker-cross { content: char-from-code("E004"); }
+.icon-active-speaker-cross { &:before { content: char-from-code("E004"); } }
+
+$icon-active-speaker: char-from-code("E005");
+%icon-active-speaker { content: char-from-code("E005"); }
+.icon-active-speaker { &:before { content: char-from-code("E005"); } }
+
+$icon-activities: char-from-code("E006");
+%icon-activities { content: char-from-code("E006"); }
+.icon-activities { &:before { content: char-from-code("E006"); } }
+
+$icon-add-contact: char-from-code("E007");
+%icon-add-contact { content: char-from-code("E007"); }
+.icon-add-contact { &:before { content: char-from-code("E007"); } }
+
+$icon-add-contain: char-from-code("E008");
+%icon-add-contain { content: char-from-code("E008"); }
+.icon-add-contain { &:before { content: char-from-code("E008"); } }
+
+$icon-add-outline: char-from-code("E009");
+%icon-add-outline { content: char-from-code("E009"); }
+.icon-add-outline { &:before { content: char-from-code("E009"); } }
+
+$icon-add-users: char-from-code("E00A");
+%icon-add-users { content: char-from-code("E00A"); }
+.icon-add-users { &:before { content: char-from-code("E00A"); } }
+
+$icon-add: char-from-code("E00B");
+%icon-add { content: char-from-code("E00B"); }
+.icon-add { &:before { content: char-from-code("E00B"); } }
+
+$icon-admin: char-from-code("E00C");
+%icon-admin { content: char-from-code("E00C"); }
+.icon-admin { &:before { content: char-from-code("E00C"); } }
+
+$icon-alarm: char-from-code("E00D");
+%icon-alarm { content: char-from-code("E00D"); }
+.icon-alarm { &:before { content: char-from-code("E00D"); } }
+
+$icon-alerting: char-from-code("E00E");
+%icon-alerting { content: char-from-code("E00E"); }
+.icon-alerting { &:before { content: char-from-code("E00E"); } }
+
+$icon-analysis: char-from-code("E00F");
+%icon-analysis { content: char-from-code("E00F"); }
+.icon-analysis { &:before { content: char-from-code("E00F"); } }
+
+$icon-android-home: char-from-code("E010");
+%icon-android-home { content: char-from-code("E010"); }
+.icon-android-home { &:before { content: char-from-code("E010"); } }
+
+$icon-animation: char-from-code("E011");
+%icon-animation { content: char-from-code("E011"); }
+.icon-animation { &:before { content: char-from-code("E011"); } }
+
+$icon-annotation: char-from-code("E012");
+%icon-annotation { content: char-from-code("E012"); }
+.icon-annotation { &:before { content: char-from-code("E012"); } }
+
+$icon-applause: char-from-code("E013");
+%icon-applause { content: char-from-code("E013"); }
+.icon-applause { &:before { content: char-from-code("E013"); } }
+
+$icon-application: char-from-code("E014");
+%icon-application { content: char-from-code("E014"); }
+.icon-application { &:before { content: char-from-code("E014"); } }
+
+$icon-applications: char-from-code("E015");
+%icon-applications { content: char-from-code("E015"); }
+.icon-applications { &:before { content: char-from-code("E015"); } }
+
+$icon-arrow-back: char-from-code("E016");
+%icon-arrow-back { content: char-from-code("E016"); }
+.icon-arrow-back { &:before { content: char-from-code("E016"); } }
+
+$icon-arrow-down: char-from-code("E017");
+%icon-arrow-down { content: char-from-code("E017"); }
+.icon-arrow-down { &:before { content: char-from-code("E017"); } }
+
+$icon-arrow-left-tail: char-from-code("E018");
+%icon-arrow-left-tail { content: char-from-code("E018"); }
+.icon-arrow-left-tail { &:before { content: char-from-code("E018"); } }
+
+$icon-arrow-next: char-from-code("E019");
+%icon-arrow-next { content: char-from-code("E019"); }
+.icon-arrow-next { &:before { content: char-from-code("E019"); } }
+
+$icon-arrow-right-tail: char-from-code("E01A");
+%icon-arrow-right-tail { content: char-from-code("E01A"); }
+.icon-arrow-right-tail { &:before { content: char-from-code("E01A"); } }
+
+$icon-arrow-up: char-from-code("E01B");
+%icon-arrow-up { content: char-from-code("E01B"); }
+.icon-arrow-up { &:before { content: char-from-code("E01B"); } }
+
+$icon-at-contain: char-from-code("E01C");
+%icon-at-contain { content: char-from-code("E01C"); }
+.icon-at-contain { &:before { content: char-from-code("E01C"); } }
+
+$icon-at: char-from-code("E01D");
+%icon-at { content: char-from-code("E01D"); }
+.icon-at { &:before { content: char-from-code("E01D"); } }
+
+$icon-attachment: char-from-code("E01E");
+%icon-attachment { content: char-from-code("E01E"); }
+.icon-attachment { &:before { content: char-from-code("E01E"); } }
+
+$icon-audio-broadcast: char-from-code("E01F");
+%icon-audio-broadcast { content: char-from-code("E01F"); }
+.icon-audio-broadcast { &:before { content: char-from-code("E01F"); } }
+
+$icon-audio-min: char-from-code("E020");
+%icon-audio-min { content: char-from-code("E020"); }
+.icon-audio-min { &:before { content: char-from-code("E020"); } }
+
+$icon-audio-plus: char-from-code("E021");
+%icon-audio-plus { content: char-from-code("E021"); }
+.icon-audio-plus { &:before { content: char-from-code("E021"); } }
+
+$icon-audio-settings: char-from-code("E022");
+%icon-audio-settings { content: char-from-code("E022"); }
+.icon-audio-settings { &:before { content: char-from-code("E022"); } }
+
+$icon-audio: char-from-code("E023");
+%icon-audio { content: char-from-code("E023"); }
+.icon-audio { &:before { content: char-from-code("E023"); } }
+
+$icon-aux-camera: char-from-code("E024");
+%icon-aux-camera { content: char-from-code("E024"); }
+.icon-aux-camera { &:before { content: char-from-code("E024"); } }
+
+$icon-back: char-from-code("E025");
+%icon-back { content: char-from-code("E025"); }
+.icon-back { &:before { content: char-from-code("E025"); } }
+
+$icon-backup-data: char-from-code("E026");
+%icon-backup-data { content: char-from-code("E026"); }
+.icon-backup-data { &:before { content: char-from-code("E026"); } }
+
+$icon-bars: char-from-code("E027");
+%icon-bars { content: char-from-code("E027"); }
+.icon-bars { &:before { content: char-from-code("E027"); } }
+
+$icon-battery: char-from-code("E028");
+%icon-battery { content: char-from-code("E028"); }
+.icon-battery { &:before { content: char-from-code("E028"); } }
+
+$icon-bell-cross: char-from-code("E029");
+%icon-bell-cross { content: char-from-code("E029"); }
+.icon-bell-cross { &:before { content: char-from-code("E029"); } }
+
+$icon-bell: char-from-code("E02A");
+%icon-bell { content: char-from-code("E02A"); }
+.icon-bell { &:before { content: char-from-code("E02A"); } }
+
+$icon-blocked: char-from-code("E02B");
+%icon-blocked { content: char-from-code("E02B"); }
+.icon-blocked { &:before { content: char-from-code("E02B"); } }
+
+$icon-bluetooth-contain-cross: char-from-code("E02C");
+%icon-bluetooth-contain-cross { content: char-from-code("E02C"); }
+.icon-bluetooth-contain-cross { &:before { content: char-from-code("E02C"); } }
+
+$icon-bluetooth-contained: char-from-code("E02D");
+%icon-bluetooth-contained { content: char-from-code("E02D"); }
+.icon-bluetooth-contained { &:before { content: char-from-code("E02D"); } }
+
+$icon-bluetooth-outline: char-from-code("E02E");
+%icon-bluetooth-outline { content: char-from-code("E02E"); }
+.icon-bluetooth-outline { &:before { content: char-from-code("E02E"); } }
+
+$icon-bluetooth: char-from-code("E02F");
+%icon-bluetooth { content: char-from-code("E02F"); }
+.icon-bluetooth { &:before { content: char-from-code("E02F"); } }
+
+$icon-bookmark: char-from-code("E030");
+%icon-bookmark { content: char-from-code("E030"); }
+.icon-bookmark { &:before { content: char-from-code("E030"); } }
+
+$icon-bot-four: char-from-code("E031");
+%icon-bot-four { content: char-from-code("E031"); }
+.icon-bot-four { &:before { content: char-from-code("E031"); } }
+
+$icon-bot-one: char-from-code("E032");
+%icon-bot-one { content: char-from-code("E032"); }
+.icon-bot-one { &:before { content: char-from-code("E032"); } }
+
+$icon-bot-three: char-from-code("E033");
+%icon-bot-three { content: char-from-code("E033"); }
+.icon-bot-three { &:before { content: char-from-code("E033"); } }
+
+$icon-bot-two: char-from-code("E034");
+%icon-bot-two { content: char-from-code("E034"); }
+.icon-bot-two { &:before { content: char-from-code("E034"); } }
+
+$icon-brightness: char-from-code("E035");
+%icon-brightness { content: char-from-code("E035"); }
+.icon-brightness { &:before { content: char-from-code("E035"); } }
+
+$icon-broadcast-message: char-from-code("E036");
+%icon-broadcast-message { content: char-from-code("E036"); }
+.icon-broadcast-message { &:before { content: char-from-code("E036"); } }
+
+$icon-broken-image: char-from-code("E037");
+%icon-broken-image { content: char-from-code("E037"); }
+.icon-broken-image { &:before { content: char-from-code("E037"); } }
+
+$icon-browser: char-from-code("E038");
+%icon-browser { content: char-from-code("E038"); }
+.icon-browser { &:before { content: char-from-code("E038"); } }
+
+$icon-bug: char-from-code("E039");
+%icon-bug { content: char-from-code("E039"); }
+.icon-bug { &:before { content: char-from-code("E039"); } }
+
+$icon-cal: char-from-code("E03A");
+%icon-cal { content: char-from-code("E03A"); }
+.icon-cal { &:before { content: char-from-code("E03A"); } }
+
+$icon-call-forward-divert: char-from-code("E03B");
+%icon-call-forward-divert { content: char-from-code("E03B"); }
+.icon-call-forward-divert { &:before { content: char-from-code("E03B"); } }
+
+$icon-call-forwarding: char-from-code("E03C");
+%icon-call-forwarding { content: char-from-code("E03C"); }
+.icon-call-forwarding { &:before { content: char-from-code("E03C"); } }
+
+$icon-call-handling: char-from-code("E03D");
+%icon-call-handling { content: char-from-code("E03D"); }
+.icon-call-handling { &:before { content: char-from-code("E03D"); } }
+
+$icon-call-log: char-from-code("E03E");
+%icon-call-log { content: char-from-code("E03E"); }
+.icon-call-log { &:before { content: char-from-code("E03E"); } }
+
+$icon-call-rate: char-from-code("E03F");
+%icon-call-rate { content: char-from-code("E03F"); }
+.icon-call-rate { &:before { content: char-from-code("E03F"); } }
+
+$icon-callback: char-from-code("E040");
+%icon-callback { content: char-from-code("E040"); }
+.icon-callback { &:before { content: char-from-code("E040"); } }
+
+$icon-calls: char-from-code("E041");
+%icon-calls { content: char-from-code("E041"); }
+.icon-calls { &:before { content: char-from-code("E041"); } }
+
+$icon-camera: char-from-code("E042");
+%icon-camera { content: char-from-code("E042"); }
+.icon-camera { &:before { content: char-from-code("E042"); } }
+
+$icon-certified: char-from-code("E043");
+%icon-certified { content: char-from-code("E043"); }
+.icon-certified { &:before { content: char-from-code("E043"); } }
+
+$icon-chapters: char-from-code("E044");
+%icon-chapters { content: char-from-code("E044"); }
+.icon-chapters { &:before { content: char-from-code("E044"); } }
+
+$icon-charging: char-from-code("E045");
+%icon-charging { content: char-from-code("E045"); }
+.icon-charging { &:before { content: char-from-code("E045"); } }
+
+$icon-chat: char-from-code("E046");
+%icon-chat { content: char-from-code("E046"); }
+.icon-chat { &:before { content: char-from-code("E046"); } }
+
+$icon-chats: char-from-code("E047");
+%icon-chats { content: char-from-code("E047"); }
+.icon-chats { &:before { content: char-from-code("E047"); } }
+
+$icon-check-gear: char-from-code("E048");
+%icon-check-gear { content: char-from-code("E048"); }
+.icon-check-gear { &:before { content: char-from-code("E048"); } }
+
+$icon-check-mark-success: char-from-code("E049");
+%icon-check-mark-success { content: char-from-code("E049"); }
+.icon-check-mark-success { &:before { content: char-from-code("E049"); } }
+
+$icon-check-refresh: char-from-code("E04A");
+%icon-check-refresh { content: char-from-code("E04A"); }
+.icon-check-refresh { &:before { content: char-from-code("E04A"); } }
+
+$icon-check: char-from-code("E04B");
+%icon-check { content: char-from-code("E04B"); }
+.icon-check { &:before { content: char-from-code("E04B"); } }
+
+$icon-checkbox: char-from-code("E04C");
+%icon-checkbox { content: char-from-code("E04C"); }
+.icon-checkbox { &:before { content: char-from-code("E04C"); } }
+
+$icon-chevron-down: char-from-code("E04D");
+%icon-chevron-down { content: char-from-code("E04D"); }
+.icon-chevron-down { &:before { content: char-from-code("E04D"); } }
+
+$icon-chevron-left: char-from-code("E04E");
+%icon-chevron-left { content: char-from-code("E04E"); }
+.icon-chevron-left { &:before { content: char-from-code("E04E"); } }
+
+$icon-chevron-right: char-from-code("E04F");
+%icon-chevron-right { content: char-from-code("E04F"); }
+.icon-chevron-right { &:before { content: char-from-code("E04F"); } }
+
+$icon-chevron-up: char-from-code("E050");
+%icon-chevron-up { content: char-from-code("E050"); }
+.icon-chevron-up { &:before { content: char-from-code("E050"); } }
+
+$icon-circle-arrow-circular: char-from-code("E051");
+%icon-circle-arrow-circular { content: char-from-code("E051"); }
+.icon-circle-arrow-circular { &:before { content: char-from-code("E051"); } }
+
+$icon-circle-arrow-down: char-from-code("E052");
+%icon-circle-arrow-down { content: char-from-code("E052"); }
+.icon-circle-arrow-down { &:before { content: char-from-code("E052"); } }
+
+$icon-circle-arrows-circular: char-from-code("E053");
+%icon-circle-arrows-circular { content: char-from-code("E053"); }
+.icon-circle-arrows-circular { &:before { content: char-from-code("E053"); } }
+
+$icon-circle-arrows-cross: char-from-code("E054");
+%icon-circle-arrows-cross { content: char-from-code("E054"); }
+.icon-circle-arrows-cross { &:before { content: char-from-code("E054"); } }
+
+$icon-circle-attachment: char-from-code("E055");
+%icon-circle-attachment { content: char-from-code("E055"); }
+.icon-circle-attachment { &:before { content: char-from-code("E055"); } }
+
+$icon-circle-calendar: char-from-code("E056");
+%icon-circle-calendar { content: char-from-code("E056"); }
+.icon-circle-calendar { &:before { content: char-from-code("E056"); } }
+
+$icon-circle-call: char-from-code("E057");
+%icon-circle-call { content: char-from-code("E057"); }
+.icon-circle-call { &:before { content: char-from-code("E057"); } }
+
+$icon-circle-check-mark-success: char-from-code("E058");
+%icon-circle-check-mark-success { content: char-from-code("E058"); }
+.icon-circle-check-mark-success { &:before { content: char-from-code("E058"); } }
+
+$icon-circle-check: char-from-code("E059");
+%icon-circle-check { content: char-from-code("E059"); }
+.icon-circle-check { &:before { content: char-from-code("E059"); } }
+
+$icon-circle-clock-hands: char-from-code("E05A");
+%icon-circle-clock-hands { content: char-from-code("E05A"); }
+.icon-circle-clock-hands { &:before { content: char-from-code("E05A"); } }
+
+$icon-circle-clock: char-from-code("E05B");
+%icon-circle-clock { content: char-from-code("E05B"); }
+.icon-circle-clock { &:before { content: char-from-code("E05B"); } }
+
+$icon-circle-comp-negative: char-from-code("E05C");
+%icon-circle-comp-negative { content: char-from-code("E05C"); }
+.icon-circle-comp-negative { &:before { content: char-from-code("E05C"); } }
+
+$icon-circle-comp-positive: char-from-code("E05D");
+%icon-circle-comp-positive { content: char-from-code("E05D"); }
+.icon-circle-comp-positive { &:before { content: char-from-code("E05D"); } }
+
+$icon-circle-comp: char-from-code("E05E");
+%icon-circle-comp { content: char-from-code("E05E"); }
+.icon-circle-comp { &:before { content: char-from-code("E05E"); } }
+
+$icon-circle-computer-blank: char-from-code("E05F");
+%icon-circle-computer-blank { content: char-from-code("E05F"); }
+.icon-circle-computer-blank { &:before { content: char-from-code("E05F"); } }
+
+$icon-circle-computer-negative: char-from-code("E060");
+%icon-circle-computer-negative { content: char-from-code("E060"); }
+.icon-circle-computer-negative { &:before { content: char-from-code("E060"); } }
+
+$icon-circle-computer-positive: char-from-code("E061");
+%icon-circle-computer-positive { content: char-from-code("E061"); }
+.icon-circle-computer-positive { &:before { content: char-from-code("E061"); } }
+
+$icon-circle-contact-centre: char-from-code("E062");
+%icon-circle-contact-centre { content: char-from-code("E062"); }
+.icon-circle-contact-centre { &:before { content: char-from-code("E062"); } }
+
+$icon-circle-data: char-from-code("E063");
+%icon-circle-data { content: char-from-code("E063"); }
+.icon-circle-data { &:before { content: char-from-code("E063"); } }
+
+$icon-circle-download: char-from-code("E064");
+%icon-circle-download { content: char-from-code("E064"); }
+.icon-circle-download { &:before { content: char-from-code("E064"); } }
+
+$icon-circle-email: char-from-code("E065");
+%icon-circle-email { content: char-from-code("E065"); }
+.icon-circle-email { &:before { content: char-from-code("E065"); } }
+
+$icon-circle-flag: char-from-code("E066");
+%icon-circle-flag { content: char-from-code("E066"); }
+.icon-circle-flag { &:before { content: char-from-code("E066"); } }
+
+$icon-circle-globe: char-from-code("E067");
+%icon-circle-globe { content: char-from-code("E067"); }
+.icon-circle-globe { &:before { content: char-from-code("E067"); } }
+
+$icon-circle-group: char-from-code("E068");
+%icon-circle-group { content: char-from-code("E068"); }
+.icon-circle-group { &:before { content: char-from-code("E068"); } }
+
+$icon-circle-hg-broadcast: char-from-code("E069");
+%icon-circle-hg-broadcast { content: char-from-code("E069"); }
+.icon-circle-hg-broadcast { &:before { content: char-from-code("E069"); } }
+
+$icon-circle-hg-circular: char-from-code("E06A");
+%icon-circle-hg-circular { content: char-from-code("E06A"); }
+.icon-circle-hg-circular { &:before { content: char-from-code("E06A"); } }
+
+$icon-circle-hg-longest-idle: char-from-code("E06B");
+%icon-circle-hg-longest-idle { content: char-from-code("E06B"); }
+.icon-circle-hg-longest-idle { &:before { content: char-from-code("E06B"); } }
+
+$icon-circle-hg-top-down: char-from-code("E06C");
+%icon-circle-hg-top-down { content: char-from-code("E06C"); }
+.icon-circle-hg-top-down { &:before { content: char-from-code("E06C"); } }
+
+$icon-circle-links: char-from-code("E06D");
+%icon-circle-links { content: char-from-code("E06D"); }
+.icon-circle-links { &:before { content: char-from-code("E06D"); } }
+
+$icon-circle-localize: char-from-code("E06E");
+%icon-circle-localize { content: char-from-code("E06E"); }
+.icon-circle-localize { &:before { content: char-from-code("E06E"); } }
+
+$icon-circle-location: char-from-code("E06F");
+%icon-circle-location { content: char-from-code("E06F"); }
+.icon-circle-location { &:before { content: char-from-code("E06F"); } }
+
+$icon-circle-lock: char-from-code("E070");
+%icon-circle-lock { content: char-from-code("E070"); }
+.icon-circle-lock { &:before { content: char-from-code("E070"); } }
+
+$icon-circle-message: char-from-code("E071");
+%icon-circle-message { content: char-from-code("E071"); }
+.icon-circle-message { &:before { content: char-from-code("E071"); } }
+
+$icon-circle-mobile: char-from-code("E072");
+%icon-circle-mobile { content: char-from-code("E072"); }
+.icon-circle-mobile { &:before { content: char-from-code("E072"); } }
+
+$icon-circle-more: char-from-code("E073");
+%icon-circle-more { content: char-from-code("E073"); }
+.icon-circle-more { &:before { content: char-from-code("E073"); } }
+
+$icon-circle-question: char-from-code("E074");
+%icon-circle-question { content: char-from-code("E074"); }
+.icon-circle-question { &:before { content: char-from-code("E074"); } }
+
+$icon-circle-responsive: char-from-code("E075");
+%icon-circle-responsive { content: char-from-code("E075"); }
+.icon-circle-responsive { &:before { content: char-from-code("E075"); } }
+
+$icon-circle-search: char-from-code("E076");
+%icon-circle-search { content: char-from-code("E076"); }
+.icon-circle-search { &:before { content: char-from-code("E076"); } }
+
+$icon-circle-settings: char-from-code("E077");
+%icon-circle-settings { content: char-from-code("E077"); }
+.icon-circle-settings { &:before { content: char-from-code("E077"); } }
+
+$icon-circle-star: char-from-code("E078");
+%icon-circle-star { content: char-from-code("E078"); }
+.icon-circle-star { &:before { content: char-from-code("E078"); } }
+
+$icon-circle-telepresence: char-from-code("E079");
+%icon-circle-telepresence { content: char-from-code("E079"); }
+.icon-circle-telepresence { &:before { content: char-from-code("E079"); } }
+
+$icon-circle-unlock: char-from-code("E07A");
+%icon-circle-unlock { content: char-from-code("E07A"); }
+.icon-circle-unlock { &:before { content: char-from-code("E07A"); } }
+
+$icon-circle-upload: char-from-code("E07B");
+%icon-circle-upload { content: char-from-code("E07B"); }
+.icon-circle-upload { &:before { content: char-from-code("E07B"); } }
+
+$icon-circle-user: char-from-code("E07C");
+%icon-circle-user { content: char-from-code("E07C"); }
+.icon-circle-user { &:before { content: char-from-code("E07C"); } }
+
+$icon-circle-video-group-outline: char-from-code("E07D");
+%icon-circle-video-group-outline { content: char-from-code("E07D"); }
+.icon-circle-video-group-outline { &:before { content: char-from-code("E07D"); } }
+
+$icon-circle-video-outline: char-from-code("E07E");
+%icon-circle-video-outline { content: char-from-code("E07E"); }
+.icon-circle-video-outline { &:before { content: char-from-code("E07E"); } }
+
+$icon-circle-webex: char-from-code("E07F");
+%icon-circle-webex { content: char-from-code("E07F"); }
+.icon-circle-webex { &:before { content: char-from-code("E07F"); } }
+
+$icon-circle-world: char-from-code("E080");
+%icon-circle-world { content: char-from-code("E080"); }
+.icon-circle-world { &:before { content: char-from-code("E080"); } }
+
+$icon-circle: char-from-code("E081");
+%icon-circle { content: char-from-code("E081"); }
+.icon-circle { &:before { content: char-from-code("E081"); } }
+
+$icon-cisco-logo: char-from-code("E082");
+%icon-cisco-logo { content: char-from-code("E082"); }
+.icon-cisco-logo { &:before { content: char-from-code("E082"); } }
+
+$icon-clipboard: char-from-code("E083");
+%icon-clipboard { content: char-from-code("E083"); }
+.icon-clipboard { &:before { content: char-from-code("E083"); } }
+
+$icon-clock: char-from-code("E084");
+%icon-clock { content: char-from-code("E084"); }
+.icon-clock { &:before { content: char-from-code("E084"); } }
+
+$icon-close-keyboard: char-from-code("E085");
+%icon-close-keyboard { content: char-from-code("E085"); }
+.icon-close-keyboard { &:before { content: char-from-code("E085"); } }
+
+$icon-close: char-from-code("E086");
+%icon-close { content: char-from-code("E086"); }
+.icon-close { &:before { content: char-from-code("E086"); } }
+
+$icon-cloud: char-from-code("E087");
+%icon-cloud { content: char-from-code("E087"); }
+.icon-cloud { &:before { content: char-from-code("E087"); } }
+
+$icon-cog: char-from-code("E088");
+%icon-cog { content: char-from-code("E088"); }
+.icon-cog { &:before { content: char-from-code("E088"); } }
+
+$icon-comment: char-from-code("E089");
+%icon-comment { content: char-from-code("E089"); }
+.icon-comment { &:before { content: char-from-code("E089"); } }
+
+$icon-community: char-from-code("E08A");
+%icon-community { content: char-from-code("E08A"); }
+.icon-community { &:before { content: char-from-code("E08A"); } }
+
+$icon-compass: char-from-code("E08B");
+%icon-compass { content: char-from-code("E08B"); }
+.icon-compass { &:before { content: char-from-code("E08B"); } }
+
+$icon-computer: char-from-code("E08C");
+%icon-computer { content: char-from-code("E08C"); }
+.icon-computer { &:before { content: char-from-code("E08C"); } }
+
+$icon-conference: char-from-code("E08D");
+%icon-conference { content: char-from-code("E08D"); }
+.icon-conference { &:before { content: char-from-code("E08D"); } }
+
+$icon-contact-card: char-from-code("E08E");
+%icon-contact-card { content: char-from-code("E08E"); }
+.icon-contact-card { &:before { content: char-from-code("E08E"); } }
+
+$icon-contact: char-from-code("E08F");
+%icon-contact { content: char-from-code("E08F"); }
+.icon-contact { &:before { content: char-from-code("E08F"); } }
+
+$icon-content-share: char-from-code("E090");
+%icon-content-share { content: char-from-code("E090"); }
+.icon-content-share { &:before { content: char-from-code("E090"); } }
+
+$icon-convo: char-from-code("E091");
+%icon-convo { content: char-from-code("E091"); }
+.icon-convo { &:before { content: char-from-code("E091"); } }
+
+$icon-create-page: char-from-code("E092");
+%icon-create-page { content: char-from-code("E092"); }
+.icon-create-page { &:before { content: char-from-code("E092"); } }
+
+$icon-data-usage: char-from-code("E093");
+%icon-data-usage { content: char-from-code("E093"); }
+.icon-data-usage { &:before { content: char-from-code("E093"); } }
+
+$icon-data: char-from-code("E094");
+%icon-data { content: char-from-code("E094"); }
+.icon-data { &:before { content: char-from-code("E094"); } }
+
+$icon-day: char-from-code("E095");
+%icon-day { content: char-from-code("E095"); }
+.icon-day { &:before { content: char-from-code("E095"); } }
+
+$icon-dc-power: char-from-code("E096");
+%icon-dc-power { content: char-from-code("E096"); }
+.icon-dc-power { &:before { content: char-from-code("E096"); } }
+
+$icon-default-app: char-from-code("E097");
+%icon-default-app { content: char-from-code("E097"); }
+.icon-default-app { &:before { content: char-from-code("E097"); } }
+
+$icon-delete: char-from-code("E098");
+%icon-delete { content: char-from-code("E098"); }
+.icon-delete { &:before { content: char-from-code("E098"); } }
+
+$icon-desk-phone: char-from-code("E099");
+%icon-desk-phone { content: char-from-code("E099"); }
+.icon-desk-phone { &:before { content: char-from-code("E099"); } }
+
+$icon-devices: char-from-code("E09A");
+%icon-devices { content: char-from-code("E09A"); }
+.icon-devices { &:before { content: char-from-code("E09A"); } }
+
+$icon-diagnostics: char-from-code("E09B");
+%icon-diagnostics { content: char-from-code("E09B"); }
+.icon-diagnostics { &:before { content: char-from-code("E09B"); } }
+
+$icon-dial: char-from-code("E09C");
+%icon-dial { content: char-from-code("E09C"); }
+.icon-dial { &:before { content: char-from-code("E09C"); } }
+
+$icon-directory: char-from-code("E09D");
+%icon-directory { content: char-from-code("E09D"); }
+.icon-directory { &:before { content: char-from-code("E09D"); } }
+
+$icon-disc-not-connected: char-from-code("E09E");
+%icon-disc-not-connected { content: char-from-code("E09E"); }
+.icon-disc-not-connected { &:before { content: char-from-code("E09E"); } }
+
+$icon-disc: char-from-code("E09F");
+%icon-disc { content: char-from-code("E09F"); }
+.icon-disc { &:before { content: char-from-code("E09F"); } }
+
+$icon-display: char-from-code("E0A0");
+%icon-display { content: char-from-code("E0A0"); }
+.icon-display { &:before { content: char-from-code("E0A0"); } }
+
+$icon-dms: char-from-code("E0A1");
+%icon-dms { content: char-from-code("E0A1"); }
+.icon-dms { &:before { content: char-from-code("E0A1"); } }
+
+$icon-do-not-disturb: char-from-code("E0A2");
+%icon-do-not-disturb { content: char-from-code("E0A2"); }
+.icon-do-not-disturb { &:before { content: char-from-code("E0A2"); } }
+
+$icon-document-camera-cross: char-from-code("E0A3");
+%icon-document-camera-cross { content: char-from-code("E0A3"); }
+.icon-document-camera-cross { &:before { content: char-from-code("E0A3"); } }
+
+$icon-document-camera: char-from-code("E0A4");
+%icon-document-camera { content: char-from-code("E0A4"); }
+.icon-document-camera { &:before { content: char-from-code("E0A4"); } }
+
+$icon-document: char-from-code("E0A5");
+%icon-document { content: char-from-code("E0A5"); }
+.icon-document { &:before { content: char-from-code("E0A5"); } }
+
+$icon-download-contain: char-from-code("E0A6");
+%icon-download-contain { content: char-from-code("E0A6"); }
+.icon-download-contain { &:before { content: char-from-code("E0A6"); } }
+
+$icon-download: char-from-code("E0A7");
+%icon-download { content: char-from-code("E0A7"); }
+.icon-download { &:before { content: char-from-code("E0A7"); } }
+
+$icon-draw: char-from-code("E0A8");
+%icon-draw { content: char-from-code("E0A8"); }
+.icon-draw { &:before { content: char-from-code("E0A8"); } }
+
+$icon-edit-call: char-from-code("E0A9");
+%icon-edit-call { content: char-from-code("E0A9"); }
+.icon-edit-call { &:before { content: char-from-code("E0A9"); } }
+
+$icon-edit: char-from-code("E0AA");
+%icon-edit { content: char-from-code("E0AA"); }
+.icon-edit { &:before { content: char-from-code("E0AA"); } }
+
+$icon-email: char-from-code("E0AB");
+%icon-email { content: char-from-code("E0AB"); }
+.icon-email { &:before { content: char-from-code("E0AB"); } }
+
+$icon-emoticons: char-from-code("E0AC");
+%icon-emoticons { content: char-from-code("E0AC"); }
+.icon-emoticons { &:before { content: char-from-code("E0AC"); } }
+
+$icon-end-call: char-from-code("E0AD");
+%icon-end-call { content: char-from-code("E0AD"); }
+.icon-end-call { &:before { content: char-from-code("E0AD"); } }
+
+$icon-endpoint: char-from-code("E0AE");
+%icon-endpoint { content: char-from-code("E0AE"); }
+.icon-endpoint { &:before { content: char-from-code("E0AE"); } }
+
+$icon-eraser: char-from-code("E0AF");
+%icon-eraser { content: char-from-code("E0AF"); }
+.icon-eraser { &:before { content: char-from-code("E0AF"); } }
+
+$icon-error: char-from-code("E0B0");
+%icon-error { content: char-from-code("E0B0"); }
+.icon-error { &:before { content: char-from-code("E0B0"); } }
+
+$icon-ethernet: char-from-code("E0B1");
+%icon-ethernet { content: char-from-code("E0B1"); }
+.icon-ethernet { &:before { content: char-from-code("E0B1"); } }
+
+$icon-exernal-calendar: char-from-code("E0B2");
+%icon-exernal-calendar { content: char-from-code("E0B2"); }
+.icon-exernal-calendar { &:before { content: char-from-code("E0B2"); } }
+
+$icon-exit-contain: char-from-code("E0B3");
+%icon-exit-contain { content: char-from-code("E0B3"); }
+.icon-exit-contain { &:before { content: char-from-code("E0B3"); } }
+
+$icon-exit-outline: char-from-code("E0B4");
+%icon-exit-outline { content: char-from-code("E0B4"); }
+.icon-exit-outline { &:before { content: char-from-code("E0B4"); } }
+
+$icon-exit: char-from-code("E0B5");
+%icon-exit { content: char-from-code("E0B5"); }
+.icon-exit { &:before { content: char-from-code("E0B5"); } }
+
+$icon-export: char-from-code("E0B6");
+%icon-export { content: char-from-code("E0B6"); }
+.icon-export { &:before { content: char-from-code("E0B6"); } }
+
+$icon-extension-mobility: char-from-code("E0B7");
+%icon-extension-mobility { content: char-from-code("E0B7"); }
+.icon-extension-mobility { &:before { content: char-from-code("E0B7"); } }
+
+$icon-fbw: char-from-code("E0B8");
+%icon-fbw { content: char-from-code("E0B8"); }
+.icon-fbw { &:before { content: char-from-code("E0B8"); } }
+
+$icon-feedback-clear: char-from-code("E0B9");
+%icon-feedback-clear { content: char-from-code("E0B9"); }
+.icon-feedback-clear { &:before { content: char-from-code("E0B9"); } }
+
+$icon-feedback-result: char-from-code("E0BA");
+%icon-feedback-result { content: char-from-code("E0BA"); }
+.icon-feedback-result { &:before { content: char-from-code("E0BA"); } }
+
+$icon-feedback: char-from-code("E0BB");
+%icon-feedback { content: char-from-code("E0BB"); }
+.icon-feedback { &:before { content: char-from-code("E0BB"); } }
+
+$icon-ffw: char-from-code("E0BC");
+%icon-ffw { content: char-from-code("E0BC"); }
+.icon-ffw { &:before { content: char-from-code("E0BC"); } }
+
+$icon-filter: char-from-code("E0BD");
+%icon-filter { content: char-from-code("E0BD"); }
+.icon-filter { &:before { content: char-from-code("E0BD"); } }
+
+$icon-flagged: char-from-code("E0BE");
+%icon-flagged { content: char-from-code("E0BE"); }
+.icon-flagged { &:before { content: char-from-code("E0BE"); } }
+
+$icon-folder: char-from-code("E0BF");
+%icon-folder { content: char-from-code("E0BF"); }
+.icon-folder { &:before { content: char-from-code("E0BF"); } }
+
+$icon-forced-sign-in: char-from-code("E0C0");
+%icon-forced-sign-in { content: char-from-code("E0C0"); }
+.icon-forced-sign-in { &:before { content: char-from-code("E0C0"); } }
+
+$icon-forward-to-mobility: char-from-code("E0C1");
+%icon-forward-to-mobility { content: char-from-code("E0C1"); }
+.icon-forward-to-mobility { &:before { content: char-from-code("E0C1"); } }
+
+$icon-fullscreen: char-from-code("E0C2");
+%icon-fullscreen { content: char-from-code("E0C2"); }
+.icon-fullscreen { &:before { content: char-from-code("E0C2"); } }
+
+$icon-funnel: char-from-code("E0C3");
+%icon-funnel { content: char-from-code("E0C3"); }
+.icon-funnel { &:before { content: char-from-code("E0C3"); } }
+
+$icon-general-source-cross: char-from-code("E0C4");
+%icon-general-source-cross { content: char-from-code("E0C4"); }
+.icon-general-source-cross { &:before { content: char-from-code("E0C4"); } }
+
+$icon-general-source: char-from-code("E0C5");
+%icon-general-source { content: char-from-code("E0C5"); }
+.icon-general-source { &:before { content: char-from-code("E0C5"); } }
+
+$icon-graph: char-from-code("E0C6");
+%icon-graph { content: char-from-code("E0C6"); }
+.icon-graph { &:before { content: char-from-code("E0C6"); } }
+
+$icon-grid-large: char-from-code("E0C7");
+%icon-grid-large { content: char-from-code("E0C7"); }
+.icon-grid-large { &:before { content: char-from-code("E0C7"); } }
+
+$icon-grid-list: char-from-code("E0C8");
+%icon-grid-list { content: char-from-code("E0C8"); }
+.icon-grid-list { &:before { content: char-from-code("E0C8"); } }
+
+$icon-grid: char-from-code("E0C9");
+%icon-grid { content: char-from-code("E0C9"); }
+.icon-grid { &:before { content: char-from-code("E0C9"); } }
+
+$icon-ground: char-from-code("E0CA");
+%icon-ground { content: char-from-code("E0CA"); }
+.icon-ground { &:before { content: char-from-code("E0CA"); } }
+
+$icon-group-call: char-from-code("E0CB");
+%icon-group-call { content: char-from-code("E0CB"); }
+.icon-group-call { &:before { content: char-from-code("E0CB"); } }
+
+$icon-hamburger-menu: char-from-code("E0CC");
+%icon-hamburger-menu { content: char-from-code("E0CC"); }
+.icon-hamburger-menu { &:before { content: char-from-code("E0CC"); } }
+
+$icon-headset-cross: char-from-code("E0CD");
+%icon-headset-cross { content: char-from-code("E0CD"); }
+.icon-headset-cross { &:before { content: char-from-code("E0CD"); } }
+
+$icon-headset: char-from-code("E0CE");
+%icon-headset { content: char-from-code("E0CE"); }
+.icon-headset { &:before { content: char-from-code("E0CE"); } }
+
+$icon-help-outline: char-from-code("E0CF");
+%icon-help-outline { content: char-from-code("E0CF"); }
+.icon-help-outline { &:before { content: char-from-code("E0CF"); } }
+
+$icon-help: char-from-code("E0D0");
+%icon-help { content: char-from-code("E0D0"); }
+.icon-help { &:before { content: char-from-code("E0D0"); } }
+
+$icon-highlight-line: char-from-code("E0D1");
+%icon-highlight-line { content: char-from-code("E0D1"); }
+.icon-highlight-line { &:before { content: char-from-code("E0D1"); } }
+
+$icon-highlighter-check: char-from-code("E0D2");
+%icon-highlighter-check { content: char-from-code("E0D2"); }
+.icon-highlighter-check { &:before { content: char-from-code("E0D2"); } }
+
+$icon-highlighter: char-from-code("E0D3");
+%icon-highlighter { content: char-from-code("E0D3"); }
+.icon-highlighter { &:before { content: char-from-code("E0D3"); } }
+
+$icon-home: char-from-code("E0D4");
+%icon-home { content: char-from-code("E0D4"); }
+.icon-home { &:before { content: char-from-code("E0D4"); } }
+
+$icon-hue: char-from-code("E0D5");
+%icon-hue { content: char-from-code("E0D5"); }
+.icon-hue { &:before { content: char-from-code("E0D5"); } }
+
+$icon-hunt-group: char-from-code("E0D6");
+%icon-hunt-group { content: char-from-code("E0D6"); }
+.icon-hunt-group { &:before { content: char-from-code("E0D6"); } }
+
+$icon-idefix: char-from-code("E0D7");
+%icon-idefix { content: char-from-code("E0D7"); }
+.icon-idefix { &:before { content: char-from-code("E0D7"); } }
+
+$icon-image-contain: char-from-code("E0D8");
+%icon-image-contain { content: char-from-code("E0D8"); }
+.icon-image-contain { &:before { content: char-from-code("E0D8"); } }
+
+$icon-image: char-from-code("E0D9");
+%icon-image { content: char-from-code("E0D9"); }
+.icon-image { &:before { content: char-from-code("E0D9"); } }
+
+$icon-import: char-from-code("E0DA");
+%icon-import { content: char-from-code("E0DA"); }
+.icon-import { &:before { content: char-from-code("E0DA"); } }
+
+$icon-inbox: char-from-code("E0DB");
+%icon-inbox { content: char-from-code("E0DB"); }
+.icon-inbox { &:before { content: char-from-code("E0DB"); } }
+
+$icon-incoming-call: char-from-code("E0DC");
+%icon-incoming-call { content: char-from-code("E0DC"); }
+.icon-incoming-call { &:before { content: char-from-code("E0DC"); } }
+
+$icon-indeterminate: char-from-code("E0DD");
+%icon-indeterminate { content: char-from-code("E0DD"); }
+.icon-indeterminate { &:before { content: char-from-code("E0DD"); } }
+
+$icon-info-outline: char-from-code("E0DE");
+%icon-info-outline { content: char-from-code("E0DE"); }
+.icon-info-outline { &:before { content: char-from-code("E0DE"); } }
+
+$icon-info: char-from-code("E0DF");
+%icon-info { content: char-from-code("E0DF"); }
+.icon-info { &:before { content: char-from-code("E0DF"); } }
+
+$icon-information: char-from-code("E0E0");
+%icon-information { content: char-from-code("E0E0"); }
+.icon-information { &:before { content: char-from-code("E0E0"); } }
+
+$icon-instant-meeting: char-from-code("E0E1");
+%icon-instant-meeting { content: char-from-code("E0E1"); }
+.icon-instant-meeting { &:before { content: char-from-code("E0E1"); } }
+
+$icon-intercom-duplex-connected: char-from-code("E0E2");
+%icon-intercom-duplex-connected { content: char-from-code("E0E2"); }
+.icon-intercom-duplex-connected { &:before { content: char-from-code("E0E2"); } }
+
+$icon-intercom-whisper: char-from-code("E0E3");
+%icon-intercom-whisper { content: char-from-code("E0E3"); }
+.icon-intercom-whisper { &:before { content: char-from-code("E0E3"); } }
+
+$icon-intercom: char-from-code("E0E4");
+%icon-intercom { content: char-from-code("E0E4"); }
+.icon-intercom { &:before { content: char-from-code("E0E4"); } }
+
+$icon-invite: char-from-code("E0E5");
+%icon-invite { content: char-from-code("E0E5"); }
+.icon-invite { &:before { content: char-from-code("E0E5"); } }
+
+$icon-key-expansion-module: char-from-code("E0E6");
+%icon-key-expansion-module { content: char-from-code("E0E6"); }
+.icon-key-expansion-module { &:before { content: char-from-code("E0E6"); } }
+
+$icon-keyboard: char-from-code("E0E7");
+%icon-keyboard { content: char-from-code("E0E7"); }
+.icon-keyboard { &:before { content: char-from-code("E0E7"); } }
+
+$icon-keywords: char-from-code("E0E8");
+%icon-keywords { content: char-from-code("E0E8"); }
+.icon-keywords { &:before { content: char-from-code("E0E8"); } }
+
+$icon-language: char-from-code("E0E9");
+%icon-language { content: char-from-code("E0E9"); }
+.icon-language { &:before { content: char-from-code("E0E9"); } }
+
+$icon-laser-pointer: char-from-code("E0EA");
+%icon-laser-pointer { content: char-from-code("E0EA"); }
+.icon-laser-pointer { &:before { content: char-from-code("E0EA"); } }
+
+$icon-layout: char-from-code("E0EB");
+%icon-layout { content: char-from-code("E0EB"); }
+.icon-layout { &:before { content: char-from-code("E0EB"); } }
+
+$icon-leave-meeting: char-from-code("E0EC");
+%icon-leave-meeting { content: char-from-code("E0EC"); }
+.icon-leave-meeting { &:before { content: char-from-code("E0EC"); } }
+
+$icon-left-arrow: char-from-code("E0ED");
+%icon-left-arrow { content: char-from-code("E0ED"); }
+.icon-left-arrow { &:before { content: char-from-code("E0ED"); } }
+
+$icon-license: char-from-code("E0EE");
+%icon-license { content: char-from-code("E0EE"); }
+.icon-license { &:before { content: char-from-code("E0EE"); } }
+
+$icon-lightbulb: char-from-code("E0EF");
+%icon-lightbulb { content: char-from-code("E0EF"); }
+.icon-lightbulb { &:before { content: char-from-code("E0EF"); } }
+
+$icon-like: char-from-code("E0F0");
+%icon-like { content: char-from-code("E0F0"); }
+.icon-like { &:before { content: char-from-code("E0F0"); } }
+
+$icon-line-out-left: char-from-code("E0F1");
+%icon-line-out-left { content: char-from-code("E0F1"); }
+.icon-line-out-left { &:before { content: char-from-code("E0F1"); } }
+
+$icon-line-out-right: char-from-code("E0F2");
+%icon-line-out-right { content: char-from-code("E0F2"); }
+.icon-line-out-right { &:before { content: char-from-code("E0F2"); } }
+
+$icon-link: char-from-code("E0F3");
+%icon-link { content: char-from-code("E0F3"); }
+.icon-link { &:before { content: char-from-code("E0F3"); } }
+
+$icon-list-menu: char-from-code("E0F4");
+%icon-list-menu { content: char-from-code("E0F4"); }
+.icon-list-menu { &:before { content: char-from-code("E0F4"); } }
+
+$icon-list-view: char-from-code("E0F5");
+%icon-list-view { content: char-from-code("E0F5"); }
+.icon-list-view { &:before { content: char-from-code("E0F5"); } }
+
+$icon-location: char-from-code("E0F6");
+%icon-location { content: char-from-code("E0F6"); }
+.icon-location { &:before { content: char-from-code("E0F6"); } }
+
+$icon-lock-contain: char-from-code("E0F7");
+%icon-lock-contain { content: char-from-code("E0F7"); }
+.icon-lock-contain { &:before { content: char-from-code("E0F7"); } }
+
+$icon-lock: char-from-code("E0F8");
+%icon-lock { content: char-from-code("E0F8"); }
+.icon-lock { &:before { content: char-from-code("E0F8"); } }
+
+$icon-locked-speaker: char-from-code("E0F9");
+%icon-locked-speaker { content: char-from-code("E0F9"); }
+.icon-locked-speaker { &:before { content: char-from-code("E0F9"); } }
+
+$icon-manage-cable: char-from-code("E0FA");
+%icon-manage-cable { content: char-from-code("E0FA"); }
+.icon-manage-cable { &:before { content: char-from-code("E0FA"); } }
+
+$icon-maximize: char-from-code("E0FB");
+%icon-maximize { content: char-from-code("E0FB"); }
+.icon-maximize { &:before { content: char-from-code("E0FB"); } }
+
+$icon-media-viewer: char-from-code("E0FC");
+%icon-media-viewer { content: char-from-code("E0FC"); }
+.icon-media-viewer { &:before { content: char-from-code("E0FC"); } }
+
+$icon-meet-me: char-from-code("E0FD");
+%icon-meet-me { content: char-from-code("E0FD"); }
+.icon-meet-me { &:before { content: char-from-code("E0FD"); } }
+
+$icon-meeting-room: char-from-code("E0FE");
+%icon-meeting-room { content: char-from-code("E0FE"); }
+.icon-meeting-room { &:before { content: char-from-code("E0FE"); } }
+
+$icon-merge-call: char-from-code("E0FF");
+%icon-merge-call { content: char-from-code("E0FF"); }
+.icon-merge-call { &:before { content: char-from-code("E0FF"); } }
+
+$icon-message: char-from-code("E100");
+%icon-message { content: char-from-code("E100"); }
+.icon-message { &:before { content: char-from-code("E100"); } }
+
+$icon-mic-in: char-from-code("E101");
+%icon-mic-in { content: char-from-code("E101"); }
+.icon-mic-in { &:before { content: char-from-code("E101"); } }
+
+$icon-micro-blog: char-from-code("E102");
+%icon-micro-blog { content: char-from-code("E102"); }
+.icon-micro-blog { &:before { content: char-from-code("E102"); } }
+
+$icon-microphone: char-from-code("E103");
+%icon-microphone { content: char-from-code("E103"); }
+.icon-microphone { &:before { content: char-from-code("E103"); } }
+
+$icon-minimize: char-from-code("E104");
+%icon-minimize { content: char-from-code("E104"); }
+.icon-minimize { &:before { content: char-from-code("E104"); } }
+
+$icon-minus: char-from-code("E105");
+%icon-minus { content: char-from-code("E105"); }
+.icon-minus { &:before { content: char-from-code("E105"); } }
+
+$icon-missed-call: char-from-code("E106");
+%icon-missed-call { content: char-from-code("E106"); }
+.icon-missed-call { &:before { content: char-from-code("E106"); } }
+
+$icon-mobile-phone: char-from-code("E107");
+%icon-mobile-phone { content: char-from-code("E107"); }
+.icon-mobile-phone { &:before { content: char-from-code("E107"); } }
+
+$icon-mobile-presenter: char-from-code("E108");
+%icon-mobile-presenter { content: char-from-code("E108"); }
+.icon-mobile-presenter { &:before { content: char-from-code("E108"); } }
+
+$icon-month: char-from-code("E109");
+%icon-month { content: char-from-code("E109"); }
+.icon-month { &:before { content: char-from-code("E109"); } }
+
+$icon-more: char-from-code("E10A");
+%icon-more { content: char-from-code("E10A"); }
+.icon-more { &:before { content: char-from-code("E10A"); } }
+
+$icon-move-page: char-from-code("E10B");
+%icon-move-page { content: char-from-code("E10B"); }
+.icon-move-page { &:before { content: char-from-code("E10B"); } }
+
+$icon-multi-display: char-from-code("E10C");
+%icon-multi-display { content: char-from-code("E10C"); }
+.icon-multi-display { &:before { content: char-from-code("E10C"); } }
+
+$icon-music: char-from-code("E10D");
+%icon-music { content: char-from-code("E10D"); }
+.icon-music { &:before { content: char-from-code("E10D"); } }
+
+$icon-mute: char-from-code("E10E");
+%icon-mute { content: char-from-code("E10E"); }
+.icon-mute { &:before { content: char-from-code("E10E"); } }
+
+$icon-new-call: char-from-code("E10F");
+%icon-new-call { content: char-from-code("E10F"); }
+.icon-new-call { &:before { content: char-from-code("E10F"); } }
+
+$icon-no-signal: char-from-code("E110");
+%icon-no-signal { content: char-from-code("E110"); }
+.icon-no-signal { &:before { content: char-from-code("E110"); } }
+
+$icon-notebook-in: char-from-code("E111");
+%icon-notebook-in { content: char-from-code("E111"); }
+.icon-notebook-in { &:before { content: char-from-code("E111"); } }
+
+$icon-notes: char-from-code("E112");
+%icon-notes { content: char-from-code("E112"); }
+.icon-notes { &:before { content: char-from-code("E112"); } }
+
+$icon-numbered-input: char-from-code("E113");
+%icon-numbered-input { content: char-from-code("E113"); }
+.icon-numbered-input { &:before { content: char-from-code("E113"); } }
+
+$icon-numbered-output: char-from-code("E114");
+%icon-numbered-output { content: char-from-code("E114"); }
+.icon-numbered-output { &:before { content: char-from-code("E114"); } }
+
+$icon-off-hook: char-from-code("E115");
+%icon-off-hook { content: char-from-code("E115"); }
+.icon-off-hook { &:before { content: char-from-code("E115"); } }
+
+$icon-other-phone: char-from-code("E116");
+%icon-other-phone { content: char-from-code("E116"); }
+.icon-other-phone { &:before { content: char-from-code("E116"); } }
+
+$icon-outbox: char-from-code("E117");
+%icon-outbox { content: char-from-code("E117"); }
+.icon-outbox { &:before { content: char-from-code("E117"); } }
+
+$icon-outgoing-call: char-from-code("E118");
+%icon-outgoing-call { content: char-from-code("E118"); }
+.icon-outgoing-call { &:before { content: char-from-code("E118"); } }
+
+$icon-paired-audio: char-from-code("E119");
+%icon-paired-audio { content: char-from-code("E119"); }
+.icon-paired-audio { &:before { content: char-from-code("E119"); } }
+
+$icon-paired-call-outline: char-from-code("E11A");
+%icon-paired-call-outline { content: char-from-code("E11A"); }
+.icon-paired-call-outline { &:before { content: char-from-code("E11A"); } }
+
+$icon-paired-call: char-from-code("E11B");
+%icon-paired-call { content: char-from-code("E11B"); }
+.icon-paired-call { &:before { content: char-from-code("E11B"); } }
+
+$icon-panel-close: char-from-code("E11C");
+%icon-panel-close { content: char-from-code("E11C"); }
+.icon-panel-close { &:before { content: char-from-code("E11C"); } }
+
+$icon-panel-shift-left: char-from-code("E11D");
+%icon-panel-shift-left { content: char-from-code("E11D"); }
+.icon-panel-shift-left { &:before { content: char-from-code("E11D"); } }
+
+$icon-panel-shift-right: char-from-code("E11E");
+%icon-panel-shift-right { content: char-from-code("E11E"); }
+.icon-panel-shift-right { &:before { content: char-from-code("E11E"); } }
+
+$icon-parked: char-from-code("E11F");
+%icon-parked { content: char-from-code("E11F"); }
+.icon-parked { &:before { content: char-from-code("E11F"); } }
+
+$icon-participant-list: char-from-code("E120");
+%icon-participant-list { content: char-from-code("E120"); }
+.icon-participant-list { &:before { content: char-from-code("E120"); } }
+
+$icon-pass-mouse: char-from-code("E121");
+%icon-pass-mouse { content: char-from-code("E121"); }
+.icon-pass-mouse { &:before { content: char-from-code("E121"); } }
+
+$icon-pause: char-from-code("E122");
+%icon-pause { content: char-from-code("E122"); }
+.icon-pause { &:before { content: char-from-code("E122"); } }
+
+$icon-pc: char-from-code("E123");
+%icon-pc { content: char-from-code("E123"); }
+.icon-pc { &:before { content: char-from-code("E123"); } }
+
+$icon-pencil: char-from-code("E124");
+%icon-pencil { content: char-from-code("E124"); }
+.icon-pencil { &:before { content: char-from-code("E124"); } }
+
+$icon-persistent-chat: char-from-code("E125");
+%icon-persistent-chat { content: char-from-code("E125"); }
+.icon-persistent-chat { &:before { content: char-from-code("E125"); } }
+
+$icon-phone-cross: char-from-code("E126");
+%icon-phone-cross { content: char-from-code("E126"); }
+.icon-phone-cross { &:before { content: char-from-code("E126"); } }
+
+$icon-phone: char-from-code("E127");
+%icon-phone { content: char-from-code("E127"); }
+.icon-phone { &:before { content: char-from-code("E127"); } }
+
+$icon-picture-in-picture: char-from-code("E128");
+%icon-picture-in-picture { content: char-from-code("E128"); }
+.icon-picture-in-picture { &:before { content: char-from-code("E128"); } }
+
+$icon-pin: char-from-code("E129");
+%icon-pin { content: char-from-code("E129"); }
+.icon-pin { &:before { content: char-from-code("E129"); } }
+
+$icon-plan-review: char-from-code("E12A");
+%icon-plan-review { content: char-from-code("E12A"); }
+.icon-plan-review { &:before { content: char-from-code("E12A"); } }
+
+$icon-play-contained: char-from-code("E12B");
+%icon-play-contained { content: char-from-code("E12B"); }
+.icon-play-contained { &:before { content: char-from-code("E12B"); } }
+
+$icon-play: char-from-code("E12C");
+%icon-play { content: char-from-code("E12C"); }
+.icon-play { &:before { content: char-from-code("E12C"); } }
+
+$icon-playlist: char-from-code("E12D");
+%icon-playlist { content: char-from-code("E12D"); }
+.icon-playlist { &:before { content: char-from-code("E12D"); } }
+
+$icon-plugin: char-from-code("E12E");
+%icon-plugin { content: char-from-code("E12E"); }
+.icon-plugin { &:before { content: char-from-code("E12E"); } }
+
+$icon-plus-circle: char-from-code("E12F");
+%icon-plus-circle { content: char-from-code("E12F"); }
+.icon-plus-circle { &:before { content: char-from-code("E12F"); } }
+
+$icon-plus: char-from-code("E130");
+%icon-plus { content: char-from-code("E130"); }
+.icon-plus { &:before { content: char-from-code("E130"); } }
+
+$icon-point: char-from-code("E131");
+%icon-point { content: char-from-code("E131"); }
+.icon-point { &:before { content: char-from-code("E131"); } }
+
+$icon-poll: char-from-code("E132");
+%icon-poll { content: char-from-code("E132"); }
+.icon-poll { &:before { content: char-from-code("E132"); } }
+
+$icon-popout: char-from-code("E133");
+%icon-popout { content: char-from-code("E133"); }
+.icon-popout { &:before { content: char-from-code("E133"); } }
+
+$icon-popup-dialogue: char-from-code("E134");
+%icon-popup-dialogue { content: char-from-code("E134"); }
+.icon-popup-dialogue { &:before { content: char-from-code("E134"); } }
+
+$icon-power-contain: char-from-code("E135");
+%icon-power-contain { content: char-from-code("E135"); }
+.icon-power-contain { &:before { content: char-from-code("E135"); } }
+
+$icon-power: char-from-code("E136");
+%icon-power { content: char-from-code("E136"); }
+.icon-power { &:before { content: char-from-code("E136"); } }
+
+$icon-presentation: char-from-code("E137");
+%icon-presentation { content: char-from-code("E137"); }
+.icon-presentation { &:before { content: char-from-code("E137"); } }
+
+$icon-prevent-download-contain: char-from-code("E138");
+%icon-prevent-download-contain { content: char-from-code("E138"); }
+.icon-prevent-download-contain { &:before { content: char-from-code("E138"); } }
+
+$icon-prevent-download: char-from-code("E139");
+%icon-prevent-download { content: char-from-code("E139"); }
+.icon-prevent-download { &:before { content: char-from-code("E139"); } }
+
+$icon-print: char-from-code("E13A");
+%icon-print { content: char-from-code("E13A"); }
+.icon-print { &:before { content: char-from-code("E13A"); } }
+
+$icon-priority: char-from-code("E13B");
+%icon-priority { content: char-from-code("E13B"); }
+.icon-priority { &:before { content: char-from-code("E13B"); } }
+
+$icon-privacy: char-from-code("E13C");
+%icon-privacy { content: char-from-code("E13C"); }
+.icon-privacy { &:before { content: char-from-code("E13C"); } }
+
+$icon-private: char-from-code("E13D");
+%icon-private { content: char-from-code("E13D"); }
+.icon-private { &:before { content: char-from-code("E13D"); } }
+
+$icon-profile-settings: char-from-code("E13E");
+%icon-profile-settings { content: char-from-code("E13E"); }
+.icon-profile-settings { &:before { content: char-from-code("E13E"); } }
+
+$icon-proximity-not-connected: char-from-code("E13F");
+%icon-proximity-not-connected { content: char-from-code("E13F"); }
+.icon-proximity-not-connected { &:before { content: char-from-code("E13F"); } }
+
+$icon-proximity: char-from-code("E140");
+%icon-proximity { content: char-from-code("E140"); }
+.icon-proximity { &:before { content: char-from-code("E140"); } }
+
+$icon-quality: char-from-code("E141");
+%icon-quality { content: char-from-code("E141"); }
+.icon-quality { &:before { content: char-from-code("E141"); } }
+
+$icon-question-circle: char-from-code("E142");
+%icon-question-circle { content: char-from-code("E142"); }
+.icon-question-circle { &:before { content: char-from-code("E142"); } }
+
+$icon-raise-hand: char-from-code("E143");
+%icon-raise-hand { content: char-from-code("E143"); }
+.icon-raise-hand { &:before { content: char-from-code("E143"); } }
+
+$icon-read-email: char-from-code("E144");
+%icon-read-email { content: char-from-code("E144"); }
+.icon-read-email { &:before { content: char-from-code("E144"); } }
+
+$icon-recent-apps: char-from-code("E145");
+%icon-recent-apps { content: char-from-code("E145"); }
+.icon-recent-apps { &:before { content: char-from-code("E145"); } }
+
+$icon-record: char-from-code("E146");
+%icon-record { content: char-from-code("E146"); }
+.icon-record { &:before { content: char-from-code("E146"); } }
+
+$icon-redial: char-from-code("E147");
+%icon-redial { content: char-from-code("E147"); }
+.icon-redial { &:before { content: char-from-code("E147"); } }
+
+$icon-refresh: char-from-code("E148");
+%icon-refresh { content: char-from-code("E148"); }
+.icon-refresh { &:before { content: char-from-code("E148"); } }
+
+$icon-remove-contact: char-from-code("E149");
+%icon-remove-contact { content: char-from-code("E149"); }
+.icon-remove-contact { &:before { content: char-from-code("E149"); } }
+
+$icon-remove-contain: char-from-code("E14A");
+%icon-remove-contain { content: char-from-code("E14A"); }
+.icon-remove-contain { &:before { content: char-from-code("E14A"); } }
+
+$icon-remove-outline: char-from-code("E14B");
+%icon-remove-outline { content: char-from-code("E14B"); }
+.icon-remove-outline { &:before { content: char-from-code("E14B"); } }
+
+$icon-remove: char-from-code("E14C");
+%icon-remove { content: char-from-code("E14C"); }
+.icon-remove { &:before { content: char-from-code("E14C"); } }
+
+$icon-reply-all: char-from-code("E14D");
+%icon-reply-all { content: char-from-code("E14D"); }
+.icon-reply-all { &:before { content: char-from-code("E14D"); } }
+
+$icon-report: char-from-code("E14E");
+%icon-report { content: char-from-code("E14E"); }
+.icon-report { &:before { content: char-from-code("E14E"); } }
+
+$icon-reset: char-from-code("E14F");
+%icon-reset { content: char-from-code("E14F"); }
+.icon-reset { &:before { content: char-from-code("E14F"); } }
+
+$icon-right-arrow-closed-contained: char-from-code("E150");
+%icon-right-arrow-closed-contained { content: char-from-code("E150"); }
+.icon-right-arrow-closed-contained { &:before { content: char-from-code("E150"); } }
+
+$icon-right-arrow-closed-outline: char-from-code("E151");
+%icon-right-arrow-closed-outline { content: char-from-code("E151"); }
+.icon-right-arrow-closed-outline { &:before { content: char-from-code("E151"); } }
+
+$icon-right-arrow-contain: char-from-code("E152");
+%icon-right-arrow-contain { content: char-from-code("E152"); }
+.icon-right-arrow-contain { &:before { content: char-from-code("E152"); } }
+
+$icon-right-arrow-contained: char-from-code("E153");
+%icon-right-arrow-contained { content: char-from-code("E153"); }
+.icon-right-arrow-contained { &:before { content: char-from-code("E153"); } }
+
+$icon-right-arrow-outline: char-from-code("E154");
+%icon-right-arrow-outline { content: char-from-code("E154"); }
+.icon-right-arrow-outline { &:before { content: char-from-code("E154"); } }
+
+$icon-right-arrow: char-from-code("E155");
+%icon-right-arrow { content: char-from-code("E155"); }
+.icon-right-arrow { &:before { content: char-from-code("E155"); } }
+
+$icon-ringer-settings: char-from-code("E156");
+%icon-ringer-settings { content: char-from-code("E156"); }
+.icon-ringer-settings { &:before { content: char-from-code("E156"); } }
+
+$icon-rotate-object-ccw: char-from-code("E157");
+%icon-rotate-object-ccw { content: char-from-code("E157"); }
+.icon-rotate-object-ccw { &:before { content: char-from-code("E157"); } }
+
+$icon-rotate-object-cw: char-from-code("E158");
+%icon-rotate-object-cw { content: char-from-code("E158"); }
+.icon-rotate-object-cw { &:before { content: char-from-code("E158"); } }
+
+$icon-rtprx-rtptx-duplex: char-from-code("E159");
+%icon-rtprx-rtptx-duplex { content: char-from-code("E159"); }
+.icon-rtprx-rtptx-duplex { &:before { content: char-from-code("E159"); } }
+
+$icon-rtprx: char-from-code("E15A");
+%icon-rtprx { content: char-from-code("E15A"); }
+.icon-rtprx { &:before { content: char-from-code("E15A"); } }
+
+$icon-rtptx: char-from-code("E15B");
+%icon-rtptx { content: char-from-code("E15B"); }
+.icon-rtptx { &:before { content: char-from-code("E15B"); } }
+
+$icon-running-application: char-from-code("E15C");
+%icon-running-application { content: char-from-code("E15C"); }
+.icon-running-application { &:before { content: char-from-code("E15C"); } }
+
+$icon-save: char-from-code("E15D");
+%icon-save { content: char-from-code("E15D"); }
+.icon-save { &:before { content: char-from-code("E15D"); } }
+
+$icon-schedule-add: char-from-code("E15E");
+%icon-schedule-add { content: char-from-code("E15E"); }
+.icon-schedule-add { &:before { content: char-from-code("E15E"); } }
+
+$icon-screen-capture-square: char-from-code("E15F");
+%icon-screen-capture-square { content: char-from-code("E15F"); }
+.icon-screen-capture-square { &:before { content: char-from-code("E15F"); } }
+
+$icon-screen-capture: char-from-code("E160");
+%icon-screen-capture { content: char-from-code("E160"); }
+.icon-screen-capture { &:before { content: char-from-code("E160"); } }
+
+$icon-sd: char-from-code("E161");
+%icon-sd { content: char-from-code("E161"); }
+.icon-sd { &:before { content: char-from-code("E161"); } }
+
+$icon-search: char-from-code("E162");
+%icon-search { content: char-from-code("E162"); }
+.icon-search { &:before { content: char-from-code("E162"); } }
+
+$icon-self-view-alt: char-from-code("E163");
+%icon-self-view-alt { content: char-from-code("E163"); }
+.icon-self-view-alt { &:before { content: char-from-code("E163"); } }
+
+$icon-self-view-crossed: char-from-code("E164");
+%icon-self-view-crossed { content: char-from-code("E164"); }
+.icon-self-view-crossed { &:before { content: char-from-code("E164"); } }
+
+$icon-self-view: char-from-code("E165");
+%icon-self-view { content: char-from-code("E165"); }
+.icon-self-view { &:before { content: char-from-code("E165"); } }
+
+$icon-send-email: char-from-code("E166");
+%icon-send-email { content: char-from-code("E166"); }
+.icon-send-email { &:before { content: char-from-code("E166"); } }
+
+$icon-send: char-from-code("E167");
+%icon-send { content: char-from-code("E167"); }
+.icon-send { &:before { content: char-from-code("E167"); } }
+
+$icon-sent: char-from-code("E168");
+%icon-sent { content: char-from-code("E168"); }
+.icon-sent { &:before { content: char-from-code("E168"); } }
+
+$icon-settings: char-from-code("E169");
+%icon-settings { content: char-from-code("E169"); }
+.icon-settings { &:before { content: char-from-code("E169"); } }
+
+$icon-setup-assistant: char-from-code("E16A");
+%icon-setup-assistant { content: char-from-code("E16A"); }
+.icon-setup-assistant { &:before { content: char-from-code("E16A"); } }
+
+$icon-share-contain: char-from-code("E16B");
+%icon-share-contain { content: char-from-code("E16B"); }
+.icon-share-contain { &:before { content: char-from-code("E16B"); } }
+
+$icon-share-content: char-from-code("E16C");
+%icon-share-content { content: char-from-code("E16C"); }
+.icon-share-content { &:before { content: char-from-code("E16C"); } }
+
+$icon-share: char-from-code("E16D");
+%icon-share { content: char-from-code("E16D"); }
+.icon-share { &:before { content: char-from-code("E16D"); } }
+
+$icon-sign-in: char-from-code("E16E");
+%icon-sign-in { content: char-from-code("E16E"); }
+.icon-sign-in { &:before { content: char-from-code("E16E"); } }
+
+$icon-sign-out: char-from-code("E16F");
+%icon-sign-out { content: char-from-code("E16F"); }
+.icon-sign-out { &:before { content: char-from-code("E16F"); } }
+
+$icon-signal-1: char-from-code("E170");
+%icon-signal-1 { content: char-from-code("E170"); }
+.icon-signal-1 { &:before { content: char-from-code("E170"); } }
+
+$icon-signal-2: char-from-code("E171");
+%icon-signal-2 { content: char-from-code("E171"); }
+.icon-signal-2 { &:before { content: char-from-code("E171"); } }
+
+$icon-signal-3: char-from-code("E172");
+%icon-signal-3 { content: char-from-code("E172"); }
+.icon-signal-3 { &:before { content: char-from-code("E172"); } }
+
+$icon-signal-4: char-from-code("E173");
+%icon-signal-4 { content: char-from-code("E173"); }
+.icon-signal-4 { &:before { content: char-from-code("E173"); } }
+
+$icon-skip-bw: char-from-code("E174");
+%icon-skip-bw { content: char-from-code("E174"); }
+.icon-skip-bw { &:before { content: char-from-code("E174"); } }
+
+$icon-skip-fw: char-from-code("E175");
+%icon-skip-fw { content: char-from-code("E175"); }
+.icon-skip-fw { &:before { content: char-from-code("E175"); } }
+
+$icon-sliders: char-from-code("E176");
+%icon-sliders { content: char-from-code("E176"); }
+.icon-sliders { &:before { content: char-from-code("E176"); } }
+
+$icon-slides: char-from-code("E177");
+%icon-slides { content: char-from-code("E177"); }
+.icon-slides { &:before { content: char-from-code("E177"); } }
+
+$icon-soft-phone: char-from-code("E178");
+%icon-soft-phone { content: char-from-code("E178"); }
+.icon-soft-phone { &:before { content: char-from-code("E178"); } }
+
+$icon-sort: char-from-code("E179");
+%icon-sort { content: char-from-code("E179"); }
+.icon-sort { &:before { content: char-from-code("E179"); } }
+
+$icon-sound: char-from-code("E17A");
+%icon-sound { content: char-from-code("E17A"); }
+.icon-sound { &:before { content: char-from-code("E17A"); } }
+
+$icon-space: char-from-code("E17B");
+%icon-space { content: char-from-code("E17B"); }
+.icon-space { &:before { content: char-from-code("E17B"); } }
+
+$icon-spam: char-from-code("E17C");
+%icon-spam { content: char-from-code("E17C"); }
+.icon-spam { &:before { content: char-from-code("E17C"); } }
+
+$icon-spark: char-from-code("E17D");
+%icon-spark { content: char-from-code("E17D"); }
+.icon-spark { &:before { content: char-from-code("E17D"); } }
+
+$icon-speaker-cross: char-from-code("E17E");
+%icon-speaker-cross { content: char-from-code("E17E"); }
+.icon-speaker-cross { &:before { content: char-from-code("E17E"); } }
+
+$icon-speaker-out-left: char-from-code("E17F");
+%icon-speaker-out-left { content: char-from-code("E17F"); }
+.icon-speaker-out-left { &:before { content: char-from-code("E17F"); } }
+
+$icon-speaker: char-from-code("E180");
+%icon-speaker { content: char-from-code("E180"); }
+.icon-speaker { &:before { content: char-from-code("E180"); } }
+
+$icon-speed-dial: char-from-code("E181");
+%icon-speed-dial { content: char-from-code("E181"); }
+.icon-speed-dial { &:before { content: char-from-code("E181"); } }
+
+$icon-star: char-from-code("E182");
+%icon-star { content: char-from-code("E182"); }
+.icon-star { &:before { content: char-from-code("E182"); } }
+
+$icon-stop: char-from-code("E183");
+%icon-stop { content: char-from-code("E183"); }
+.icon-stop { &:before { content: char-from-code("E183"); } }
+
+$icon-storage: char-from-code("E184");
+%icon-storage { content: char-from-code("E184"); }
+.icon-storage { &:before { content: char-from-code("E184"); } }
+
+$icon-subscribe: char-from-code("E185");
+%icon-subscribe { content: char-from-code("E185"); }
+.icon-subscribe { &:before { content: char-from-code("E185"); } }
+
+$icon-support: char-from-code("E186");
+%icon-support { content: char-from-code("E186"); }
+.icon-support { &:before { content: char-from-code("E186"); } }
+
+$icon-swap-calls: char-from-code("E187");
+%icon-swap-calls { content: char-from-code("E187"); }
+.icon-swap-calls { &:before { content: char-from-code("E187"); } }
+
+$icon-swap-camera: char-from-code("E188");
+%icon-swap-camera { content: char-from-code("E188"); }
+.icon-swap-camera { &:before { content: char-from-code("E188"); } }
+
+$icon-swap-video-camera: char-from-code("E189");
+%icon-swap-video-camera { content: char-from-code("E189"); }
+.icon-swap-video-camera { &:before { content: char-from-code("E189"); } }
+
+$icon-tables: char-from-code("E18A");
+%icon-tables { content: char-from-code("E18A"); }
+.icon-tables { &:before { content: char-from-code("E18A"); } }
+
+$icon-tablet: char-from-code("E18B");
+%icon-tablet { content: char-from-code("E18B"); }
+.icon-tablet { &:before { content: char-from-code("E18B"); } }
+
+$icon-team-collapsed-view: char-from-code("E18C");
+%icon-team-collapsed-view { content: char-from-code("E18C"); }
+.icon-team-collapsed-view { &:before { content: char-from-code("E18C"); } }
+
+$icon-team-expanded-view: char-from-code("E18D");
+%icon-team-expanded-view { content: char-from-code("E18D"); }
+.icon-team-expanded-view { &:before { content: char-from-code("E18D"); } }
+
+$icon-text-color: char-from-code("E18E");
+%icon-text-color { content: char-from-code("E18E"); }
+.icon-text-color { &:before { content: char-from-code("E18E"); } }
+
+$icon-text-format: char-from-code("E18F");
+%icon-text-format { content: char-from-code("E18F"); }
+.icon-text-format { &:before { content: char-from-code("E18F"); } }
+
+$icon-text-size: char-from-code("E190");
+%icon-text-size { content: char-from-code("E190"); }
+.icon-text-size { &:before { content: char-from-code("E190"); } }
+
+$icon-text: char-from-code("E191");
+%icon-text { content: char-from-code("E191"); }
+.icon-text { &:before { content: char-from-code("E191"); } }
+
+$icon-three-dots: char-from-code("E192");
+%icon-three-dots { content: char-from-code("E192"); }
+.icon-three-dots { &:before { content: char-from-code("E192"); } }
+
+$icon-thumbnail-view: char-from-code("E193");
+%icon-thumbnail-view { content: char-from-code("E193"); }
+.icon-thumbnail-view { &:before { content: char-from-code("E193"); } }
+
+$icon-time: char-from-code("E194");
+%icon-time { content: char-from-code("E194"); }
+.icon-time { &:before { content: char-from-code("E194"); } }
+
+$icon-timeline: char-from-code("E195");
+%icon-timeline { content: char-from-code("E195"); }
+.icon-timeline { &:before { content: char-from-code("E195"); } }
+
+$icon-too-fast: char-from-code("E196");
+%icon-too-fast { content: char-from-code("E196"); }
+.icon-too-fast { &:before { content: char-from-code("E196"); } }
+
+$icon-too-slow: char-from-code("E197");
+%icon-too-slow { content: char-from-code("E197"); }
+.icon-too-slow { &:before { content: char-from-code("E197"); } }
+
+$icon-tools: char-from-code("E198");
+%icon-tools { content: char-from-code("E198"); }
+.icon-tools { &:before { content: char-from-code("E198"); } }
+
+$icon-touch-gesture: char-from-code("E199");
+%icon-touch-gesture { content: char-from-code("E199"); }
+.icon-touch-gesture { &:before { content: char-from-code("E199"); } }
+
+$icon-touch-point: char-from-code("E19A");
+%icon-touch-point { content: char-from-code("E19A"); }
+.icon-touch-point { &:before { content: char-from-code("E19A"); } }
+
+$icon-touch: char-from-code("E19B");
+%icon-touch { content: char-from-code("E19B"); }
+.icon-touch { &:before { content: char-from-code("E19B"); } }
+
+$icon-transcript: char-from-code("E19C");
+%icon-transcript { content: char-from-code("E19C"); }
+.icon-transcript { &:before { content: char-from-code("E19C"); } }
+
+$icon-transfer-to-mobile: char-from-code("E19D");
+%icon-transfer-to-mobile { content: char-from-code("E19D"); }
+.icon-transfer-to-mobile { &:before { content: char-from-code("E19D"); } }
+
+$icon-trash: char-from-code("E19E");
+%icon-trash { content: char-from-code("E19E"); }
+.icon-trash { &:before { content: char-from-code("E19E"); } }
+
+$icon-trial: char-from-code("E19F");
+%icon-trial { content: char-from-code("E19F"); }
+.icon-trial { &:before { content: char-from-code("E19F"); } }
+
+$icon-universal-inbox: char-from-code("E1A0");
+%icon-universal-inbox { content: char-from-code("E1A0"); }
+.icon-universal-inbox { &:before { content: char-from-code("E1A0"); } }
+
+$icon-unlock: char-from-code("E1A1");
+%icon-unlock { content: char-from-code("E1A1"); }
+.icon-unlock { &:before { content: char-from-code("E1A1"); } }
+
+$icon-upload-contain: char-from-code("E1A2");
+%icon-upload-contain { content: char-from-code("E1A2"); }
+.icon-upload-contain { &:before { content: char-from-code("E1A2"); } }
+
+$icon-upload: char-from-code("E1A3");
+%icon-upload { content: char-from-code("E1A3"); }
+.icon-upload { &:before { content: char-from-code("E1A3"); } }
+
+$icon-usb: char-from-code("E1A4");
+%icon-usb { content: char-from-code("E1A4"); }
+.icon-usb { &:before { content: char-from-code("E1A4"); } }
+
+$icon-user-chat: char-from-code("E1A5");
+%icon-user-chat { content: char-from-code("E1A5"); }
+.icon-user-chat { &:before { content: char-from-code("E1A5"); } }
+
+$icon-user: char-from-code("E1A6");
+%icon-user { content: char-from-code("E1A6"); }
+.icon-user { &:before { content: char-from-code("E1A6"); } }
+
+$icon-vibrate: char-from-code("E1A7");
+%icon-vibrate { content: char-from-code("E1A7"); }
+.icon-vibrate { &:before { content: char-from-code("E1A7"); } }
+
+$icon-video-cross: char-from-code("E1A8");
+%icon-video-cross { content: char-from-code("E1A8"); }
+.icon-video-cross { &:before { content: char-from-code("E1A8"); } }
+
+$icon-video-group: char-from-code("E1A9");
+%icon-video-group { content: char-from-code("E1A9"); }
+.icon-video-group { &:before { content: char-from-code("E1A9"); } }
+
+$icon-video-input: char-from-code("E1AA");
+%icon-video-input { content: char-from-code("E1AA"); }
+.icon-video-input { &:before { content: char-from-code("E1AA"); } }
+
+$icon-video-layout: char-from-code("E1AB");
+%icon-video-layout { content: char-from-code("E1AB"); }
+.icon-video-layout { &:before { content: char-from-code("E1AB"); } }
+
+$icon-video-settings: char-from-code("E1AC");
+%icon-video-settings { content: char-from-code("E1AC"); }
+.icon-video-settings { &:before { content: char-from-code("E1AC"); } }
+
+$icon-video-tips: char-from-code("E1AD");
+%icon-video-tips { content: char-from-code("E1AD"); }
+.icon-video-tips { &:before { content: char-from-code("E1AD"); } }
+
+$icon-video: char-from-code("E1AE");
+%icon-video { content: char-from-code("E1AE"); }
+.icon-video { &:before { content: char-from-code("E1AE"); } }
+
+$icon-view-feed-dual: char-from-code("E1AF");
+%icon-view-feed-dual { content: char-from-code("E1AF"); }
+.icon-view-feed-dual { &:before { content: char-from-code("E1AF"); } }
+
+$icon-view-feed-multi: char-from-code("E1B0");
+%icon-view-feed-multi { content: char-from-code("E1B0"); }
+.icon-view-feed-multi { &:before { content: char-from-code("E1B0"); } }
+
+$icon-view-feed-single: char-from-code("E1B1");
+%icon-view-feed-single { content: char-from-code("E1B1"); }
+.icon-view-feed-single { &:before { content: char-from-code("E1B1"); } }
+
+$icon-view-preview-telepresence: char-from-code("E1B2");
+%icon-view-preview-telepresence { content: char-from-code("E1B2"); }
+.icon-view-preview-telepresence { &:before { content: char-from-code("E1B2"); } }
+
+$icon-view-side-by-side: char-from-code("E1B3");
+%icon-view-side-by-side { content: char-from-code("E1B3"); }
+.icon-view-side-by-side { &:before { content: char-from-code("E1B3"); } }
+
+$icon-view-stacked: char-from-code("E1B4");
+%icon-view-stacked { content: char-from-code("E1B4"); }
+.icon-view-stacked { &:before { content: char-from-code("E1B4"); } }
+
+$icon-voicemail: char-from-code("E1B5");
+%icon-voicemail { content: char-from-code("E1B5"); }
+.icon-voicemail { &:before { content: char-from-code("E1B5"); } }
+
+$icon-volume-cross: char-from-code("E1B6");
+%icon-volume-cross { content: char-from-code("E1B6"); }
+.icon-volume-cross { &:before { content: char-from-code("E1B6"); } }
+
+$icon-volume: char-from-code("E1B7");
+%icon-volume { content: char-from-code("E1B7"); }
+.icon-volume { &:before { content: char-from-code("E1B7"); } }
+
+$icon-waiting-silence: char-from-code("E1B8");
+%icon-waiting-silence { content: char-from-code("E1B8"); }
+.icon-waiting-silence { &:before { content: char-from-code("E1B8"); } }
+
+$icon-wallpaper: char-from-code("E1B9");
+%icon-wallpaper { content: char-from-code("E1B9"); }
+.icon-wallpaper { &:before { content: char-from-code("E1B9"); } }
+
+$icon-warning: char-from-code("E1BA");
+%icon-warning { content: char-from-code("E1BA"); }
+.icon-warning { &:before { content: char-from-code("E1BA"); } }
+
+$icon-watchlist: char-from-code("E1BB");
+%icon-watchlist { content: char-from-code("E1BB"); }
+.icon-watchlist { &:before { content: char-from-code("E1BB"); } }
+
+$icon-way-nav: char-from-code("E1BC");
+%icon-way-nav { content: char-from-code("E1BC"); }
+.icon-way-nav { &:before { content: char-from-code("E1BC"); } }
+
+$icon-web-camera: char-from-code("E1BD");
+%icon-web-camera { content: char-from-code("E1BD"); }
+.icon-web-camera { &:before { content: char-from-code("E1BD"); } }
+
+$icon-web-sharing: char-from-code("E1BE");
+%icon-web-sharing { content: char-from-code("E1BE"); }
+.icon-web-sharing { &:before { content: char-from-code("E1BE"); } }
+
+$icon-webex: char-from-code("E1BF");
+%icon-webex { content: char-from-code("E1BF"); }
+.icon-webex { &:before { content: char-from-code("E1BF"); } }
+
+$icon-webhook: char-from-code("E1C0");
+%icon-webhook { content: char-from-code("E1C0"); }
+.icon-webhook { &:before { content: char-from-code("E1C0"); } }
+
+$icon-week: char-from-code("E1C1");
+%icon-week { content: char-from-code("E1C1"); }
+.icon-week { &:before { content: char-from-code("E1C1"); } }
+
+$icon-whiteboard-cross: char-from-code("E1C2");
+%icon-whiteboard-cross { content: char-from-code("E1C2"); }
+.icon-whiteboard-cross { &:before { content: char-from-code("E1C2"); } }
+
+$icon-whiteboard: char-from-code("E1C3");
+%icon-whiteboard { content: char-from-code("E1C3"); }
+.icon-whiteboard { &:before { content: char-from-code("E1C3"); } }
+
+$icon-wifi: char-from-code("E1C4");
+%icon-wifi { content: char-from-code("E1C4"); }
+.icon-wifi { &:before { content: char-from-code("E1C4"); } }
+
+$icon-work: char-from-code("E1C5");
+%icon-work { content: char-from-code("E1C5"); }
+.icon-work { &:before { content: char-from-code("E1C5"); } }
+
+$icon-zip: char-from-code("E1C6");
+%icon-zip { content: char-from-code("E1C6"); }
+.icon-zip { &:before { content: char-from-code("E1C6"); } }
+
+$icon-zoom-in: char-from-code("E1C7");
+%icon-zoom-in { content: char-from-code("E1C7"); }
+.icon-zoom-in { &:before { content: char-from-code("E1C7"); } }
+
+$icon-zoom-out: char-from-code("E1C8");
+%icon-zoom-out { content: char-from-code("E1C8"); }
+.icon-zoom-out { &:before { content: char-from-code("E1C8"); } }

@@ -1,0 +1,2264 @@
+{
+    "icons": [
+        {
+            "id": "ac-power",
+            "name": "Ac Power",
+            "unicode": "e001"
+        },
+        {
+            "id": "account",
+            "name": "Account",
+            "unicode": "e002"
+        },
+        {
+            "id": "acessibility",
+            "name": "Acessibility",
+            "unicode": "e003"
+        },
+        {
+            "id": "active-speaker-cross",
+            "name": "Active Speaker Cross",
+            "unicode": "e004"
+        },
+        {
+            "id": "active-speaker",
+            "name": "Active Speaker",
+            "unicode": "e005"
+        },
+        {
+            "id": "activities",
+            "name": "Activities",
+            "unicode": "e006"
+        },
+        {
+            "id": "add-contact",
+            "name": "Add Contact",
+            "unicode": "e007"
+        },
+        {
+            "id": "add-contain",
+            "name": "Add Contain",
+            "unicode": "e008"
+        },
+        {
+            "id": "add-outline",
+            "name": "Add Outline",
+            "unicode": "e009"
+        },
+        {
+            "id": "add-users",
+            "name": "Add Users",
+            "unicode": "e00a"
+        },
+        {
+            "id": "add",
+            "name": "Add",
+            "unicode": "e00b"
+        },
+        {
+            "id": "admin",
+            "name": "Admin",
+            "unicode": "e00c"
+        },
+        {
+            "id": "alarm",
+            "name": "Alarm",
+            "unicode": "e00d"
+        },
+        {
+            "id": "alerting",
+            "name": "Alerting",
+            "unicode": "e00e"
+        },
+        {
+            "id": "analysis",
+            "name": "Analysis",
+            "unicode": "e00f"
+        },
+        {
+            "id": "android-home",
+            "name": "Android Home",
+            "unicode": "e010"
+        },
+        {
+            "id": "animation",
+            "name": "Animation",
+            "unicode": "e011"
+        },
+        {
+            "id": "annotation",
+            "name": "Annotation",
+            "unicode": "e012"
+        },
+        {
+            "id": "applause",
+            "name": "Applause",
+            "unicode": "e013"
+        },
+        {
+            "id": "application",
+            "name": "Application",
+            "unicode": "e014"
+        },
+        {
+            "id": "applications",
+            "name": "Applications",
+            "unicode": "e015"
+        },
+        {
+            "id": "arrow-back",
+            "name": "Arrow Back",
+            "unicode": "e016"
+        },
+        {
+            "id": "arrow-down",
+            "name": "Arrow Down",
+            "unicode": "e017"
+        },
+        {
+            "id": "arrow-left-tail",
+            "name": "Arrow Left Tail",
+            "unicode": "e018"
+        },
+        {
+            "id": "arrow-next",
+            "name": "Arrow Next",
+            "unicode": "e019"
+        },
+        {
+            "id": "arrow-right-tail",
+            "name": "Arrow Right Tail",
+            "unicode": "e01a"
+        },
+        {
+            "id": "arrow-up",
+            "name": "Arrow Up",
+            "unicode": "e01b"
+        },
+        {
+            "id": "at-contain",
+            "name": "At Contain",
+            "unicode": "e01c"
+        },
+        {
+            "id": "at",
+            "name": "At",
+            "unicode": "e01d"
+        },
+        {
+            "id": "attachment",
+            "name": "Attachment",
+            "unicode": "e01e"
+        },
+        {
+            "id": "audio-broadcast",
+            "name": "Audio Broadcast",
+            "unicode": "e01f"
+        },
+        {
+            "id": "audio-min",
+            "name": "Audio Min",
+            "unicode": "e020"
+        },
+        {
+            "id": "audio-plus",
+            "name": "Audio Plus",
+            "unicode": "e021"
+        },
+        {
+            "id": "audio-settings",
+            "name": "Audio Settings",
+            "unicode": "e022"
+        },
+        {
+            "id": "audio",
+            "name": "Audio",
+            "unicode": "e023"
+        },
+        {
+            "id": "aux-camera",
+            "name": "Aux Camera",
+            "unicode": "e024"
+        },
+        {
+            "id": "back",
+            "name": "Back",
+            "unicode": "e025"
+        },
+        {
+            "id": "backup-data",
+            "name": "Backup Data",
+            "unicode": "e026"
+        },
+        {
+            "id": "bars",
+            "name": "Bars",
+            "unicode": "e027"
+        },
+        {
+            "id": "battery",
+            "name": "Battery",
+            "unicode": "e028"
+        },
+        {
+            "id": "bell-cross",
+            "name": "Bell Cross",
+            "unicode": "e029"
+        },
+        {
+            "id": "bell",
+            "name": "Bell",
+            "unicode": "e02a"
+        },
+        {
+            "id": "blocked",
+            "name": "Blocked",
+            "unicode": "e02b"
+        },
+        {
+            "id": "bluetooth-contain-cross",
+            "name": "Bluetooth Contain Cross",
+            "unicode": "e02c"
+        },
+        {
+            "id": "bluetooth-contained",
+            "name": "Bluetooth Contained",
+            "unicode": "e02d"
+        },
+        {
+            "id": "bluetooth-outline",
+            "name": "Bluetooth Outline",
+            "unicode": "e02e"
+        },
+        {
+            "id": "bluetooth",
+            "name": "Bluetooth",
+            "unicode": "e02f"
+        },
+        {
+            "id": "bookmark",
+            "name": "Bookmark",
+            "unicode": "e030"
+        },
+        {
+            "id": "bot-four",
+            "name": "Bot Four",
+            "unicode": "e031"
+        },
+        {
+            "id": "bot-one",
+            "name": "Bot One",
+            "unicode": "e032"
+        },
+        {
+            "id": "bot-three",
+            "name": "Bot Three",
+            "unicode": "e033"
+        },
+        {
+            "id": "bot-two",
+            "name": "Bot Two",
+            "unicode": "e034"
+        },
+        {
+            "id": "brightness",
+            "name": "Brightness",
+            "unicode": "e035"
+        },
+        {
+            "id": "broadcast-message",
+            "name": "Broadcast Message",
+            "unicode": "e036"
+        },
+        {
+            "id": "broken-image",
+            "name": "Broken Image",
+            "unicode": "e037"
+        },
+        {
+            "id": "browser",
+            "name": "Browser",
+            "unicode": "e038"
+        },
+        {
+            "id": "bug",
+            "name": "Bug",
+            "unicode": "e039"
+        },
+        {
+            "id": "cal",
+            "name": "Cal",
+            "unicode": "e03a"
+        },
+        {
+            "id": "call-forward-divert",
+            "name": "Call Forward Divert",
+            "unicode": "e03b"
+        },
+        {
+            "id": "call-forwarding",
+            "name": "Call Forwarding",
+            "unicode": "e03c"
+        },
+        {
+            "id": "call-handling",
+            "name": "Call Handling",
+            "unicode": "e03d"
+        },
+        {
+            "id": "call-log",
+            "name": "Call Log",
+            "unicode": "e03e"
+        },
+        {
+            "id": "call-rate",
+            "name": "Call Rate",
+            "unicode": "e03f"
+        },
+        {
+            "id": "callback",
+            "name": "Callback",
+            "unicode": "e040"
+        },
+        {
+            "id": "calls",
+            "name": "Calls",
+            "unicode": "e041"
+        },
+        {
+            "id": "camera",
+            "name": "Camera",
+            "unicode": "e042"
+        },
+        {
+            "id": "certified",
+            "name": "Certified",
+            "unicode": "e043"
+        },
+        {
+            "id": "chapters",
+            "name": "Chapters",
+            "unicode": "e044"
+        },
+        {
+            "id": "charging",
+            "name": "Charging",
+            "unicode": "e045"
+        },
+        {
+            "id": "chat",
+            "name": "Chat",
+            "unicode": "e046"
+        },
+        {
+            "id": "chats",
+            "name": "Chats",
+            "unicode": "e047"
+        },
+        {
+            "id": "check-gear",
+            "name": "Check Gear",
+            "unicode": "e048"
+        },
+        {
+            "id": "check-mark-success",
+            "name": "Check Mark Success",
+            "unicode": "e049"
+        },
+        {
+            "id": "check-refresh",
+            "name": "Check Refresh",
+            "unicode": "e04a"
+        },
+        {
+            "id": "check",
+            "name": "Check",
+            "unicode": "e04b"
+        },
+        {
+            "id": "checkbox",
+            "name": "Checkbox",
+            "unicode": "e04c"
+        },
+        {
+            "id": "chevron-down",
+            "name": "Chevron Down",
+            "unicode": "e04d"
+        },
+        {
+            "id": "chevron-left",
+            "name": "Chevron Left",
+            "unicode": "e04e"
+        },
+        {
+            "id": "chevron-right",
+            "name": "Chevron Right",
+            "unicode": "e04f"
+        },
+        {
+            "id": "chevron-up",
+            "name": "Chevron Up",
+            "unicode": "e050"
+        },
+        {
+            "id": "circle-arrow-circular",
+            "name": "Circle Arrow Circular",
+            "unicode": "e051"
+        },
+        {
+            "id": "circle-arrow-down",
+            "name": "Circle Arrow Down",
+            "unicode": "e052"
+        },
+        {
+            "id": "circle-arrows-circular",
+            "name": "Circle Arrows Circular",
+            "unicode": "e053"
+        },
+        {
+            "id": "circle-arrows-cross",
+            "name": "Circle Arrows Cross",
+            "unicode": "e054"
+        },
+        {
+            "id": "circle-attachment",
+            "name": "Circle Attachment",
+            "unicode": "e055"
+        },
+        {
+            "id": "circle-calendar",
+            "name": "Circle Calendar",
+            "unicode": "e056"
+        },
+        {
+            "id": "circle-call",
+            "name": "Circle Call",
+            "unicode": "e057"
+        },
+        {
+            "id": "circle-check-mark-success",
+            "name": "Circle Check Mark Success",
+            "unicode": "e058"
+        },
+        {
+            "id": "circle-check",
+            "name": "Circle Check",
+            "unicode": "e059"
+        },
+        {
+            "id": "circle-clock-hands",
+            "name": "Circle Clock Hands",
+            "unicode": "e05a"
+        },
+        {
+            "id": "circle-clock",
+            "name": "Circle Clock",
+            "unicode": "e05b"
+        },
+        {
+            "id": "circle-comp-negative",
+            "name": "Circle Comp Negative",
+            "unicode": "e05c"
+        },
+        {
+            "id": "circle-comp-positive",
+            "name": "Circle Comp Positive",
+            "unicode": "e05d"
+        },
+        {
+            "id": "circle-comp",
+            "name": "Circle Comp",
+            "unicode": "e05e"
+        },
+        {
+            "id": "circle-computer-blank",
+            "name": "Circle Computer Blank",
+            "unicode": "e05f"
+        },
+        {
+            "id": "circle-computer-negative",
+            "name": "Circle Computer Negative",
+            "unicode": "e060"
+        },
+        {
+            "id": "circle-computer-positive",
+            "name": "Circle Computer Positive",
+            "unicode": "e061"
+        },
+        {
+            "id": "circle-contact-centre",
+            "name": "Circle Contact Centre",
+            "unicode": "e062"
+        },
+        {
+            "id": "circle-data",
+            "name": "Circle Data",
+            "unicode": "e063"
+        },
+        {
+            "id": "circle-download",
+            "name": "Circle Download",
+            "unicode": "e064"
+        },
+        {
+            "id": "circle-email",
+            "name": "Circle Email",
+            "unicode": "e065"
+        },
+        {
+            "id": "circle-flag",
+            "name": "Circle Flag",
+            "unicode": "e066"
+        },
+        {
+            "id": "circle-globe",
+            "name": "Circle Globe",
+            "unicode": "e067"
+        },
+        {
+            "id": "circle-group",
+            "name": "Circle Group",
+            "unicode": "e068"
+        },
+        {
+            "id": "circle-hg-broadcast",
+            "name": "Circle Hg Broadcast",
+            "unicode": "e069"
+        },
+        {
+            "id": "circle-hg-circular",
+            "name": "Circle Hg Circular",
+            "unicode": "e06a"
+        },
+        {
+            "id": "circle-hg-longest-idle",
+            "name": "Circle Hg Longest Idle",
+            "unicode": "e06b"
+        },
+        {
+            "id": "circle-hg-top-down",
+            "name": "Circle Hg Top Down",
+            "unicode": "e06c"
+        },
+        {
+            "id": "circle-links",
+            "name": "Circle Links",
+            "unicode": "e06d"
+        },
+        {
+            "id": "circle-localize",
+            "name": "Circle Localize",
+            "unicode": "e06e"
+        },
+        {
+            "id": "circle-location",
+            "name": "Circle Location",
+            "unicode": "e06f"
+        },
+        {
+            "id": "circle-lock",
+            "name": "Circle Lock",
+            "unicode": "e070"
+        },
+        {
+            "id": "circle-message",
+            "name": "Circle Message",
+            "unicode": "e071"
+        },
+        {
+            "id": "circle-mobile",
+            "name": "Circle Mobile",
+            "unicode": "e072"
+        },
+        {
+            "id": "circle-more",
+            "name": "Circle More",
+            "unicode": "e073"
+        },
+        {
+            "id": "circle-question",
+            "name": "Circle Question",
+            "unicode": "e074"
+        },
+        {
+            "id": "circle-responsive",
+            "name": "Circle Responsive",
+            "unicode": "e075"
+        },
+        {
+            "id": "circle-search",
+            "name": "Circle Search",
+            "unicode": "e076"
+        },
+        {
+            "id": "circle-settings",
+            "name": "Circle Settings",
+            "unicode": "e077"
+        },
+        {
+            "id": "circle-star",
+            "name": "Circle Star",
+            "unicode": "e078"
+        },
+        {
+            "id": "circle-telepresence",
+            "name": "Circle Telepresence",
+            "unicode": "e079"
+        },
+        {
+            "id": "circle-unlock",
+            "name": "Circle Unlock",
+            "unicode": "e07a"
+        },
+        {
+            "id": "circle-upload",
+            "name": "Circle Upload",
+            "unicode": "e07b"
+        },
+        {
+            "id": "circle-user",
+            "name": "Circle User",
+            "unicode": "e07c"
+        },
+        {
+            "id": "circle-video-group-outline",
+            "name": "Circle Video Group Outline",
+            "unicode": "e07d"
+        },
+        {
+            "id": "circle-video-outline",
+            "name": "Circle Video Outline",
+            "unicode": "e07e"
+        },
+        {
+            "id": "circle-webex",
+            "name": "Circle Webex",
+            "unicode": "e07f"
+        },
+        {
+            "id": "circle-world",
+            "name": "Circle World",
+            "unicode": "e080"
+        },
+        {
+            "id": "circle",
+            "name": "Circle",
+            "unicode": "e081"
+        },
+        {
+            "id": "cisco-logo",
+            "name": "Cisco Logo",
+            "unicode": "e082"
+        },
+        {
+            "id": "clipboard",
+            "name": "Clipboard",
+            "unicode": "e083"
+        },
+        {
+            "id": "clock",
+            "name": "Clock",
+            "unicode": "e084"
+        },
+        {
+            "id": "close-keyboard",
+            "name": "Close Keyboard",
+            "unicode": "e085"
+        },
+        {
+            "id": "close",
+            "name": "Close",
+            "unicode": "e086"
+        },
+        {
+            "id": "cloud",
+            "name": "Cloud",
+            "unicode": "e087"
+        },
+        {
+            "id": "cog",
+            "name": "Cog",
+            "unicode": "e088"
+        },
+        {
+            "id": "comment",
+            "name": "Comment",
+            "unicode": "e089"
+        },
+        {
+            "id": "community",
+            "name": "Community",
+            "unicode": "e08a"
+        },
+        {
+            "id": "compass",
+            "name": "Compass",
+            "unicode": "e08b"
+        },
+        {
+            "id": "computer",
+            "name": "Computer",
+            "unicode": "e08c"
+        },
+        {
+            "id": "conference",
+            "name": "Conference",
+            "unicode": "e08d"
+        },
+        {
+            "id": "contact-card",
+            "name": "Contact Card",
+            "unicode": "e08e"
+        },
+        {
+            "id": "contact",
+            "name": "Contact",
+            "unicode": "e08f"
+        },
+        {
+            "id": "content-share",
+            "name": "Content Share",
+            "unicode": "e090"
+        },
+        {
+            "id": "convo",
+            "name": "Convo",
+            "unicode": "e091"
+        },
+        {
+            "id": "create-page",
+            "name": "Create Page",
+            "unicode": "e092"
+        },
+        {
+            "id": "data-usage",
+            "name": "Data Usage",
+            "unicode": "e093"
+        },
+        {
+            "id": "data",
+            "name": "Data",
+            "unicode": "e094"
+        },
+        {
+            "id": "day",
+            "name": "Day",
+            "unicode": "e095"
+        },
+        {
+            "id": "dc-power",
+            "name": "Dc Power",
+            "unicode": "e096"
+        },
+        {
+            "id": "default-app",
+            "name": "Default App",
+            "unicode": "e097"
+        },
+        {
+            "id": "delete",
+            "name": "Delete",
+            "unicode": "e098"
+        },
+        {
+            "id": "desk-phone",
+            "name": "Desk Phone",
+            "unicode": "e099"
+        },
+        {
+            "id": "devices",
+            "name": "Devices",
+            "unicode": "e09a"
+        },
+        {
+            "id": "diagnostics",
+            "name": "Diagnostics",
+            "unicode": "e09b"
+        },
+        {
+            "id": "dial",
+            "name": "Dial",
+            "unicode": "e09c"
+        },
+        {
+            "id": "directory",
+            "name": "Directory",
+            "unicode": "e09d"
+        },
+        {
+            "id": "disc-not-connected",
+            "name": "Disc Not Connected",
+            "unicode": "e09e"
+        },
+        {
+            "id": "disc",
+            "name": "Disc",
+            "unicode": "e09f"
+        },
+        {
+            "id": "display",
+            "name": "Display",
+            "unicode": "e0a0"
+        },
+        {
+            "id": "dms",
+            "name": "Dms",
+            "unicode": "e0a1"
+        },
+        {
+            "id": "do-not-disturb",
+            "name": "Do Not Disturb",
+            "unicode": "e0a2"
+        },
+        {
+            "id": "document-camera-cross",
+            "name": "Document Camera Cross",
+            "unicode": "e0a3"
+        },
+        {
+            "id": "document-camera",
+            "name": "Document Camera",
+            "unicode": "e0a4"
+        },
+        {
+            "id": "document",
+            "name": "Document",
+            "unicode": "e0a5"
+        },
+        {
+            "id": "download-contain",
+            "name": "Download Contain",
+            "unicode": "e0a6"
+        },
+        {
+            "id": "download",
+            "name": "Download",
+            "unicode": "e0a7"
+        },
+        {
+            "id": "draw",
+            "name": "Draw",
+            "unicode": "e0a8"
+        },
+        {
+            "id": "edit-call",
+            "name": "Edit Call",
+            "unicode": "e0a9"
+        },
+        {
+            "id": "edit",
+            "name": "Edit",
+            "unicode": "e0aa"
+        },
+        {
+            "id": "email",
+            "name": "Email",
+            "unicode": "e0ab"
+        },
+        {
+            "id": "emoticons",
+            "name": "Emoticons",
+            "unicode": "e0ac"
+        },
+        {
+            "id": "end-call",
+            "name": "End Call",
+            "unicode": "e0ad"
+        },
+        {
+            "id": "endpoint",
+            "name": "Endpoint",
+            "unicode": "e0ae"
+        },
+        {
+            "id": "eraser",
+            "name": "Eraser",
+            "unicode": "e0af"
+        },
+        {
+            "id": "error",
+            "name": "Error",
+            "unicode": "e0b0"
+        },
+        {
+            "id": "ethernet",
+            "name": "Ethernet",
+            "unicode": "e0b1"
+        },
+        {
+            "id": "exernal-calendar",
+            "name": "Exernal Calendar",
+            "unicode": "e0b2"
+        },
+        {
+            "id": "exit-contain",
+            "name": "Exit Contain",
+            "unicode": "e0b3"
+        },
+        {
+            "id": "exit-outline",
+            "name": "Exit Outline",
+            "unicode": "e0b4"
+        },
+        {
+            "id": "exit",
+            "name": "Exit",
+            "unicode": "e0b5"
+        },
+        {
+            "id": "export",
+            "name": "Export",
+            "unicode": "e0b6"
+        },
+        {
+            "id": "extension-mobility",
+            "name": "Extension Mobility",
+            "unicode": "e0b7"
+        },
+        {
+            "id": "fbw",
+            "name": "Fbw",
+            "unicode": "e0b8"
+        },
+        {
+            "id": "feedback-clear",
+            "name": "Feedback Clear",
+            "unicode": "e0b9"
+        },
+        {
+            "id": "feedback-result",
+            "name": "Feedback Result",
+            "unicode": "e0ba"
+        },
+        {
+            "id": "feedback",
+            "name": "Feedback",
+            "unicode": "e0bb"
+        },
+        {
+            "id": "ffw",
+            "name": "Ffw",
+            "unicode": "e0bc"
+        },
+        {
+            "id": "filter",
+            "name": "Filter",
+            "unicode": "e0bd"
+        },
+        {
+            "id": "flagged",
+            "name": "Flagged",
+            "unicode": "e0be"
+        },
+        {
+            "id": "folder",
+            "name": "Folder",
+            "unicode": "e0bf"
+        },
+        {
+            "id": "forced-sign-in",
+            "name": "Forced Sign In",
+            "unicode": "e0c0"
+        },
+        {
+            "id": "forward-to-mobility",
+            "name": "Forward To Mobility",
+            "unicode": "e0c1"
+        },
+        {
+            "id": "fullscreen",
+            "name": "Fullscreen",
+            "unicode": "e0c2"
+        },
+        {
+            "id": "funnel",
+            "name": "Funnel",
+            "unicode": "e0c3"
+        },
+        {
+            "id": "general-source-cross",
+            "name": "General Source Cross",
+            "unicode": "e0c4"
+        },
+        {
+            "id": "general-source",
+            "name": "General Source",
+            "unicode": "e0c5"
+        },
+        {
+            "id": "graph",
+            "name": "Graph",
+            "unicode": "e0c6"
+        },
+        {
+            "id": "grid-large",
+            "name": "Grid Large",
+            "unicode": "e0c7"
+        },
+        {
+            "id": "grid-list",
+            "name": "Grid List",
+            "unicode": "e0c8"
+        },
+        {
+            "id": "grid",
+            "name": "Grid",
+            "unicode": "e0c9"
+        },
+        {
+            "id": "ground",
+            "name": "Ground",
+            "unicode": "e0ca"
+        },
+        {
+            "id": "group-call",
+            "name": "Group Call",
+            "unicode": "e0cb"
+        },
+        {
+            "id": "hamburger-menu",
+            "name": "Hamburger Menu",
+            "unicode": "e0cc"
+        },
+        {
+            "id": "headset-cross",
+            "name": "Headset Cross",
+            "unicode": "e0cd"
+        },
+        {
+            "id": "headset",
+            "name": "Headset",
+            "unicode": "e0ce"
+        },
+        {
+            "id": "help-outline",
+            "name": "Help Outline",
+            "unicode": "e0cf"
+        },
+        {
+            "id": "help",
+            "name": "Help",
+            "unicode": "e0d0"
+        },
+        {
+            "id": "highlight-line",
+            "name": "Highlight Line",
+            "unicode": "e0d1"
+        },
+        {
+            "id": "highlighter-check",
+            "name": "Highlighter Check",
+            "unicode": "e0d2"
+        },
+        {
+            "id": "highlighter",
+            "name": "Highlighter",
+            "unicode": "e0d3"
+        },
+        {
+            "id": "home",
+            "name": "Home",
+            "unicode": "e0d4"
+        },
+        {
+            "id": "hue",
+            "name": "Hue",
+            "unicode": "e0d5"
+        },
+        {
+            "id": "hunt-group",
+            "name": "Hunt Group",
+            "unicode": "e0d6"
+        },
+        {
+            "id": "idefix",
+            "name": "Idefix",
+            "unicode": "e0d7"
+        },
+        {
+            "id": "image-contain",
+            "name": "Image Contain",
+            "unicode": "e0d8"
+        },
+        {
+            "id": "image",
+            "name": "Image",
+            "unicode": "e0d9"
+        },
+        {
+            "id": "import",
+            "name": "Import",
+            "unicode": "e0da"
+        },
+        {
+            "id": "inbox",
+            "name": "Inbox",
+            "unicode": "e0db"
+        },
+        {
+            "id": "incoming-call",
+            "name": "Incoming Call",
+            "unicode": "e0dc"
+        },
+        {
+            "id": "indeterminate",
+            "name": "Indeterminate",
+            "unicode": "e0dd"
+        },
+        {
+            "id": "info-outline",
+            "name": "Info Outline",
+            "unicode": "e0de"
+        },
+        {
+            "id": "info",
+            "name": "Info",
+            "unicode": "e0df"
+        },
+        {
+            "id": "information",
+            "name": "Information",
+            "unicode": "e0e0"
+        },
+        {
+            "id": "instant-meeting",
+            "name": "Instant Meeting",
+            "unicode": "e0e1"
+        },
+        {
+            "id": "intercom-duplex-connected",
+            "name": "Intercom Duplex Connected",
+            "unicode": "e0e2"
+        },
+        {
+            "id": "intercom-whisper",
+            "name": "Intercom Whisper",
+            "unicode": "e0e3"
+        },
+        {
+            "id": "intercom",
+            "name": "Intercom",
+            "unicode": "e0e4"
+        },
+        {
+            "id": "invite",
+            "name": "Invite",
+            "unicode": "e0e5"
+        },
+        {
+            "id": "key-expansion-module",
+            "name": "Key Expansion Module",
+            "unicode": "e0e6"
+        },
+        {
+            "id": "keyboard",
+            "name": "Keyboard",
+            "unicode": "e0e7"
+        },
+        {
+            "id": "keywords",
+            "name": "Keywords",
+            "unicode": "e0e8"
+        },
+        {
+            "id": "language",
+            "name": "Language",
+            "unicode": "e0e9"
+        },
+        {
+            "id": "laser-pointer",
+            "name": "Laser Pointer",
+            "unicode": "e0ea"
+        },
+        {
+            "id": "layout",
+            "name": "Layout",
+            "unicode": "e0eb"
+        },
+        {
+            "id": "leave-meeting",
+            "name": "Leave Meeting",
+            "unicode": "e0ec"
+        },
+        {
+            "id": "left-arrow",
+            "name": "Left Arrow",
+            "unicode": "e0ed"
+        },
+        {
+            "id": "license",
+            "name": "License",
+            "unicode": "e0ee"
+        },
+        {
+            "id": "lightbulb",
+            "name": "Lightbulb",
+            "unicode": "e0ef"
+        },
+        {
+            "id": "like",
+            "name": "Like",
+            "unicode": "e0f0"
+        },
+        {
+            "id": "line-out-left",
+            "name": "Line Out Left",
+            "unicode": "e0f1"
+        },
+        {
+            "id": "line-out-right",
+            "name": "Line Out Right",
+            "unicode": "e0f2"
+        },
+        {
+            "id": "link",
+            "name": "Link",
+            "unicode": "e0f3"
+        },
+        {
+            "id": "list-menu",
+            "name": "List Menu",
+            "unicode": "e0f4"
+        },
+        {
+            "id": "list-view",
+            "name": "List View",
+            "unicode": "e0f5"
+        },
+        {
+            "id": "location",
+            "name": "Location",
+            "unicode": "e0f6"
+        },
+        {
+            "id": "lock-contain",
+            "name": "Lock Contain",
+            "unicode": "e0f7"
+        },
+        {
+            "id": "lock",
+            "name": "Lock",
+            "unicode": "e0f8"
+        },
+        {
+            "id": "locked-speaker",
+            "name": "Locked Speaker",
+            "unicode": "e0f9"
+        },
+        {
+            "id": "manage-cable",
+            "name": "Manage Cable",
+            "unicode": "e0fa"
+        },
+        {
+            "id": "maximize",
+            "name": "Maximize",
+            "unicode": "e0fb"
+        },
+        {
+            "id": "media-viewer",
+            "name": "Media Viewer",
+            "unicode": "e0fc"
+        },
+        {
+            "id": "meet-me",
+            "name": "Meet Me",
+            "unicode": "e0fd"
+        },
+        {
+            "id": "meeting-room",
+            "name": "Meeting Room",
+            "unicode": "e0fe"
+        },
+        {
+            "id": "merge-call",
+            "name": "Merge Call",
+            "unicode": "e0ff"
+        },
+        {
+            "id": "message",
+            "name": "Message",
+            "unicode": "e100"
+        },
+        {
+            "id": "mic-in",
+            "name": "Mic In",
+            "unicode": "e101"
+        },
+        {
+            "id": "micro-blog",
+            "name": "Micro Blog",
+            "unicode": "e102"
+        },
+        {
+            "id": "microphone",
+            "name": "Microphone",
+            "unicode": "e103"
+        },
+        {
+            "id": "minimize",
+            "name": "Minimize",
+            "unicode": "e104"
+        },
+        {
+            "id": "minus",
+            "name": "Minus",
+            "unicode": "e105"
+        },
+        {
+            "id": "missed-call",
+            "name": "Missed Call",
+            "unicode": "e106"
+        },
+        {
+            "id": "mobile-phone",
+            "name": "Mobile Phone",
+            "unicode": "e107"
+        },
+        {
+            "id": "mobile-presenter",
+            "name": "Mobile Presenter",
+            "unicode": "e108"
+        },
+        {
+            "id": "month",
+            "name": "Month",
+            "unicode": "e109"
+        },
+        {
+            "id": "more",
+            "name": "More",
+            "unicode": "e10a"
+        },
+        {
+            "id": "move-page",
+            "name": "Move Page",
+            "unicode": "e10b"
+        },
+        {
+            "id": "multi-display",
+            "name": "Multi Display",
+            "unicode": "e10c"
+        },
+        {
+            "id": "music",
+            "name": "Music",
+            "unicode": "e10d"
+        },
+        {
+            "id": "mute",
+            "name": "Mute",
+            "unicode": "e10e"
+        },
+        {
+            "id": "new-call",
+            "name": "New Call",
+            "unicode": "e10f"
+        },
+        {
+            "id": "no-signal",
+            "name": "No Signal",
+            "unicode": "e110"
+        },
+        {
+            "id": "notebook-in",
+            "name": "Notebook In",
+            "unicode": "e111"
+        },
+        {
+            "id": "notes",
+            "name": "Notes",
+            "unicode": "e112"
+        },
+        {
+            "id": "numbered-input",
+            "name": "Numbered Input",
+            "unicode": "e113"
+        },
+        {
+            "id": "numbered-output",
+            "name": "Numbered Output",
+            "unicode": "e114"
+        },
+        {
+            "id": "off-hook",
+            "name": "Off Hook",
+            "unicode": "e115"
+        },
+        {
+            "id": "other-phone",
+            "name": "Other Phone",
+            "unicode": "e116"
+        },
+        {
+            "id": "outbox",
+            "name": "Outbox",
+            "unicode": "e117"
+        },
+        {
+            "id": "outgoing-call",
+            "name": "Outgoing Call",
+            "unicode": "e118"
+        },
+        {
+            "id": "paired-audio",
+            "name": "Paired Audio",
+            "unicode": "e119"
+        },
+        {
+            "id": "paired-call-outline",
+            "name": "Paired Call Outline",
+            "unicode": "e11a"
+        },
+        {
+            "id": "paired-call",
+            "name": "Paired Call",
+            "unicode": "e11b"
+        },
+        {
+            "id": "panel-close",
+            "name": "Panel Close",
+            "unicode": "e11c"
+        },
+        {
+            "id": "panel-shift-left",
+            "name": "Panel Shift Left",
+            "unicode": "e11d"
+        },
+        {
+            "id": "panel-shift-right",
+            "name": "Panel Shift Right",
+            "unicode": "e11e"
+        },
+        {
+            "id": "parked",
+            "name": "Parked",
+            "unicode": "e11f"
+        },
+        {
+            "id": "participant-list",
+            "name": "Participant List",
+            "unicode": "e120"
+        },
+        {
+            "id": "pass-mouse",
+            "name": "Pass Mouse",
+            "unicode": "e121"
+        },
+        {
+            "id": "pause",
+            "name": "Pause",
+            "unicode": "e122"
+        },
+        {
+            "id": "pc",
+            "name": "Pc",
+            "unicode": "e123"
+        },
+        {
+            "id": "pencil",
+            "name": "Pencil",
+            "unicode": "e124"
+        },
+        {
+            "id": "persistent-chat",
+            "name": "Persistent Chat",
+            "unicode": "e125"
+        },
+        {
+            "id": "phone-cross",
+            "name": "Phone Cross",
+            "unicode": "e126"
+        },
+        {
+            "id": "phone",
+            "name": "Phone",
+            "unicode": "e127"
+        },
+        {
+            "id": "picture-in-picture",
+            "name": "Picture In Picture",
+            "unicode": "e128"
+        },
+        {
+            "id": "pin",
+            "name": "Pin",
+            "unicode": "e129"
+        },
+        {
+            "id": "plan-review",
+            "name": "Plan Review",
+            "unicode": "e12a"
+        },
+        {
+            "id": "play-contained",
+            "name": "Play Contained",
+            "unicode": "e12b"
+        },
+        {
+            "id": "play",
+            "name": "Play",
+            "unicode": "e12c"
+        },
+        {
+            "id": "playlist",
+            "name": "Playlist",
+            "unicode": "e12d"
+        },
+        {
+            "id": "plugin",
+            "name": "Plugin",
+            "unicode": "e12e"
+        },
+        {
+            "id": "plus-circle",
+            "name": "Plus Circle",
+            "unicode": "e12f"
+        },
+        {
+            "id": "plus",
+            "name": "Plus",
+            "unicode": "e130"
+        },
+        {
+            "id": "point",
+            "name": "Point",
+            "unicode": "e131"
+        },
+        {
+            "id": "poll",
+            "name": "Poll",
+            "unicode": "e132"
+        },
+        {
+            "id": "popout",
+            "name": "Popout",
+            "unicode": "e133"
+        },
+        {
+            "id": "popup-dialogue",
+            "name": "Popup Dialogue",
+            "unicode": "e134"
+        },
+        {
+            "id": "power-contain",
+            "name": "Power Contain",
+            "unicode": "e135"
+        },
+        {
+            "id": "power",
+            "name": "Power",
+            "unicode": "e136"
+        },
+        {
+            "id": "presentation",
+            "name": "Presentation",
+            "unicode": "e137"
+        },
+        {
+            "id": "prevent-download-contain",
+            "name": "Prevent Download Contain",
+            "unicode": "e138"
+        },
+        {
+            "id": "prevent-download",
+            "name": "Prevent Download",
+            "unicode": "e139"
+        },
+        {
+            "id": "print",
+            "name": "Print",
+            "unicode": "e13a"
+        },
+        {
+            "id": "priority",
+            "name": "Priority",
+            "unicode": "e13b"
+        },
+        {
+            "id": "privacy",
+            "name": "Privacy",
+            "unicode": "e13c"
+        },
+        {
+            "id": "private",
+            "name": "Private",
+            "unicode": "e13d"
+        },
+        {
+            "id": "profile-settings",
+            "name": "Profile Settings",
+            "unicode": "e13e"
+        },
+        {
+            "id": "proximity-not-connected",
+            "name": "Proximity Not Connected",
+            "unicode": "e13f"
+        },
+        {
+            "id": "proximity",
+            "name": "Proximity",
+            "unicode": "e140"
+        },
+        {
+            "id": "quality",
+            "name": "Quality",
+            "unicode": "e141"
+        },
+        {
+            "id": "question-circle",
+            "name": "Question Circle",
+            "unicode": "e142"
+        },
+        {
+            "id": "raise-hand",
+            "name": "Raise Hand",
+            "unicode": "e143"
+        },
+        {
+            "id": "read-email",
+            "name": "Read Email",
+            "unicode": "e144"
+        },
+        {
+            "id": "recent-apps",
+            "name": "Recent Apps",
+            "unicode": "e145"
+        },
+        {
+            "id": "record",
+            "name": "Record",
+            "unicode": "e146"
+        },
+        {
+            "id": "redial",
+            "name": "Redial",
+            "unicode": "e147"
+        },
+        {
+            "id": "refresh",
+            "name": "Refresh",
+            "unicode": "e148"
+        },
+        {
+            "id": "remove-contact",
+            "name": "Remove Contact",
+            "unicode": "e149"
+        },
+        {
+            "id": "remove-contain",
+            "name": "Remove Contain",
+            "unicode": "e14a"
+        },
+        {
+            "id": "remove-outline",
+            "name": "Remove Outline",
+            "unicode": "e14b"
+        },
+        {
+            "id": "remove",
+            "name": "Remove",
+            "unicode": "e14c"
+        },
+        {
+            "id": "reply-all",
+            "name": "Reply All",
+            "unicode": "e14d"
+        },
+        {
+            "id": "report",
+            "name": "Report",
+            "unicode": "e14e"
+        },
+        {
+            "id": "reset",
+            "name": "Reset",
+            "unicode": "e14f"
+        },
+        {
+            "id": "right-arrow-closed-contained",
+            "name": "Right Arrow Closed Contained",
+            "unicode": "e150"
+        },
+        {
+            "id": "right-arrow-closed-outline",
+            "name": "Right Arrow Closed Outline",
+            "unicode": "e151"
+        },
+        {
+            "id": "right-arrow-contain",
+            "name": "Right Arrow Contain",
+            "unicode": "e152"
+        },
+        {
+            "id": "right-arrow-contained",
+            "name": "Right Arrow Contained",
+            "unicode": "e153"
+        },
+        {
+            "id": "right-arrow-outline",
+            "name": "Right Arrow Outline",
+            "unicode": "e154"
+        },
+        {
+            "id": "right-arrow",
+            "name": "Right Arrow",
+            "unicode": "e155"
+        },
+        {
+            "id": "ringer-settings",
+            "name": "Ringer Settings",
+            "unicode": "e156"
+        },
+        {
+            "id": "rotate-object-ccw",
+            "name": "Rotate Object Ccw",
+            "unicode": "e157"
+        },
+        {
+            "id": "rotate-object-cw",
+            "name": "Rotate Object Cw",
+            "unicode": "e158"
+        },
+        {
+            "id": "rtprx-rtptx-duplex",
+            "name": "Rtprx Rtptx Duplex",
+            "unicode": "e159"
+        },
+        {
+            "id": "rtprx",
+            "name": "Rtprx",
+            "unicode": "e15a"
+        },
+        {
+            "id": "rtptx",
+            "name": "Rtptx",
+            "unicode": "e15b"
+        },
+        {
+            "id": "running-application",
+            "name": "Running Application",
+            "unicode": "e15c"
+        },
+        {
+            "id": "save",
+            "name": "Save",
+            "unicode": "e15d"
+        },
+        {
+            "id": "schedule-add",
+            "name": "Schedule Add",
+            "unicode": "e15e"
+        },
+        {
+            "id": "screen-capture-square",
+            "name": "Screen Capture Square",
+            "unicode": "e15f"
+        },
+        {
+            "id": "screen-capture",
+            "name": "Screen Capture",
+            "unicode": "e160"
+        },
+        {
+            "id": "sd",
+            "name": "Sd",
+            "unicode": "e161"
+        },
+        {
+            "id": "search",
+            "name": "Search",
+            "unicode": "e162"
+        },
+        {
+            "id": "self-view-alt",
+            "name": "Self View Alt",
+            "unicode": "e163"
+        },
+        {
+            "id": "self-view-crossed",
+            "name": "Self View Crossed",
+            "unicode": "e164"
+        },
+        {
+            "id": "self-view",
+            "name": "Self View",
+            "unicode": "e165"
+        },
+        {
+            "id": "send-email",
+            "name": "Send Email",
+            "unicode": "e166"
+        },
+        {
+            "id": "send",
+            "name": "Send",
+            "unicode": "e167"
+        },
+        {
+            "id": "sent",
+            "name": "Sent",
+            "unicode": "e168"
+        },
+        {
+            "id": "settings",
+            "name": "Settings",
+            "unicode": "e169"
+        },
+        {
+            "id": "setup-assistant",
+            "name": "Setup Assistant",
+            "unicode": "e16a"
+        },
+        {
+            "id": "share-contain",
+            "name": "Share Contain",
+            "unicode": "e16b"
+        },
+        {
+            "id": "share-content",
+            "name": "Share Content",
+            "unicode": "e16c"
+        },
+        {
+            "id": "share",
+            "name": "Share",
+            "unicode": "e16d"
+        },
+        {
+            "id": "sign-in",
+            "name": "Sign In",
+            "unicode": "e16e"
+        },
+        {
+            "id": "sign-out",
+            "name": "Sign Out",
+            "unicode": "e16f"
+        },
+        {
+            "id": "skip-bw",
+            "name": "Skip Bw",
+            "unicode": "e174"
+        },
+        {
+            "id": "skip-fw",
+            "name": "Skip Fw",
+            "unicode": "e175"
+        },
+        {
+            "id": "sliders",
+            "name": "Sliders",
+            "unicode": "e176"
+        },
+        {
+            "id": "slides",
+            "name": "Slides",
+            "unicode": "e177"
+        },
+        {
+            "id": "soft-phone",
+            "name": "Soft Phone",
+            "unicode": "e178"
+        },
+        {
+            "id": "sort",
+            "name": "Sort",
+            "unicode": "e179"
+        },
+        {
+            "id": "sound",
+            "name": "Sound",
+            "unicode": "e17a"
+        },
+        {
+            "id": "space",
+            "name": "Space",
+            "unicode": "e17b"
+        },
+        {
+            "id": "spam",
+            "name": "Spam",
+            "unicode": "e17c"
+        },
+        {
+            "id": "spark",
+            "name": "Spark",
+            "unicode": "e17d"
+        },
+        {
+            "id": "speaker-cross",
+            "name": "Speaker Cross",
+            "unicode": "e17e"
+        },
+        {
+            "id": "speaker-out-left",
+            "name": "Speaker Out Left",
+            "unicode": "e17f"
+        },
+        {
+            "id": "speaker",
+            "name": "Speaker",
+            "unicode": "e180"
+        },
+        {
+            "id": "speed-dial",
+            "name": "Speed Dial",
+            "unicode": "e181"
+        },
+        {
+            "id": "star",
+            "name": "Star",
+            "unicode": "e182"
+        },
+        {
+            "id": "stop",
+            "name": "Stop",
+            "unicode": "e183"
+        },
+        {
+            "id": "storage",
+            "name": "Storage",
+            "unicode": "e184"
+        },
+        {
+            "id": "subscribe",
+            "name": "Subscribe",
+            "unicode": "e185"
+        },
+        {
+            "id": "support",
+            "name": "Support",
+            "unicode": "e186"
+        },
+        {
+            "id": "swap-calls",
+            "name": "Swap Calls",
+            "unicode": "e187"
+        },
+        {
+            "id": "swap-camera",
+            "name": "Swap Camera",
+            "unicode": "e188"
+        },
+        {
+            "id": "swap-video-camera",
+            "name": "Swap Video Camera",
+            "unicode": "e189"
+        },
+        {
+            "id": "tables",
+            "name": "Tables",
+            "unicode": "e18a"
+        },
+        {
+            "id": "tablet",
+            "name": "Tablet",
+            "unicode": "e18b"
+        },
+        {
+            "id": "team-collapsed-view",
+            "name": "Team Collapsed View",
+            "unicode": "e18c"
+        },
+        {
+            "id": "team-expanded-view",
+            "name": "Team Expanded View",
+            "unicode": "e18d"
+        },
+        {
+            "id": "text-color",
+            "name": "Text Color",
+            "unicode": "e18e"
+        },
+        {
+            "id": "text-format",
+            "name": "Text Format",
+            "unicode": "e18f"
+        },
+        {
+            "id": "text-size",
+            "name": "Text Size",
+            "unicode": "e190"
+        },
+        {
+            "id": "text",
+            "name": "Text",
+            "unicode": "e191"
+        },
+        {
+            "id": "three-dots",
+            "name": "Three Dots",
+            "unicode": "e192"
+        },
+        {
+            "id": "thumbnail-view",
+            "name": "Thumbnail View",
+            "unicode": "e193"
+        },
+        {
+            "id": "time",
+            "name": "Time",
+            "unicode": "e194"
+        },
+        {
+            "id": "timeline",
+            "name": "Timeline",
+            "unicode": "e195"
+        },
+        {
+            "id": "too-fast",
+            "name": "Too Fast",
+            "unicode": "e196"
+        },
+        {
+            "id": "too-slow",
+            "name": "Too Slow",
+            "unicode": "e197"
+        },
+        {
+            "id": "tools",
+            "name": "Tools",
+            "unicode": "e198"
+        },
+        {
+            "id": "touch-gesture",
+            "name": "Touch Gesture",
+            "unicode": "e199"
+        },
+        {
+            "id": "touch-point",
+            "name": "Touch Point",
+            "unicode": "e19a"
+        },
+        {
+            "id": "touch",
+            "name": "Touch",
+            "unicode": "e19b"
+        },
+        {
+            "id": "transcript",
+            "name": "Transcript",
+            "unicode": "e19c"
+        },
+        {
+            "id": "transfer-to-mobile",
+            "name": "Transfer To Mobile",
+            "unicode": "e19d"
+        },
+        {
+            "id": "trash",
+            "name": "Trash",
+            "unicode": "e19e"
+        },
+        {
+            "id": "trial",
+            "name": "Trial",
+            "unicode": "e19f"
+        },
+        {
+            "id": "universal-inbox",
+            "name": "Universal Inbox",
+            "unicode": "e1a0"
+        },
+        {
+            "id": "unlock",
+            "name": "Unlock",
+            "unicode": "e1a1"
+        },
+        {
+            "id": "upload-contain",
+            "name": "Upload Contain",
+            "unicode": "e1a2"
+        },
+        {
+            "id": "upload",
+            "name": "Upload",
+            "unicode": "e1a3"
+        },
+        {
+            "id": "usb",
+            "name": "Usb",
+            "unicode": "e1a4"
+        },
+        {
+            "id": "user-chat",
+            "name": "User Chat",
+            "unicode": "e1a5"
+        },
+        {
+            "id": "user",
+            "name": "User",
+            "unicode": "e1a6"
+        },
+        {
+            "id": "vibrate",
+            "name": "Vibrate",
+            "unicode": "e1a7"
+        },
+        {
+            "id": "video-cross",
+            "name": "Video Cross",
+            "unicode": "e1a8"
+        },
+        {
+            "id": "video-group",
+            "name": "Video Group",
+            "unicode": "e1a9"
+        },
+        {
+            "id": "video-input",
+            "name": "Video Input",
+            "unicode": "e1aa"
+        },
+        {
+            "id": "video-layout",
+            "name": "Video Layout",
+            "unicode": "e1ab"
+        },
+        {
+            "id": "video-settings",
+            "name": "Video Settings",
+            "unicode": "e1ac"
+        },
+        {
+            "id": "video-tips",
+            "name": "Video Tips",
+            "unicode": "e1ad"
+        },
+        {
+            "id": "video",
+            "name": "Video",
+            "unicode": "e1ae"
+        },
+        {
+            "id": "view-feed-dual",
+            "name": "View Feed Dual",
+            "unicode": "e1af"
+        },
+        {
+            "id": "view-feed-multi",
+            "name": "View Feed Multi",
+            "unicode": "e1b0"
+        },
+        {
+            "id": "view-feed-single",
+            "name": "View Feed Single",
+            "unicode": "e1b1"
+        },
+        {
+            "id": "view-preview-telepresence",
+            "name": "View Preview Telepresence",
+            "unicode": "e1b2"
+        },
+        {
+            "id": "view-side-by-side",
+            "name": "View Side By Side",
+            "unicode": "e1b3"
+        },
+        {
+            "id": "view-stacked",
+            "name": "View Stacked",
+            "unicode": "e1b4"
+        },
+        {
+            "id": "voicemail",
+            "name": "Voicemail",
+            "unicode": "e1b5"
+        },
+        {
+            "id": "volume-cross",
+            "name": "Volume Cross",
+            "unicode": "e1b6"
+        },
+        {
+            "id": "volume",
+            "name": "Volume",
+            "unicode": "e1b7"
+        },
+        {
+            "id": "waiting-silence",
+            "name": "Waiting Silence",
+            "unicode": "e1b8"
+        },
+        {
+            "id": "wallpaper",
+            "name": "Wallpaper",
+            "unicode": "e1b9"
+        },
+        {
+            "id": "warning",
+            "name": "Warning",
+            "unicode": "e1ba"
+        },
+        {
+            "id": "watchlist",
+            "name": "Watchlist",
+            "unicode": "e1bb"
+        },
+        {
+            "id": "way-nav",
+            "name": "Way Nav",
+            "unicode": "e1bc"
+        },
+        {
+            "id": "web-camera",
+            "name": "Web Camera",
+            "unicode": "e1bd"
+        },
+        {
+            "id": "web-sharing",
+            "name": "Web Sharing",
+            "unicode": "e1be"
+        },
+        {
+            "id": "webex",
+            "name": "Webex",
+            "unicode": "e1bf"
+        },
+        {
+            "id": "webhook",
+            "name": "Webhook",
+            "unicode": "e1c0"
+        },
+        {
+            "id": "week",
+            "name": "Week",
+            "unicode": "e1c1"
+        },
+        {
+            "id": "whiteboard-cross",
+            "name": "Whiteboard Cross",
+            "unicode": "e1c2"
+        },
+        {
+            "id": "whiteboard",
+            "name": "Whiteboard",
+            "unicode": "e1c3"
+        },
+        {
+            "id": "wifi",
+            "name": "Wifi",
+            "unicode": "e1c4"
+        },
+        {
+            "id": "work",
+            "name": "Work",
+            "unicode": "e1c5"
+        },
+        {
+            "id": "zip",
+            "name": "Zip",
+            "unicode": "e1c6"
+        },
+        {
+            "id": "zoom-in",
+            "name": "Zoom In",
+            "unicode": "e1c7"
+        },
+        {
+            "id": "zoom-out",
+            "name": "Zoom Out",
+            "unicode": "e1c8"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+/*------------------------------------*\
+    #TOGGLE SWITCH
+\*------------------------------------*/
+
+.toggle-switch {
+    &.small {
+        input {
+            & ~ span {
+                width: calc(#{$size-small}*2);
+                height: $size-small;
+                border-radius: $size-small;
+                &:before {
+                    border-radius: $size-small;
+                }
+                &:after {
+                    width: calc(#{$size-small} - 4px);
+                }
+            }
+            &:checked ~ span:after {
+                margin-left: $size-small;
+            }
+        }
+    }
+    &.large {
+        input {
+            & ~ span {
+                width: calc(#{$size-large} *2);
+                height: $size-large;
+                border-radius: $size-large;
+                &:before {
+                    border-radius: $size-large;
+                }
+                &:after {
+                    width: calc(#{$size-large} - 4px);
+                }
+            }
+            &:checked ~ span:after {
+                margin-left: $size-large;
+            }
+        }
+    }
+    &.disabled {
+        input {
+        & ~ span {
+            background-color: $gray;
+            &:before {
+                right: 1px;
+                background-color: $gray;
+            }
+            &:after {
+                background-color: $gray-dark;
+            }
+            &:hover {
+                cursor: default;
+            }
+        }
+        &:checked ~ span {
+            background-color: $gray;
+            &:before {
+                background-color: $gray;
+            }
+        }
+      }
+    }
+    input {
+        position: absolute;
+        margin-left: -9999px;
+        opacity: 0;
+        + span {
+            display: block;
+            position: relative;
+            cursor: pointer;
+            outline: none;
+            user-select: none;
+            padding: 2px;
+            width: calc(#{$size-default}*2);
+            height: $size-default;
+            background-color: $gray-light;
+            border-radius: $size-default;
+            transition: background 350ms;
+            &:before, &:after {
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                bottom: 2px;
+                content: "";
+            }
+            &:before {
+                right: 2px;
+                background-color: $gray-light;
+                border-radius: $size-default;
+                transition: background 350ms;
+            }
+            &:after {
+                width: calc(#{$size-default} - 4px);
+                background-color: $brand-white;
+                border-radius: 100%;
+                transition: margin 350ms;
+            }
+        }
+        &:checked + span {
+            background-color: $brand-primary;
+            &:before {
+                background-color: $brand-primary;
+            }
+        }
+        &:checked + span:after {
+            margin-left: $size-default;
+        }
+        &:focus + span {
+            @include focus-styles;
+        }
+    }
+}
+/*------------------------------------*\
+    END #TOGGLE SWITCH
+\*------------------------------------*/

@@ -1,0 +1,353 @@
+// Foundation by ZURB
+// foundation.zurb.com
+// Licensed under MIT Open Source
+
+@import '../tools/functions/functions.core';
+@import '../tools/mixins/global';
+
+//
+// @variables
+//
+$include-html-panel-classes: $include-html-classes !default;
+
+// We use these to control the background and border styles
+$panel-bg: scale-color($white, $lightness: -5%) !default;
+$panel-border-style: solid !default;
+$panel-border-size: 1px !default;
+$callout-panel-bg: scale-color($primary-color, $lightness: 94%) !default;
+
+// We use this % to control how much we darken things on hover
+$panel-border-color: scale-color($panel-bg, $lightness: -11%) !default;
+
+// We use these to set default inner padding and bottom margin
+$panel-margin-bottom: rem-calc(20) !default;
+$panel-padding: rem-calc(20) !default;
+
+// We use these to set default font colors
+$panel-font-color: $oil !default;
+$panel-font-color-alt: $white !default;
+
+$panel-header-adjust: true !default;
+$callout-panel-link-color: $primary-color !default;
+$callout-panel-link-color-hover: scale-color($callout-panel-link-color, $lightness: -14%) !default;
+//
+// @mixins
+//
+// We use this mixin to create panels.
+// $bg - Sets the panel background color. Default: $panel-pg || scale-color($white, $lightness: -5%) !default
+// $padding - Sets the panel padding amount. Default: $panel-padding || rem-calc(20)
+// $adjust - Sets the font color based on the darkness of the bg & resets header line-heights for panels. Default: $panel-header-adjust || true
+@mixin panel($bg:$panel-bg, $padding:$panel-padding, $adjust:$panel-header-adjust, $border:true) {
+
+  @if $bg {
+    $bg-lightness: lightness($bg);
+
+    @if $border {
+      border-style: $panel-border-style;
+      border-width: $panel-border-size;
+      border-color: $panel-border-color;
+    } @else {
+      border-style: none;
+      border-width: 0;
+    }
+
+    margin-bottom: $panel-margin-bottom;
+    padding: $padding;
+
+    background: $bg;
+    @if $bg-lightness >= 50% { color: $panel-font-color; }
+    @else { color: $panel-font-color-alt; }
+
+    // Respect the padding, fool.
+    > :first-child { margin-top: 0; }
+    > :last-child { margin-bottom: 0; }
+
+    @if $adjust {
+      // We set the font color based on the darkness of the bg.
+      @if $bg-lightness >= 50% {
+        h1, h2, h3, h4, h5, h6, p, li, dl { color: $panel-font-color; }
+      }
+      @else {
+        h1, h2, h3, h4, h5, h6, p, li, dl { color: $panel-font-color-alt; }
+      }
+
+      // reset header line-heights for panels
+      h1, h2, h3, h4, h5, h6 {
+        line-height: 1; margin-bottom: rem-calc(20) / 2;
+        &.subheader { line-height: 1.4; }
+      }
+    }
+  }
+}
+
+@include exports("panel") {
+  @if $include-html-panel-classes {
+
+    /* Panels */
+    .panel { @include panel;
+
+      &.callout {
+        @include panel($callout-panel-bg);
+        a:not(.button) {
+          color: $callout-panel-link-color;
+
+          &:hover,
+          &:focus {
+            color: $callout-panel-link-color-hover;
+          }
+        }
+      }
+
+      &.radius {
+        @include radius;
+      }
+
+    }
+
+  }
+}
+
+/* begin panels override */
+@mixin panel($bg: $panel-bg, $padding: $panel-padding, $adjust: $panel-header-adjust, $border: true) {
+  @if $bg {
+    $bg-lightness: lightness($bg);
+
+    @if $border {
+      border-style: $panel-border-style;
+      border-width: $panel-border-size;
+
+      //border-color: $panel-border-color;
+    }
+    @else {
+      border-style: none;
+      border-width: 0;
+    }
+
+    margin-bottom: $panel-margin-bottom;
+    padding: $padding;
+
+    //background: $bg;
+
+    @if $bg-lightness >= 50% {
+      color: $panel-font-color;
+    }
+    @else {
+      color: $panel-font-color-alt;
+    }
+
+    // Respect the padding, fool.
+    > :first-child {
+      margin-top: 0;
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+
+    @if $adjust {
+      // We set the font color based on the darkness of the bg.
+      @if $bg-lightness >= 50% {
+        h1, h2, h3, h4, h5, h6, p, li, dl {
+          color: $panel-font-color;
+        }
+      }
+      @else {
+        h1, h2, h3, h4, h5, h6, p, li, dl {
+          color: $panel-font-color-alt;
+        }
+      }
+
+      // reset header line-heights for panels
+      h1, h2, h3, h4, h5, h6 {
+        //line-height: 1;
+        //margin-bottom: rem-calc(20) / 2;
+
+        &.subheader {
+          line-height: 1.4;
+        }
+      }
+    }
+  }
+}
+
+// Panels
+
+@mixin panel-variant($border, $heading-text-color, $heading-bg-color, $heading-border) {
+  border-color: $border;
+
+  & > .panel-heading {
+    color: $heading-text-color;
+    background-color: $heading-bg-color;
+    border-color: $heading-border;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $heading-text-color;
+    }
+
+    + .panel-collapse > .panel-body {
+      border-top-color: $border;
+    }
+
+    .badge {
+      color: $heading-bg-color;
+      background-color: $heading-text-color;
+    }
+  }
+
+  & > .panel-footer {
+    + .panel-collapse > .panel-body {
+      border-bottom-color: $border;
+    }
+  }
+}
+
+@include exports("panel-bem") {
+  /* Panels */
+  .panel {
+    @include panel($padding: 0);
+
+    &.callout {
+      @include panel($callout-panel-bg, $padding: 0);
+
+      a:not(.button) {
+        color: $callout-panel-link-color;
+
+        &:hover,
+        &:focus {
+          color: $callout-panel-link-color-hover;
+        }
+      }
+    }
+
+    &.radius {
+      @include radius;
+    }
+  }
+}
+
+
+.panel {
+  border: none;
+
+  //background: #f2f2f2;
+  color: #333333;
+
+  & > .list-group {
+    // No need to set list-style: none; since .list-group-item is block level
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+
+    //border-left: 1px solid $list-group-border;
+    //border-right: 1px solid $list-group-border;
+
+    & .list-group-item {
+      position: relative;
+      display: block;
+      padding: ($panel-padding / 2) $panel-padding;
+      line-height: vr-adjust(24, 1px);
+
+      & ~ .list-group-item {
+        // Place the border on the list items and negative margin up for better styling
+        border-top: none;
+      }
+
+      background-color: $list-group-bg;
+      border-top: 1px solid $list-group-border;
+      border-bottom: 1px solid $list-group-border;
+
+      // Round the first and last items
+      &:first-child {
+        //border-top: 1px solid $list-group-border;
+        border-top: 0;
+
+        @include border-top-radius($list-group-border-radius);
+      }
+
+      &:last-child {
+        //margin-bottom: 0;
+
+        //border-bottom: 1px solid $list-group-border;
+        border-bottom: 0;
+        line-height: vr-adjust(24);
+
+        @include border-bottom-radius($list-group-border-radius);
+      }
+    }
+  }
+
+  // Panel contents
+  > .panel-body {
+    @include clearfix;
+  }
+
+  // Panel table
+  > .table {
+    //padding: $panel-padding;
+    border: none;
+
+    @include clearfix;
+  }
+
+  // Optional heading
+  > .panel-heading {
+    line-height: vr-adjust(24);
+
+    > .dropdown .dropdown-toggle {
+      color: inherit;
+    }
+  }
+
+  > .panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: inherit;
+
+    > a,
+    > small,
+    > .small,
+    > small > a,
+    > .small > a {
+      color: inherit;
+    }
+  }
+
+  // Optional footer (stays gray in every modifier class)
+  > .panel-footer {
+    background-color: $panel-footer-bg;
+  }
+
+  > [class^=panel-] {
+    border: 1px solid $list-group-border;
+    padding: ($panel-padding - rem(1px)) $panel-padding;
+    margin-bottom: 0.5rem;
+    background-color: $white;
+
+    @include border-radius($panel-border-radius);
+  }
+
+  // Contextual variations
+  &.panel-default {
+    @include panel-variant($panel-default-border, $panel-default-text, $panel-default-heading-bg, $panel-default-border);
+  }
+
+  &.panel-primary {
+    @include panel-variant($panel-primary-border, $panel-font-color-alt, $panel-primary-heading-bg, $panel-primary-border);
+  }
+
+  &.panel-success {
+    @include panel-variant($panel-success-border, $panel-success-text, $panel-success-heading-bg, $panel-success-border);
+  }
+
+  &.panel-info {
+    @include panel-variant($panel-info-border, $panel-info-text, $panel-info-heading-bg, $panel-info-border);
+  }
+
+  &.panel-warning {
+    @include panel-variant($panel-warning-border, $panel-warning-text, $panel-warning-heading-bg, $panel-warning-border);
+  }
+
+  &.panel-danger {
+    @include panel-variant($panel-danger-border, $panel-danger-text, $panel-danger-heading-bg, $panel-danger-border);
+  }
+}

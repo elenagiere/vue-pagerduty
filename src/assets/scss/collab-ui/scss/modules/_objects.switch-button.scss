@@ -1,0 +1,122 @@
+/* ------ SWITCHBUTTON ------------- */
+
+.switchButtonOff,
+.switchButtonOn {
+  position: relative;
+  height: $switchbutton-height;
+  line-height: $switchbutton-height;
+  width: $switchbutton-width;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  @include border-radius(7px);
+  vertical-align: middle;
+  text-align: center;
+  > div {
+    line-height: $switchbutton-height;
+    height: $switchbutton-height;
+    width: 100%;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  > div label {
+    font-weight: normal;
+    font-size: $font-size-large;
+    font-family: $font-family-sans-serif;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding-right: 3px;
+    cursor: pointer;
+  }
+  //  this hides the checkbox that was used with the switchbutton
+  //  so that I can grab tab&spacebar for accessiblity
+  > input {
+    position: absolute;
+    opacity: 0;
+    z-index: 5;
+  }
+  > a {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: none;
+    position: absolute;
+    top: 2px;
+    height: $switchsize;
+    width: $switchsize;
+    @include box-shadow( 0 1px 2px 0 $brand-shadow-dark);
+    @include border-radius(4px);
+    background-color: $component-active-color;
+    @include transition(all 0.3s ease-out);
+  }
+  &:hover,
+  &:link {
+    text-decoration: none;
+  }
+}
+
+.switchButtonOff.focused,
+.switchButtonOn.focused {
+  border-color: $focus-color;
+  box-shadow: 0 0 0 1px $focus-color;
+}
+
+// button is on
+.switchButtonOn {
+  @include state-colors($brand-primary, $component-active-color, $focus-color);
+  >div label.On {
+    color: $component-active-color;
+  }
+  > div label.Off {
+    color: $link-color;
+  }
+  > a {
+    left: 42px;
+  }
+}
+
+// button is off
+.switchButtonOff {
+  @include state-colors($gray-light, $gray-darkest, $gray-darker);
+  > div label.Off {
+    color: $gray-darkest;
+  }
+  > div label.On {
+    color: $gray-dark;
+  }
+  > a {
+    left: 3px;
+  }
+}
+/* Button is disabled */
+
+.switchButtonOff.disabled,
+.switchButtonOn.disabled {
+  @include state-colors($gray-lighter, $gray-dark, $gray-dark);
+  cursor: default;
+  > a {
+    background-color: $gray-dark;
+    @include box-shadow(none);
+    outline: none;
+    -o-transition: color 0 ease-in;
+    @include transition(none);
+    cursor: default;
+  }
+}
+
+.switchButtonOn.disabled label.On,
+.switchButtonOff.disabled label.Off {
+  color: $gray-dark;
+}
+
+.switchButtonOff.disabled label.On,
+.switchButtonOn.disabled label.Off {
+  color: $gray-lighter;
+}
+/* ------ END SWITCHBUTTON ------------- */

@@ -1,0 +1,17 @@
+.status-indicator  {
+  font-size: 0.5rem;
+  color: $gray-base;
+
+  &.success {
+    color: $color-cta-base;
+  }
+  &.warning {
+    color: $color-attention-base;
+  }
+  &.danger {
+    color: $color-negative-base;
+  }
+  &.disabled {
+    color: $gray-base;
+  }
+}

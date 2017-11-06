@@ -1,0 +1,41 @@
+// _baseline.variables.scss for use with _baseline.scss and zurb's
+// foundation 5.5.2 framework
+//
+// line height settings (for vertical rhythm module _baseline.scss)
+$base-line-height-ratio: 1.71429;
+$header-line-height: $base-line-height-ratio;
+$subheader-line-height: $base-line-height-ratio;
+$paragraph-line-height: $base-line-height-ratio;
+$paragraph-aside-line-height: $base-line-height-ratio;
+$list-line-height: $base-line-height-ratio;
+$f-dropdown-line-height: $base-line-height-ratio;
+$form-label-line-height: $base-line-height-ratio;
+$price-desc-line-height: $base-line-height-ratio;
+$input-line-height: 1;
+
+//$table-line-height: $base-line-height-ratio;
+$tooltip-line-height: $base-line-height-ratio;
+
+//
+// margin settings (for vertical rhythm module _baseline.scss)
+$header-top-margin: 0;
+$header-bottom-margin: 0;
+$subheader-top-margin: 0;
+$subheader-bottom-margin: 0;
+$paragraph-margin-bottom: 0;
+$definition-list-header-margin-bottom: 0;
+$definition-list-margin-bottom: 0.5rem;
+
+// $button-margin-bottom: 0.65rem;
+
+// line height (px) divided by font-size
+$title-heading-line-height: rem-calc(80) / $title-heading-font-size;
+$h1-line-height: rem-calc(64) / $h1-font-size;
+$h2-line-height: rem-calc(48) / $h2-font-size;
+$h3-line-height: rem-calc(32) / $h3-font-size;
+$h4-line-height: rem-calc(32) / $h4-font-size;
+$h5-line-height: rem-calc(24) / $h5-font-size;
+$h6-line-height: rem-calc(24) / $h6-font-size;
+$paragraph-line-height: rem-calc(24) / $paragraph-font-size;
+$body-small-line-height: rem-calc(16) / $body-small-font-size;
+$body-smallest-line-height: rem-calc(16) / $body-smallest-font-size;

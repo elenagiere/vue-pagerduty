@@ -1,0 +1,157 @@
+.typeahead-group {
+  .underline {
+    border:0;
+    border-bottom:solid rem(1px) $gray-light;
+    text-align: center;
+    border-radius: 0rem;
+    &:focus {
+      box-shadow: none;
+      border-bottom:solid rem(1px) $brand-primary;
+    }
+    + .dropdown-menu {
+      border-radius: 0rem;
+      .active > a {
+        background-color: $gray-light;
+      }
+    }
+  }
+  .dropdown-menu {
+    overflow-x: hidden;
+    max-width: 100%;
+    li {
+      small, label {
+      margin-bottom: 0rem;
+      }
+    }
+    .active > a {
+      background-color: $gray-dark;
+    }
+  }
+}
+
+.typeahead-large {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-family: $brand-font-thin;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  color: $gray-dark-1;
+
+  // Description.
+  .input-description {
+    border: 0;
+    border-top: solid rem(1px) $gray-light;
+    width: 100%;
+    text-align: center;
+    @include vr-spacing(p, 1);
+    color: $gray;
+    font-style: italic;
+    position: relative;
+    //search icon
+    &:before {
+      @extend .icon;
+      @extend .icon-search;
+      font-size: 1.3rem;
+      @include vr-spacing(ph, 1);
+      position: absolute;
+      top: -40px;
+      left: 60px;
+    }
+  }
+
+  // Input control.
+  input {
+    font-size: $font-size-h2;
+    font-family: $brand-font-thin;
+    color: $gray-dark-1;
+    text-align: center;
+    outline: none;
+    width: 28rem;
+    border: 0px none;
+    background: transparent;
+    &:focus {
+      box-shadow: none;
+    }
+
+    &:focus ~ .input-description {
+      border-top: solid rem(1px) $brand-primary;
+    }
+    &.error ~ .input-description {
+      border-top: solid rem(1px) $color-negative-base;
+    }
+    &::-webkit-input-placeholder {
+      text-align:center;
+    }
+    &::-moz-placeholder {
+      text-align: center;
+    }
+    &:-ms-input-placeholder {
+      text-align: center;
+    }
+    &:disabled {
+      background: transparent;
+      border: 0px none;
+      ~ .input-description {
+         border-top: solid rem(1px) $gray-light-3;
+         &:before {
+           color: $gray-light-3;
+         }
+      }
+    }
+  }
+
+  // Suggestion dropdown.
+  .dropdown-menu {
+    min-width: 28rem;
+    .active > a {
+      background: $gray-light-2;
+    }
+
+    & li a {
+      @include vr-spacing(ph, 1);
+      @include vr-spacing(pv, 0.5);
+    }
+
+    & span {
+      font-size: $font-size-h3;
+      font-family: $brand-font-cisco-TT-Extra-Light;
+      color: $gray-dark-2;
+    }
+  }
+}
+
+.cs-combo {
+  position: relative;
+  input {
+    width: 100%;
+  }
+  &:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-family: $Cisco-Toolkit-Icons;
+    font-size: 1.5rem;
+    @extend %icon-chevron-down;
+    pointer-events: none;
+    z-index: 1000;
+    transition: transform ease .15s;
+    transform: rotate(0);
+  }
+
+  &.open {
+    .dropdown-menu {
+      width: 100%;
+      padding: 0;
+    }
+    &:after {
+      transform: rotate(180deg);
+      top: -2px;
+    }
+  }
+}

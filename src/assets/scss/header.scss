@@ -1,0 +1,44 @@
+.header {
+  border-bottom: solid 1px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+  .title {
+    :active {
+      color: #202736;
+    }
+    margin: .2rem;
+    color: #202736;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+
+  button {
+    margin-left: .4rem;
+    height: 100%;
+
+    .link {
+      color: #202736;
+      text-decoration: none;
+    }
+  }
+  
+  h3 {
+    margin: .2rem;
+  }
+
+  .search-section {
+    display: inline-block;
+
+    input {
+      height: 1.6rem;
+      margin-right: .5rem;
+      border-radius: .3rem;
+    }
+
+    button {
+      height: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,235 @@
+/*------------------------------------*\
+    #DATEPICKER
+\*------------------------------------*/
+
+.cs-datapicker-normal {
+  overflow: hidden;
+  border: 1px solid $gray-light;
+  border-radius: 5px;
+  max-width: $datepicker-width;
+  cursor: pointer;
+  line-height: 28px;
+  background-color: $brand-white;
+  font-size: 14px;
+  i {
+    display: inline-block;
+    font-size: 24px;
+    vertical-align: middle;
+    padding-left: 3px;
+    color: $gray-dark;
+    &.date-selected {
+      color: $brand-primary;
+    }
+  }
+  input[type="text"][readonly] {
+    &.cs-datepicker-input {
+      display: inline-block;
+      width: calc(100% - 57px);
+      border: none;
+      vertical-align: middle;
+      cursor: pointer;
+      height: 28px;
+      margin-bottom: 3px;
+      margin-top: 2px;
+      padding: 3px;
+      background-color: $brand-white;
+      &:focus {
+        box-shadow: none;
+      }
+      &.close-hidden {
+        width: calc(100% - 32px);
+      }
+    }
+  }
+  .close {
+    display: inline-block;
+    margin-right: 6px;
+    font-weight: normal;
+    &:before {
+      font-size: $font-size-base;
+    }
+  }
+  /**
+   * Adding large datepicker
+   */
+  &.large {
+    max-width: $datepicker-large-width;
+    font-family: $brand-font-light;
+    font-size: 17px;
+    line-height: 43px;
+    i {
+      font-size: 34px;
+    }
+    input[type="text"][readonly] {
+      &.cs-datepicker-input {
+        width: calc(100% - 77px);
+        height: 43px;
+      }
+    }
+    .close {
+      margin-right: 10px;
+      &:before {
+        font-size: ($font-size-base * 1.5);
+      }
+    }
+  }
+}
+
+.cs-datepicker-input {
+  pointer-events: none;
+}
+.cs-datepicker {
+  position: absolute;
+  z-index: 2;
+  width: $datepicker-width;
+  background: $brand-white;
+  font-family: $font-family-base;
+  font-size: $font-size-large;
+  color: $text-color;
+  display: inline-block;
+  border: 1px solid $gray-light;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 2px;
+  .controls {
+    width: $datepicker-width - 20px;
+    display: inline-block;
+    padding: 5px 0 0 0;
+    i {
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .left {
+      display: inline-block;
+      float: left;
+      margin: 5px 0 0 0;
+      i.prev-year-btn {
+        float: left;
+        display: block;
+        font-size: 14px;
+        opacity: 0.4;
+      }
+      i.prev-month-btn {
+        float: left;
+        margin: -5px 0 0 9px;
+        display: block;
+      }
+    }
+    span.date {
+      text-align: center;
+      font-size: 14px;
+      color: $gray-dark;
+      font-weight: bold;
+      float: left;
+      padding: 5px 0 0 0;
+      width: 90%;
+    }
+    .right {
+      display: inline-block;
+      float: right;
+      margin: 5px 0 0 0;
+      i.next-year-btn {
+        float: left;
+        display: block;
+        font-size: 14px;
+        opacity: 0.4;
+      }
+      i.next-month-btn {
+        float: left;
+        margin: -6px 9px 0 0;
+      }
+    }
+  }
+  .day-names {
+    width: $datepicker-width - 20px;
+    border-bottom: 1px solid $gray-light;
+    display: inline-block;
+    span {
+      width: $daypicker-day-width;
+      text-align: center;
+      color: $gray;
+      float: left;
+      display: block;
+      margin: 0 2px 0 2px;
+      font-size: $font-size-small;
+    }
+  }
+  .calendar {
+    width: $datepicker-width;
+    display: inline-block;
+    margin: -3px 0 -4px -1px;
+    padding: 0;
+    span {
+      span.day {
+        width: 25px;
+        height: 25px;
+        float: left;
+        display: block;
+        color: $text-color;
+        text-align: center;
+        font-weight: bold;
+        line-height: $daypicker-day-width;
+        margin-right: 2px;
+        font-size: $font-size-small;
+        cursor: pointer;
+        padding-top: 2px;
+        &:hover {
+          border-radius: 50%;
+          background-color: $brand-primary;
+          color: $brand-white;
+        }
+      }
+      span.day.disabled {
+        cursor: default;
+        pointer-events: none;
+        background-color: $brand-white;
+        color: $gray-lighter;
+      }
+      span.day.selected-date {
+        border-radius: 50%;
+        background-color: $brand-primary;
+        color: $brand-white;
+      }
+    }
+  }
+  /**
+   * Adding large datepicker
+   */
+  &.large {
+    width: $datepicker-large-width;
+    font-family: $brand-font-light;
+    font-size: $font-size-large;
+    .controls {
+      width: $datepicker-large-width - 20px;
+      i {
+        font-size: 19px;
+      }
+    }
+    .calendar {
+      span {
+        span.day {
+          padding-top: 5px;
+          font-size: 13px;
+        }
+      }
+    }
+    .day-names {
+      width: $datepicker-large-width - 19px;
+      span {
+        width: 27px;
+      }
+    }
+    .calendar {
+      width: $datepicker-large-width;
+      span {
+        span.day {
+          width: $daypicker-large-day-width;
+          height: $daypicker-large-day-width;
+        }
+      }
+    }
+  }
+}

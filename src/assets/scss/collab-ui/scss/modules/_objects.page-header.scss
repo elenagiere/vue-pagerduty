@@ -1,0 +1,61 @@
+.page-header {
+  margin: 0;
+  padding: 0;
+  background-color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid $gray-light-3;
+
+  &__left {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    font-family: $brand-font-thin;
+    margin: 0;
+    padding: rem-calc(23) 2rem rem-calc(20);
+  }
+  &__right {
+    flex-grow: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: .75rem;
+  }
+
+  &__title {
+    color: $brand-info;
+    font-size: $h2-font-size;
+    line-height: 1;
+  }
+
+  .icon-arrow-back {
+    color: $page-header-icon-color;
+    font-size: $page-header-icon-font-size;
+    margin-right: $page-header-icon-margin-right;
+  }
+  .nav {
+    margin: 0;
+    li {
+      width: auto;
+      a {
+        color: $page-header-nav-color;
+        font-family: $brand-font-light;
+        font-size: $page-header-nav-font-size;
+        margin-right: $page-header-nav-margin-right;
+        margin-left: $page-header-nav-margin-left;
+        padding-bottom: $page-header-nav-padding-bottom;
+        padding-right: $page-header-nav-padding-right;
+        border-bottom: 3px solid $page-header-nav-border-bottom-color;
+        &:hover {
+          border-bottom-color: $page-header-nav-hover-border-bottom-color;
+        }
+      }
+      &.current.active > a.nav-link {
+        border-bottom-color: $page-header-nav-active-border-bottom-color;
+        color: $page-header-nav-active-color;
+        padding-bottom: $page-header-nav-padding-bottom;
+      }
+    }
+  }
+}
+

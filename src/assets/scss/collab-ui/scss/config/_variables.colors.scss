@@ -1,0 +1,130 @@
+// Symphony Color Variables
+
+// Gray Colors
+$color-black: #1A1A1A;
+$gray-dark-4: #292929;    // $gray-darkest
+$gray-dark-3: #343537;
+$gray-dark-2: #4F5051;
+$gray-dark-1: #6A6B6C;    // $gray-darker
+$gray-base: #858688;      // $gray-dark
+$gray-light-1: #AEAEAF;   // $gray
+$gray-light-2: #D7D7D8;   // $gray-lighter & $gray-light
+$gray-light-3: #EBEBEC;
+$gray-light-4: #F5F5F6;   // $gray-lightest
+$color-white: #FFF;
+
+// Primary Color Variations
+$color-primary-darker: #0387B8;
+$color-primary-dark: #0393C9;
+$color-primary-base: #049FD9;     // Cisco Blue
+$color-primary-light: #66C5E8;
+$color-primary-lighter: #C5E9F7;
+
+// People Color Variations
+$color-people-darker: #118E7C;
+$color-people-dark: #129B87;
+$color-people-base: #14A792;      // Mountain
+$color-people-light: #6EC9BC;
+$color-people-lighter: #C9EBE6;
+
+// Meetings Color Variations
+$color-meetings-darker: #C65919;
+$color-meetings-dark: #D8611B;
+$color-meetings-base: #E9691E;    // Sunset Orange
+$color-meetings-light: #F2A374;
+$color-meetings-lighter: #FADDCB;
+
+// Negative/End/Red Color Variations
+$color-negative-darker: #D03D35;
+$color-negative-dark: #E3423A;
+$color-negative-base: #F5483F;    // Red
+$color-negative-light: #F98E89;
+$color-negative-lighter: #FDD5D3;
+
+// CTA/Call/Green Color Variations
+$color-cta-darker: #398F38;
+$color-cta-dark: #3E9D3D;
+$color-cta-base: #43A942;         // Green
+$color-cta-light: #8BCA8A;
+$color-cta-lighter: #D4ECD4;
+
+// Notification/Attention/Yellow Color Variations
+$color-attention-darker: #D08D1D;
+$color-attention-dark: #E39A20;
+$color-attention-base: #F5A623;   // Yellow
+$color-attention-light: #F9C877;
+$color-attention-lighter: #FDEBCD;
+
+// Notification/Alerts/Coral Color Variations
+$color-alerts-darker: #D35545;
+$color-alerts-dark: #E25A4B;
+$color-alerts-base: #F96452;      // Coral
+$color-alerts-light: #FC9F94;
+$color-alerts-lighter: #FEDCD7;
+
+// Eggplant Color Variations
+// $color-eggplant-darker: darken($color-eggplant, 12%);
+// $color-eggplant-dark: darken($color-eggplant, 4%);
+$color-eggplant-base: $color-alerts-base;    // Eggplant
+// $color-eggplant-light: lighten($color-eggplant, 10%);
+// $color-eggplant-lighter: lighten($color-eggplant, 39.5%);
+
+// Base color aliases
+$color-primary: $color-primary-base;
+$color-people: $color-people-base;
+$color-meetings: $color-meetings-base;
+$color-eggplant: $color-eggplant-base;
+$color-negative: $color-negative-base;
+$color-cta: $color-cta-base;
+$color-attention: $color-attention-base;
+$color-alerts: $color-alerts-base;
+
+// Foundation uses these as default colors throughout
+$primary-color: $color-primary-base;
+$secondary-color: $gray-base;
+$alerts-color: $color-alerts-base;
+$alert-color: $color-alerts-base;
+$cta-color: $color-cta-base;
+$success-color: $color-cta-base;
+$attention-color: $color-attention-base;
+$warning-color: $color-attention-base;
+$people-color: $color-people-base;
+$info-color: $color-people-base;
+$meetings-color: $color-meetings-base;
+$negative-color: $color-negative-base;
+
+
+// Toolkit 1.0 Color Aliases
+
+$black: $color-black;
+$gray-darkest: $gray-dark-4;
+$gray-darker: $gray-dark-1;
+$gray-dark: $gray-base;
+$gray: $gray-light-1;
+$gray-light: $gray-light-2;
+$gray-lighter: $gray-light-2;
+$gray-lightest: $gray-light-4;
+$brand-white: $color-white;
+$white: $color-white;
+
+$brand-primary: $color-primary;
+$brand-primary-light: $color-primary-light;
+$brand-primary-dark: $color-primary-dark;
+$brand-primary-darker: $color-primary-darker;
+$brand-success: $color-cta;
+$brand-success-light: $color-cta-light;
+$brand-success-dark: $color-cta-dark;
+$brand-success-darker: $color-cta-darker;
+$brand-info: $color-people;
+$brand-info-light: $color-people-light;
+$brand-info-dark: $color-people-dark;
+$brand-info-darker: $color-people-darker;
+$brand-warning: $color-attention;
+$brand-warning-light: $color-attention-light;
+$brand-warning-dark: $color-attention-dark;
+$brand-warning-darker: $color-attention-darker;
+$brand-danger: $color-negative;
+$brand-danger-light: $color-negative-light;
+$brand-danger-dark: $color-negative-dark;
+$brand-danger-darker: $color-negative-darker;
+

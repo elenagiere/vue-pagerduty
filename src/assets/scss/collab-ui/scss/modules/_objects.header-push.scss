@@ -1,0 +1,63 @@
+/* ---------- HEADER PUSH ---------- */
+
+.top-bar-admin .right {
+  .push-down-trigger {
+    cursor: pointer;
+    font-size: 13px;
+    .btn.btn--header {
+      top: 0;
+      @include easing-transition(all, 500ms, $ease);
+      position: relative;
+      &.open {
+        @include easing-transition(all, 500ms, $ease);
+        background-color: $gray-lightest;
+        border-bottom: none;
+        box-shadow: 0px 2px 0px -1px $gray-light-4;
+      }
+    }
+    .state-error,
+    .state-error:focus {
+      color: $brand-danger;
+    }
+    .state-warning,
+    .state-warning:focus {
+      color: $brand-warning-dark;
+    }
+  }
+}
+
+.push-down-container {
+  @include easing-transition(all, 500ms, $easeInOutQuint);
+   max-height: 0px;
+   overflow: hidden;
+   display: block;
+  .icon-close {
+    color: $gray;
+    font-size: 26px;
+    float: right;
+    margin-top: 18px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  &.open {
+    max-height: none;
+  }
+}
+
+.push-down-container-inner {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: $gray-lightest;
+  border-bottom: solid 1px $gray-lighter;
+}
+
+.push-label {
+  display: none;
+  @media (min-width: 1070px) {
+    display: inline-block;
+  }
+}
+
+/* ---------- END HEADER PUSH ---------- */

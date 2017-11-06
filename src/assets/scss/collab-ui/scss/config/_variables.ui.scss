@@ -1,0 +1,460 @@
+@import "variables.colors";
+
+$ui-namespace: "ui-" !default;
+
+//------------------------------------
+//    #BASELINE-UTILITY-VARIABLES
+//------------------------------------
+
+$rem-base: $rem-base;
+$base-cap-height: 0.0618em !global;
+
+// 8px used in _trumps.spacing.responsive.scss
+$base-unit-rem: $rem-base / 1px;
+$base-unit-px: 4;
+$base-rem: 0.5rem;
+
+// this value has to be adjusted to the font used or 0 to use line-height
+$base-line-height: $base-line-height-ratio !global;
+
+// ex.: golden ratio
+// current: 16 * 1.71429 / 4 = 6.85716
+$base-scale: $base-unit-rem * $base-line-height-ratio / $base-unit-px !global;
+
+// 4px = 0.25rem
+$base-unit: $base-line-height / $base-scale * $rem-base !global;
+
+//------------------------------------
+//    #SETTINGS-RESPONSIVE
+//    Hold our breakpoint aliases and conditions in a list.
+//------------------------------------
+
+$breakpoints: ("small-up": $small-up, "small-only": $small-only, "medium-up": $medium-up, "medium-only": $medium-only, "large-up": $large-up, "large-only": $large-only, "xlarge-up": $xlarge-up, "xlarge-only": $xlarge-only, "xxlarge-up": $xxlarge-up, "xxlarge-only": $xxlarge-only) !default;
+
+//------------------------------------
+//    #Specify custom locations of the included icon font.
+//    Useful for those including via Bower or npm.
+//------------------------------------
+
+$ui-icon-font-path: "../fonts/" !default;
+$ui-icon-font-name: "Cisco_Toolkit_Icons" !default;
+$ui-icon-font-svg-id: "Cisco_Toolkit_Icons" !default;
+
+//------------------------------------
+//    #SPACING-VARIABLES
+//------------------------------------
+
+$ui-margin: $base-rem * 2 !default;
+$ui-margin--small: $base-rem !default;
+$ui-margin--large: $base-rem * 3 !default;
+$ui-margin--huge: $base-rem * 4 !default;
+
+$ui-padding: $base-rem * 2 !default;
+$ui-padding--small: $base-rem !default;
+$ui-padding--large: $base-rem * 3 !default;
+$ui-padding--huge: $base-rem * 4 !default;
+
+//------------------------------------
+// Cisco Custom Fonts located in _settings.foundation.scss
+//------------------------------------
+
+// TODO: Replace variables in app.
+$brand-font-cisco-TT-Bold: $brand-font-bold;
+$brand-font-cisco-TT-Bold-Oblique: $brand-font-bold-oblique;
+$brand-font-cisco-TT-Extra-Light: $brand-font-extra-light;
+$brand-font-cisco-TT-Extra-Light-Oblique: $brand-font-extra-light-oblique;
+$brand-font-cisco-TT-Heavy: $brand-font-heavy;
+$brand-font-cisco-TT-Heavy-Oblique: $brand-font-heavy-oblique;
+$brand-font-cisco-TT-Light: $brand-font-light;
+$brand-font-cisco-TT-Light-Oblique: $brand-font-light-Oblique;
+$brand-font-cisco-TT-Regular: $brand-font-regular;
+$brand-font-cisco-TT-Regular-Oblique: $brand-font-regular-oblique;
+$brand-font-cisco-TT-Thin: $brand-font-thin;
+$brand-font-cisco-TT-Thin-Oblique: $brand-font-thin-oblique;
+$cisco-toolkit-icons: $Cisco-Toolkit-Icons;
+
+//------------------------------------
+//    #FONT-SIZE-VARIABLES
+//    create font size map to zurb's foundation
+//------------------------------------
+$fontSizes: (dl: $paragraph-font-size, dt: $paragraph-font-size, dd: $paragraph-font-size, li: $paragraph-font-size, title-heading: $title-heading-font-size, h1: $h1-font-size, h2: $h2-font-size, h3: $h3-font-size, h4: $h4-font-size, h5: $h5-font-size, h6: $h6-font-size, pre: $paragraph-font-size, code: $paragraph-font-size, p: $paragraph-font-size, blockquote: $paragraph-font-size, th: $paragraph-font-size, td: $paragraph-font-size, label: $form-label-font-size, input: $input-font-size, small: $small-font-size, body-small: $body-small-font-size, body-smallest: $body-smallest-font-size) !global;
+
+//------------------------------------
+//    #FONT-FACES-VARIABLES
+//    create font size map to cisco fonts
+//------------------------------------
+
+$fontFaces: (title-heading: $brand-font-thin, h1: $brand-font-thin, h2: $brand-font-extra-light, h3: $brand-font-extra-light, h4: $brand-font-light, h5: $brand-font-light, h6: $brand-font-light, pre: $brand-font-light, code: $font-family-monospace, kbd: $brand-font-light, p: $brand-font-light, small: $brand-font-regular, body-small: $brand-font-regular, body-smallest: $brand-font-regular) !global;
+
+//------------------------------------
+//    #LINE-HEIGHT-VARIABLES
+//    create line height map to cisco fonts
+//------------------------------------
+
+$lineHeights: (title-heading: $title-heading-line-height, h1: $h1-line-height, h2: $h2-line-height, h3: $h3-line-height, h4: $h4-line-height, h5: $h5-line-height, h6: $h6-line-height, p: $paragraph-line-height, ul: $list-line-height, ol: $list-line-height, dl: $list-line-height,input: $input-line-height, body-small: $body-small-line-height, body-smallest: $body-smallest-line-height) !global;
+
+//------------------------------------
+//    #SLIDER-VARIABLES
+//------------------------------------
+
+$slider-bar-height: 4px !default;
+$slider-handle-size: 32px !default;
+$slider-bubble-padding: 1px 3px !default;
+$slider-handle-pointer-size: 8px !default;
+
+//------------------------------------
+// Datepicker
+//------------------------------------
+$datepicker-width: 211px !default;
+$daypicker-day-width: 22px !default;
+$datepicker-large-width: $datepicker-width + 25px !default;
+$daypicker-large-day-width: 30px;
+
+//------------------------------------
+// SidePanel
+//------------------------------------
+
+$side-panel-width: rem-calc(533);
+$side-panel-padding: rem-calc(25);
+$feature-line-height: rem-calc(36);
+
+//------------------------------------
+// Cards
+//------------------------------------
+$card-background: $gray-lightest;
+$card-color: $brand-white;
+$card-padding-top: $rem-base;
+$card-padding-horizontal: 0.5;
+$card-divider-color: $gray-lighter;
+$card-border-radius: 2px;
+
+//------------------------------------
+// Toaster
+//------------------------------------
+$textColor: $gray-light-3 !default;
+$textColorHover: $gray-base !default;
+$closeButton: $gray-light-2 !default;
+$closeButtonHover: $gray-light-1 !default;
+
+$toastFontSize: 1rem !default;
+
+$toast: $brand-white !default;
+$toastSuccess: $color-cta-base !default;
+$toastError: $color-alerts-base !default;
+$toastInfo: $color-attention-base !default;
+$toastWarning: $brand-warning !default;
+
+$toastPositionFullWidthTop: 0 !default;
+$toastPositionFullWidthBottom: 0 !default;
+
+$toastPossitionTop: 1rem !default;
+$toastPossitionLeft: 1rem !default;
+$toastPossitionRight: 1rem !default;
+$toastPossitionBottom: 1rem !default;
+
+$toastContainerColor: $gray-dark-1 !default;
+$toastContainerShadowColor: #999999 !default;
+$toastContainerShadowColorHover: #000000 !default;
+
+$toast-error-icon-code: "\e60b";
+$toast-error-icon: '#{$toast-error-icon-code}';
+$toast-success-icon-code: "\e605";
+$toast-success-icon: '#{$toast-success-icon-code}';
+$toast-warning-icon-code: "\e617";
+$toast-warning-icon: '#{$toast-warning-icon-code}';
+$toast-close-icon-code: "\e60a";
+$toast-close-icon: '#{$toast-close-icon-code}';
+$toast-close-icon-dimension: rem-calc(18);
+
+$toast-close-icon-left: 5px;
+$toast-close-icon-top: rem-calc(16);
+$toast-icon-top: rem-calc(16);
+$toast-icon-left: 1rem;
+$toast-icon-success-left: rem-calc(4);
+$toast-icon-font-size: 1.5rem;
+$toast-icon-success-font-size: rem-calc(36);
+$toast-icon-line-height: 1.4rem;
+$toast-icon-height: 1rem;
+$toast-icon-width: 1rem;
+
+$toast-padding: .75rem;
+$toast-padding-sm: 0.5rem;
+$toast-padding-left: 5.5rem;
+$toast-padding-bottom: 10px;
+$toast-width: 25rem;
+$toast-width-sm: 18rem;
+$toast-width-mini: 11rem;
+$toast-right: 1rem;
+$toast-min-height: rem-calc(72);
+$toast-max-height: rem-calc(144);
+
+//------------------------------------
+// Page Header
+//------------------------------------
+
+$page-header-height: rem-calc(80);
+$page-header-icon-color: $gray;
+$page-header-icon-font-size: rem-calc(36);
+$page-header-icon-margin-right: rem-calc(16);
+$page-header-nav-color: $gray;
+$page-header-nav-margin-top: rem-calc(40);
+$page-header-nav-margin-bottom: 0;
+$page-header-nav-margin-right: rem-calc(20);
+$page-header-nav-margin-left: rem-calc(20);
+$page-header-nav-font-size: rem-calc(20);
+$page-header-nav-padding-right: 0;
+$page-header-nav-padding-bottom: rem-calc(17);
+$page-header-nav-border-bottom-color: transparent;
+$page-header-nav-hover-border-bottom-color: $gray;
+$page-header-nav-active-border-bottom-color: $brand-primary;
+$page-header-nav-active-color: $brand-primary;
+$page-header-nav-active-hover-padding-bottom: rem-calc(24);
+
+//------------------------------------
+// Page Sub Header
+//------------------------------------
+
+$page-sub-header-height: rem-calc(66);
+$page-sub-header-vertical-padding: .75rem;
+$page-sub-header-horizontal-padding: 2rem;
+$page-sub-header-nav-color: $gray;
+$page-sub-header-nav-margin-right: rem-calc(32);
+$page-sub-header-nav-font-size: rem-calc(20);
+$page-sub-header-nav-padding-right: 0;
+$page-sub-header-nav-padding-bottom: rem-calc(12);
+$page-sub-header-nav-border-bottom-color: transparent;
+$page-sub-header-nav-hover-border-bottom-color: $gray;
+$page-sub-header-nav-active-border-bottom-color: $brand-primary;
+$page-sub-header-nav-active-color: $brand-primary;
+
+//------------------------------------
+// Page Padding
+//------------------------------------
+
+$page-side-padding: 2rem;
+
+//------------------------------------
+// Z-index
+//------------------------------------
+
+$zindex-top-bar-fixed: 1030;
+
+//------------------------------------
+// Global Header / top-bar
+//------------------------------------
+
+// Basics of a top-bar
+$top-bar-height: 50px;
+$top-bar-border-width: 1px;
+
+// Top Bar links
+$top-bar-default-link-color: $gray-dark;
+$top-bar-default-link-hover-color: $gray-darker;
+$top-bar-default-link-hover-bg: $gray-lightest;
+$top-bar-default-link-active-color: $brand-white;
+$top-bar-default-link-active-bg: $brand-primary;
+$top-bar-default-link-disabled-color: $gray-dark;
+$top-bar-default-link-disabled-bg: transparent;
+
+// Inverted top-bar
+// Reset inverted top-bar basics
+$top-bar-inverse-border: $gray-dark-1;
+
+// Inverted top-bar links
+$top-bar-inverse-link-color: $gray-dark;
+$top-bar-inverse-link-disabled-color: $gray-darkest;
+
+// Admin top-bar
+// Reset Admin top-bar basics
+$top-bar-admin-color: $gray;
+$top-bar-admin-border: $gray-light-2;
+
+// Admin Top Bar links
+$top-bar-admin-link-color: $gray-dark;
+$top-bar-admin-link-hover-color: $gray-darkest;
+$top-bar-admin-link-hover-bg: $gray-lightest;
+$top-bar-admin-link-active-color: $brand-white;
+$top-bar-admin-link-active-bg: $brand-primary;
+$top-bar-admin-link-disabled-color: $gray-dark;
+$top-bar-admin-link-disabled-bg: transparent;
+
+// Admin Top Bar brand label
+$top-bar-admin-brand-color: $gray-dark;
+$top-bar-admin-brand-hover-color: darken($top-bar-admin-brand-color, 10%);
+$top-bar-admin-brand-hover-bg: transparent;
+
+// Admin Top Bar toggle
+$top-bar-admin-toggle-hover-bg: $gray-light;
+$top-bar-admin-toggle-icon-bar-bg: $gray-light;
+$top-bar-admin-toggle-border-color: $gray-light;
+
+//------------------------------------
+// Switch Button
+//------------------------------------
+$switchbutton-height: 38px;
+$switchbutton-width: 78px;
+$switchsize: 30px;
+
+//------------------------------------
+// Radio Button
+//------------------------------------
+$radiobuttonSize: 20px;
+
+//------------------------------------
+// Checkbox
+//------------------------------------
+$checkboxSize: 20px;
+
+//------------------------------------
+// Slider
+//------------------------------------
+$slider-bar-height: 4px;
+$slider-handle-size: 32px;
+$slider-bubble-padding: 1px 3px;
+$slider-handle-pointer-size: 8px;
+
+//------------------------------------
+// Accordions
+//------------------------------------
+$accordion-navigation-padding: rem-calc(16);
+$accordion-navigation-bg-color: $silver;
+$accordion-navigation-hover-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -5%);
+$accordion-navigation-active-bg-color: scale-color($accordion-navigation-bg-color, $lightness: -3%);
+$accordion-navigation-font-color: $jet;
+$accordion-navigation-font-size: rem-calc(13);
+$accordion-navigation-font-family: $brand-font-regular;
+
+$accordion-content-padding: rem-calc(15);
+$accordion-content-active-bg-color: $white;
+
+//------------------------------------
+// Buttons
+//------------------------------------
+$button-class: "btn";
+
+// We use these to build padding for buttons.
+// $button-tny: rem-calc(10) !default;
+// $button-sml: rem-calc(14) !default;
+$button-med: rem-calc(16) !default;
+$button-lrg: rem-calc(24) !default;
+
+// We use this to control the display property.
+$button-display: inline-block !default;
+$button-margin-bottom: 0 !default;
+
+// We use these to control button text styles.
+$button-font-family: $brand-font-light !default;
+$button-font-color: $white !default;
+$button-font-color-alt: $gray-dark-4 !default;
+
+// $button-font-tny: rem-calc(12) !default;
+// $button-font-sml: rem-calc(14) !default;
+$button-font-med: rem-calc(16) !default;
+$button-font-lrg: rem-calc(20) !default;
+$button-font-weight: $font-weight-normal !default;
+$button-font-align: center !default;
+
+// We use these to control various hover effects.
+$button-function-factor: -20% !default;
+$button-transition-speed: 150ms;
+
+// Button border styles
+$button-border-width: 0 !default;
+$button-border-style: none !default;
+
+// Button color styles.
+$button-bg-color: $gray-base !default;
+$button-bg-hover: $gray-dark-1 !default;
+$button-bg-focus: $gray-dark-1 !default;
+$button-bg-active: $gray-dark-2 !default;
+$button-border-color: null !default;
+
+// Primary button colors
+$primary-button-bg-color: $color-primary !default;
+$primary-button-bg-hover: $color-primary-dark !default;
+$primary-button-bg-focus: $color-primary !default;
+$primary-button-bg-active: $color-primary-darker !default;
+$primary-button-border-color: null !default;
+
+// Meetings button colors
+$meetings-button-bg-color: $color-meetings !default;
+$meetings-button-bg-hover: $color-meetings-dark !default;
+$meetings-button-bg-focus: $color-meetings !default;
+$meetings-button-bg-active: $color-meetings-darker !default;
+$meetings-button-border-color: null !default;
+
+// People button colors
+$people-button-bg-color: $color-people !default;
+$people-button-bg-hover: $color-people-dark !default;
+$people-button-bg-focus: $color-people !default;
+$people-button-bg-active: $color-people-darker !default;
+$people-button-border-color: null !default;
+
+// Negative button colors
+$negative-button-bg-color: $color-negative !default;
+$negative-button-bg-hover: $color-negative-dark !default;
+$negative-button-bg-focus: $color-negative !default;
+$negative-button-bg-active: $color-negative-darker !default;
+$negative-button-border-color: null !default;
+
+// Cta button colors
+$cta-button-bg-color: $color-cta !default;
+$cta-button-bg-hover: $color-cta-dark !default;
+$cta-button-bg-focus: $color-cta !default;
+$cta-button-bg-active: $color-cta-darker !default;
+$cta-button-border-color: null !default;
+
+// Alerts button colors
+$alerts-button-bg-color: $color-alerts !default;
+$alerts-button-bg-hover: $color-alerts-dark !default;
+$alerts-button-bg-focus: $color-alerts !default;
+$alerts-button-bg-active: $color-alerts-darker !default;
+$alerts-button-border-color: null !default;
+
+// Attention button colors
+$attention-button-bg-color: $color-attention !default;
+$attention-button-bg-hover: $color-attention-dark !default;
+$attention-button-bg-focus: $color-attention !default;
+$attention-button-bg-active: $color-attention-darker !default;
+$attention-button-border-color: null !default;
+
+$secondary-button-bg-hover: scale-color($secondary-color, $lightness: $button-function-factor) !default;
+$secondary-button-border-color: $secondary-button-bg-hover !default;
+$success-button-bg-hover: scale-color($success-color, $lightness: $button-function-factor) !default;
+$success-button-border-color: $success-button-bg-hover !default;
+$alert-button-bg-hover: scale-color($alert-color, $lightness: $button-function-factor) !default;
+$alert-button-border-color: $alert-button-bg-hover !default;
+$warning-button-bg-hover: scale-color($warning-color, $lightness: $button-function-factor) !default;
+$warning-button-border-color: $warning-button-bg-hover !default;
+$info-button-bg-hover: scale-color($info-color, $lightness: $button-function-factor) !default;
+$info-button-border-color: $info-button-bg-hover !default;
+
+// We use this to set the default radius used throughout the core.
+$button-radius: $global-radius !default;
+$button-round: $global-rounded !default;
+
+// We use this to set default background and cursor for disabled buttons.
+$button-bg-disabled: $gray-light-3 !default;
+$button-font-color-disabled: $gray-light-1 !default;
+$button-disabled-cursor: default !default;
+
+//------------------------------------
+// Focus
+//------------------------------------
+$focus-color: $color-primary-darker;
+
+//------------------------------------
+// UI_Grid
+//------------------------------------
+$ui-grid-border-width: 1px;
+$ui-grid-border-radius: 0px;
+$ui-grid-border-color: $gray-light-3;
+$ui-grid-header-background-color: $gray-light-4;
+$ui-grid-background-gradient-settings: -webkit-gradient(linear, left bottom, left top, color-stop(0, $gray-light-3), color-stop(1, $white));
+$ui-grid-vertical-bar-color: $gray-darker;
+$ui-grid-rowcolor-even: transparent;
+$ui-grid-rowcolor-odd:  transparent;
+$ui-grid-row-header-cell-background-color: transparent;
+$ui-grid-top-panel-radius: $ui-grid-border-radius - $ui-grid-border-width;
+$ui-grid-sort-arrow-width: 20px;
+$ui-grid-selected-color: $color-primary-base;

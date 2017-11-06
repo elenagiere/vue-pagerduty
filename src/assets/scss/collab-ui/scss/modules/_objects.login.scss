@@ -1,0 +1,60 @@
+.messagebox-backdrop.login-box {
+  flex: 0 0 auto;
+  .message-box {
+    min-height: vr-adjust(560);
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    &__title {
+      font-size: rem-calc(36);
+      margin-bottom: .75rem;
+      @media #{$small-only} {
+        font-size: rem-calc(26);
+      }
+    }
+  }
+  .cs-input-group {
+    margin-bottom: .75rem;
+  }
+  .cs-input {
+    text-align: center;
+    font-size: 1.25rem;
+    height: 3rem;
+  }
+  input[readonly],
+  input.readonly {
+    background-color: rgba($gray-light-3, .4);
+    border-color: $gray-light-2;
+  }
+  .cs-input__messages {
+    text-align: left;
+  }
+  form,
+  .cs-form {
+    padding-top: 1.25rem;
+    margin-bottom: 0;
+  }
+  .validation-messages {
+    .cs-input__messages {
+      padding-top: 0;
+    }
+  }
+  .password-link {
+    text-align: left;
+    display: block;
+  }
+  .login-spinner {
+    margin-top: 20%;
+    font-size: 1.5rem;
+
+    .icon-spinner {
+      position: relative;
+    }
+  }
+  &.loading {
+    form,
+    button,
+    .message-box__footer {
+      display: none;
+    }
+  }
+}

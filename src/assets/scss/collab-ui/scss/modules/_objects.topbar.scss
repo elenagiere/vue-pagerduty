@@ -1,0 +1,49 @@
+$top-bar-user-height: rem-calc(68);
+$top-bar-mobile-height: rem-calc(48);
+.sign-out {
+  margin-right: 0;
+}
+.top-bar--user {
+  background-color: $white;
+  @include box-shadow(0px -2px 2px 2px #858688);
+  @media #{$medium-up} {
+    @include vr-spacing(pt, 1);
+  }
+  .top-bar {
+    height: $top-bar-mobile-height;
+    box-shadow: none;
+    overflow: visible;
+    @media #{$medium-up} {
+      height: $top-bar-user-height;
+    }
+    .app-logo {
+      @include vr-spacing(mt, -1);
+      .icon {
+        color: $gray-light-1;
+        font-size: rem-calc(26);
+        @include vr-spacing(pr, 1);
+        display: flex;
+        align-items: center;
+      }
+      img {
+        width: 48px;
+        margin: 0 auto;
+        max-width: none;
+      }
+    }
+    .app-name {
+      @extend .h4;
+      font-family: $brand-font-extra-light;
+      color: $gray-dark-1;
+      display: flex;
+      align-items: center;
+      @media #{$small-only} {
+        display: none;
+      }
+    }
+    .title-area {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

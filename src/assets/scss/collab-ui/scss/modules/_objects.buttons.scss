@@ -1,0 +1,340 @@
+// @MIXIN
+//
+// Create a default button base.
+//
+// $style - Sets base styles. Can be set to false. Default: true.
+// $border - Used to control border style and width. Default: false.
+// $display - Used to control display property. Default: $button-display || inline-block
+@mixin cs-button-base($style:true, $border:false, $display:$button-display) {
+  @if $style {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: $button-font-color;
+    cursor: $cursor-pointer-value;
+    font-family: $button-font-family;
+    font-weight: $button-font-weight;
+    margin: 0 0 $button-margin-bottom;
+    position: relative;
+    border-radius: $button-radius;
+    text-align: $button-font-align;
+    text-decoration: none;
+  }
+  @if $border {
+    border-style: $button-border-style;
+    border-width: $button-border-width;
+  }
+  @else {
+    border: none;
+  }
+  @if $display {
+    display: $display;
+  }
+}
+
+// @MIXIN
+//
+// Add button size styles
+//
+// $padding - Used to build padding for buttons Default: $button-med ||= rem-calc(16)
+// $full-width - We can set $full-width:true to remove side padding extend width - Default: false
+@mixin cs-button-size($padding:$button-med, $full-width:false) {
+  // Control which padding styles come through,
+  // these can be turned off by setting $padding:false
+  @if $padding {
+    // Control the font-size based on mixin input.
+    @if $padding==$button-med {
+      font-size: $button-font-med;
+      line-height: ($button-font-med * .75) + rem-calc(1);
+      padding-top: (($padding * .75) + rem-calc(1));
+      padding-right: $padding;
+      padding-bottom: (($padding * .75) - rem-calc(2));
+      padding-left: $padding;
+      min-width: rem-calc(72);
+    }
+    // @else if $padding == $button-tny { font-size: $button-font-tny; }
+    // @else if $padding == $button-sml { font-size: $button-font-sml; }
+    @else if $padding==$button-lrg {
+      font-size: $button-font-lrg;
+      line-height: ($button-font-lrg * .75) + rem-calc(1);
+      padding: ($padding * .66667) $padding (($padding * .66667)) $padding;
+      min-width: rem-calc(72);
+    }
+  }
+  // Let inner spans keep button font size
+  > span,
+  > span > span {
+    font-size: inherit;
+  }
+  // Set $full-width:true to remove side padding extend width.
+  @if $full-width {
+    @if $padding {
+      padding-bottom: $padding + rem-calc(1);
+      padding-top: $padding;
+    }
+    @else if $padding==false {
+      padding-bottom: 0;
+      padding-top: 0;
+    }
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+}
+
+// @MIXIN
+//
+// Add button color styles
+//
+// $bg - Background color. We can set $bg:false for a transparent background. Default: $primary-color.
+// $radius - If true, set to button radius which is $button-radius || explicitly set radius amount in px (ex. $radius:10px). Default: false
+// $disabled - We can set $disabled:true to create a disabled transparent button. Default: false
+// $bg-hover - Button Hover Background Color. Default: $button-bg-hover
+// $border-color - Button Border Color. Default: $button-border-color
+@mixin cs-button-style($bg:$button-bg-color, $bg-hover:$button-bg-hover, $bg-focus:$button-bg-focus, $bg-active:$button-bg-active, $border-color:null, $radius:false, $disabled:false) {
+  background-color: $bg;
+  border-color: $border-color;
+  &:hover,
+  &:focus,
+  &.hover-state,
+  &.focus-state {
+    color: $button-font-color;
+  }
+  &:hover,
+  &.hover-state {
+    background-color: $bg-hover;
+  }
+  &:focus,
+  &.focus-state {
+    background-color: $bg-focus;
+    @include focus-styles;
+  }
+  &:active,
+  &.active-state {
+    background-color: $bg-active;
+    &:focus,
+    &.focus-state {
+      @include box-shadow(none);
+    }
+  }
+  // Set $disabled:true to create a disabled transparent button.
+  @if $disabled {
+    box-shadow: none;
+    cursor: $button-disabled-cursor;
+    background-color: $button-bg-disabled;
+    color: $button-font-color-disabled;
+    &:hover,
+    &:focus {
+      background-color: $button-bg-disabled;
+      color: $button-font-color-disabled;
+      @include box-shadow(none);
+    }
+  }
+  // Control how much button radius is used.
+  @if $radius==true {
+    @include radius($button-radius);
+  }
+  @else if $radius {
+    @include radius($radius);
+  }
+}
+
+// @MIXIN
+//
+// Quickly create buttons with a single mixin.
+//
+// $padding - Used to build padding for buttons Default: $button-med ||= rem-calc(12)
+// $bg - Primary color set in settings file. Default: $button-bg.
+// $radius - If true, set to button radius which is $global-radius || explicitly set radius amount in px (ex. $radius:10px). Default:false.
+// $full-width - We can set $full-width:true to remove side padding extend width. Default:false.
+// $disabled - We can set $disabled:true to create a disabled transparent button. Default:false.
+// $bg-hover - Button Hover Color - Default null - see cs-button-style mixin
+// $border-color - Button Border Color - Default null - see cs-button-style mixin
+// $transition - We can control whether or not to include the background-color transition property - Default:true.
+@mixin button($bg:$button-bg-color, $bg-hover:$button-bg-hover, $bg-focus:$button-bg-focus, $bg-active:$button-bg-active, $border-color:null, $radius:false, $disabled:false, $transition:true) {
+  @include cs-button-base;
+  @include cs-button-size($padding, $full-width);
+  @include cs-button-style($bg, $radius, $disabled, $bg-hover, $border-color);
+  @if $transition {
+    @include single-transition(background-color, $button-transition-speed, ease);
+  }
+}
+
+@include exports("cs-button") {
+  // Default styles applied outside of media query
+  %#{$button-class},
+  .#{$button-class},
+  button {
+    @include cs-button-base;
+    @include cs-button-size;
+    @include cs-button-style;
+    @include single-transition(background-color, $button-transition-speed, ease);
+    &--large {
+      @include cs-button-size($padding: $button-lrg);
+    }
+    &--expand {
+      @include cs-button-size($padding: null, $full-width: true);
+      display: block;
+    }
+    &--left {
+      text-align: left;
+      text-indent: rem-calc(12);
+    }
+    &--right {
+      text-align: right;
+      padding-right: rem-calc(12);
+    }
+    &--circle {
+      @include cs-button-style($bg: false, $radius: $button-round);
+      min-width: initial;
+      padding: 0;
+      width: rem-calc(50);
+      height: rem-calc(50);
+      font-size: rem-calc(24);
+      &.icon {
+        font-family: $Cisco-Toolkit-Icons;
+      }
+      > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      span {
+        font-size: inherit;
+      }
+      &.#{$button-class}--large {
+        width: rem-calc(80);
+        height: rem-calc(80);
+        font-size: rem-calc(38);
+      }
+    }
+    &.circle-large // TODO: Completely Remove .circle-large after converted in Atlas
+    {
+      @include cs-button-style($bg: false, $radius: $button-round);
+      font-family: $Cisco-Toolkit-Icons;
+      min-width: initial;
+      padding: 0;
+      width: rem-calc(80);
+      height: rem-calc(80);
+      font-size: rem-calc(38);
+      > span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      span {
+        font-size: inherit;
+      }
+    }
+    &--primary {
+      @include cs-button-style($bg: $primary-color, $bg-hover: $primary-button-bg-hover, $bg-focus: $primary-button-bg-focus, $bg-active: $primary-button-bg-active, $border-color: $primary-button-border-color);
+    }
+    &--meetings {
+      @include cs-button-style($bg: $meetings-color, $bg-hover: $meetings-button-bg-hover, $bg-focus: $meetings-button-bg-focus, $bg-active: $meetings-button-bg-active, $border-color: $meetings-button-border-color);
+    }
+    &--people,
+    &--info {
+      @include cs-button-style($bg: $people-color, $bg-hover: $people-button-bg-hover, $bg-focus: $people-button-bg-focus, $bg-active: $people-button-bg-active, $border-color: $people-button-border-color);
+    }
+    &--negative,
+    &--end {
+      @include cs-button-style($bg: $negative-color, $bg-hover: $negative-button-bg-hover, $bg-focus: $negative-button-bg-focus, $bg-active: $negative-button-bg-active, $border-color: $negative-button-border-color);
+    }
+    &--cta,
+    &--success {
+      @include cs-button-style($bg: $cta-color, $bg-hover: $cta-button-bg-hover, $bg-focus: $cta-button-bg-focus, $bg-active: $cta-button-bg-active, $border-color: $cta-button-border-color);
+    }
+    &--alert,
+    &--alerts {
+      @include cs-button-style($bg: $alerts-color, $bg-hover: $alerts-button-bg-hover, $bg-focus: $alerts-button-bg-focus, $bg-active: $alerts-button-bg-active, $border-color: $alerts-button-border-color);
+    }
+    &--attention,
+    &--warning {
+      @include cs-button-style($bg: $attention-color, $bg-hover: $attention-button-bg-hover, $bg-focus: $attention-button-bg-focus, $bg-active: $attention-button-bg-active, $border-color: $attention-button-border-color);
+    }
+    &--link {
+      @include cs-button-style($bg: transparent, $bg-hover: $button-bg-hover, $bg-focus: $button-bg-focus, $bg-active: $button-bg-active, $border-color: transparent);
+      color: $anchor-font-color;
+      &:hover,
+      &:focus {
+        color: $button-font-color;
+      }
+    }
+    &.disabled,
+    &[disabled] {
+      @include cs-button-style($bg: $button-bg-color, $disabled: true, $bg-hover: $button-bg-hover, $border-color: $button-border-color);
+    }
+    & + button,
+    & + .btn,
+    & + .button {
+      margin-left: .5rem;
+    }
+  }
+  //firefox 2px fix
+  button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  @media #{$medium-up} {
+    button,
+    &.#{$button-class},
+    .button {
+      @include cs-button-base($style: false, $display: inline-block);
+      @include cs-button-size($padding: false, $full-width: false);
+    }
+  }
+}
+
+// Remove default button element styling
+.#{$button-class}--none,
+%#{$button-class}--none {
+  color: inherit;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+  min-width: initial;
+  &,
+  &:active,
+  &[disabled],
+  fieldset[disabled] & {
+    background-color: transparent;
+    @include box-shadow(none);
+  }
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: transparent;
+  }
+  &:hover,
+  &:focus {
+    color: $link-hover-color;
+    text-decoration: none;
+    background-color: transparent;
+    box-shadow: none;
+  }
+  &[disabled],
+  fieldset[disabled] & {
+    &:hover,
+    &:focus {
+      color: $btn-link-disabled-color;
+      text-decoration: none;
+    }
+  }
+}
+
+// TODO: Remove depreciated selectors after converting in Atlas
+.button, .btn, button { @extend %#{$button-class};
+  &.secondary, &.primary, &.btn-primary { @extend %btn--primary; }
+  &.info, &.btn-info { @extend %btn--people; }
+  &.btn-danger { @extend %btn--negative; }
+  &.success, &.btn-success { @extend %btn--cta;}
+  &.alert { @extend %btn--alert; }
+  &.btn-block { @extend %btn--expand; }
+  &.warning, &.btn-warning { @extend %btn--attention; }
+  &.btn-link { @extend %btn--link; }
+  &.large, &.btn-lg { @extend %btn--large; }
+  &.left-align { @extend %btn--left; }
+  &.right-align { @extend %btn--right; }
+  &.circle-small { @extend %btn--circle; }
+  &.btn-none { @extend %btn--none; }
+}

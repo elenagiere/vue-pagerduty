@@ -1,0 +1,101 @@
+/*------------------------------------*\
+    TYPOGRAPHY
+\*------------------------------------*/
+
+@mixin brand-font-family-ciscoFont {
+  @font-face {
+    font-family: "CiscoSansTT Bold";
+    src: url("#{$brand-font-folder}/CiscoSansTTBold.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTBold.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Bold Oblique";
+    src: url("#{$brand-font-folder}/CiscoSansTTBoldOblique.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTBoldOblique.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTBoldOblique.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Extra Light";
+    src: url("#{$brand-font-folder}/CiscoSansTTExtraLight.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTExtraLight.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTExtraLight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Extra Light Oblique";
+    src: url("#{$brand-font-folder}/CiscoSansTTExtraLightOblique.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTExtraLightOblique.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTExtraLightOblique.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Heavy";
+    src: url("#{$brand-font-folder}/CiscoSansTTHeavy.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTHeavy.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTHeavy.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Heavy Oblique";
+    src: url("#{$brand-font-folder}/CiscoSansTTHeavyOblique.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTHeavyOblique.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTHeavyOblique.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Light";
+    src: url("#{$brand-font-folder}/CiscoSansTTLight.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTLight.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTLight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Light Oblique";
+    src: url("#{$brand-font-folder}/CiscoSansTTLightOblique.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTLightOblique.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTLightOblique.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Regular";
+    src: url("#{$brand-font-folder}/CiscoSansTTRegular.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTRegular.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Regular Oblique";
+    src: url("#{$brand-font-folder}/CiscoSansTTRegularOblique.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTRegularOblique.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTRegularOblique.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Thin";
+    src: url("#{$brand-font-folder}/CiscoSansTTThin.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTThin.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTThin.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "CiscoSansTT Thin Oblique";
+    src: url("#{$brand-font-folder}/CiscoSansTTThinOblique.eot");
+    src: url("#{$brand-font-folder}/CiscoSansTTThinOblique.eot?#iefix") format("embedded-opentype"), url("#{$brand-font-folder}/CiscoSansTTThinOblique.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+}

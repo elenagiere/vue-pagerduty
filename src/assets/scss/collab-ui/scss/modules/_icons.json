@@ -1,0 +1,361 @@
+{
+  "icons": [{
+    "id": "cisco-logo",
+    "unicode": "e600",
+    "name": "cisco logo"
+  }, {
+    "id": "add-users",
+    "unicode": "e633",
+    "name": "add users"
+  }, {
+    "id": "arrow-down",
+    "unicode": "e601",
+    "name": "arrow down"
+  }, {
+    "id": "arrow-up",
+    "unicode": "e602",
+    "name": "arrow up"
+  }, {
+    "id": "back",
+    "unicode": "e603"
+  }, {
+    "id": "bars",
+    "unicode": "e604"
+  }, {
+    "id": "chat",
+    "unicode": "e805"
+  }, {
+    "id": "check",
+    "unicode": "e605"
+  }, {
+    "id": "checkbox",
+    "unicode": "e63a"
+  }, {
+    "id": "check-gear",
+    "unicode": "e638",
+    "name": "check gear"
+  }, {
+    "id": "check-mark-success",
+    "unicode": "e656",
+    "name": "check mark success"
+  }, {
+    "id": "chevron-down",
+    "unicode": "e606",
+    "name": "chevron down"
+  }, {
+    "id": "chevron-left",
+    "unicode": "e607",
+    "name": "chevron left"
+  }, {
+    "id": "chevron-right",
+    "unicode": "e608",
+    "name": "chevron right"
+  }, {
+    "id": "chevron-up",
+    "unicode": "e609",
+    "name": "chevron up"
+  }, {
+    "id": "close",
+    "unicode": "e60a"
+  }, {
+    "id": "content-share",
+    "unicode": "e628",
+    "name": "content share"
+  }, {
+    "id": "convo",
+    "unicode": "e629"
+  }, {
+    "id": "data",
+    "unicode": "e62d"
+  }, {
+    "id": "devices",
+    "unicode": "e635"
+  }, {
+    "id": "email",
+    "unicode": "e62a"
+  }, {
+    "id": "error",
+    "unicode": "e60b"
+  }, {
+    "id": "filter",
+    "unicode": "e655"
+  }, {
+    "id": "hamburger-menu",
+    "unicode": "e60c",
+    "name": "hamburger menu"
+  }, {
+    "id": "help",
+    "unicode": "e60d"
+  }, {
+    "id": "home",
+    "unicode": "e60e"
+  }, {
+    "id": "information",
+    "unicode": "e60f"
+  }, {
+    "id": "license",
+    "unicode": "e638"
+  }, {
+    "id": "minus",
+    "unicode": "e658"
+  }, {
+    "id": "panel-close",
+    "unicode": "e637",
+    "name": "panel close"
+  }, {
+    "id": "plan-review",
+    "unicode": "e632",
+    "name": "plan review"
+  }, {
+    "id": "plus",
+    "unicode": "e610"
+  }, {
+    "id": "plus-circle",
+    "unicode": "e636",
+    "name": "plus circle"
+  }, {
+    "id": "refresh",
+    "unicode": "e630"
+  }, {
+    "id": "remove",
+    "unicode": "e611"
+  }, {
+    "id": "search",
+    "unicode": "e612"
+  }, {
+    "id": "settings",
+    "unicode": "e613"
+  }, {
+    "id": "sliders",
+    "unicode": "e614"
+  }, {
+    "id": "spark",
+    "unicode": "e65a"
+  }, {
+    "id": "star",
+    "unicode": "e615"
+  }, {
+    "id": "support",
+    "unicode": "e62f"
+  }, {
+    "id": "three-dots",
+    "unicode": "e62e",
+    "name": "three dots"
+  }, {
+    "id": "tools",
+    "unicode": "e616"
+  }, {
+    "id": "trial",
+    "unicode": "e639"
+  }, {
+    "id": "user",
+    "unicode": "e62b"
+  }, {
+    "id": "user-chat",
+    "unicode": "e806",
+    "name": "user chat"
+  }, {
+    "id": "warning",
+    "unicode": "e617"
+  }, {
+    "id": "webex",
+    "unicode": "e65b"
+  }, {
+    "id": "audio",
+    "unicode": "e65c"
+  }, {
+    "id": "circle",
+    "unicode": "e65d"
+  }, {
+    "id": "clock",
+    "unicode": "e65e"
+  }, {
+    "id": "headset",
+    "unicode": "e65f"
+  }, {
+    "id": "playlist",
+    "unicode": "e660"
+  }, {
+    "id": "arrow-back",
+    "unicode": "e618",
+    "name": "arrow back"
+  }, {
+    "id": "arrow-next",
+    "unicode": "e619",
+    "name": "arrow next"
+  }, {
+    "id": "cal",
+    "unicode": "e61a"
+  }, {
+    "id": "calls",
+    "unicode": "e62c"
+  }, {
+    "id": "call-forwarding",
+    "unicode": "e61b",
+    "name": "call forwarding"
+  }, {
+    "id": "call-handling",
+    "unicode": "e61c",
+    "name": "call handling"
+  }, {
+    "id": "do-not-disturb",
+    "unicode": "e61d",
+    "name": "do not disturb"
+  }, {
+    "id": "download",
+    "unicode": "e61e"
+  }, {
+    "id": "edit",
+    "unicode": "e61f"
+  }, {
+    "id": "new-call",
+    "unicode": "e620",
+    "name": "new call"
+  }, {
+    "id": "pause",
+    "unicode": "e621"
+  }, {
+    "id": "phone",
+    "unicode": "e622"
+  }, {
+    "id": "play",
+    "unicode": "e623"
+  }, {
+    "id": "priority",
+    "unicode": "e624"
+  }, {
+    "id": "transfer-to-mobile",
+    "unicode": "e625",
+    "name": "transfer to mobile"
+  }, {
+    "id": "trash",
+    "unicode": "e626"
+  }, {
+    "id": "voicemail ",
+    "unicode": "e627"
+  }, {
+    "id": "circle-attachment",
+    "unicode": "e634",
+    "name": "circle attachment"
+  }, {
+    "id": "circle-calendar",
+    "unicode": "e63d",
+    "name": "circle calendar"
+  }, {
+    "id": "circle-call",
+    "unicode": "e63c",
+    "name": "circle call"
+  }, {
+    "id": "circle-check",
+    "unicode": "$check-mark-success",
+    "name": "circle check"
+  }, {
+    "id": "circle-clock ",
+    "unicode": "e63b",
+    "name": "circle clock"
+  }, {
+    "id": "circle-comp",
+    "unicode": "e63e",
+    "name": "circle computer"
+  }, {
+    "id": "circle-comp-neg",
+    "unicode": "e63f",
+    "name": "circle computer negative"
+  }, {
+    "id": "circle-comp-pos",
+    "unicode": "e640",
+    "name": "circle computer positive"
+  }, {
+    "id": "circle-contact-centre",
+    "unicode": "e659",
+    "name": "circle contact centre"
+  }, {
+    "id": "circle-data",
+    "unicode": "e800",
+    "name": "circle data"
+  }, {
+    "id": "circle-email",
+    "unicode": "e641",
+    "name": "circle email"
+  }, {
+    "id": "circle-flag",
+    "unicode": "e642",
+    "name": "circle flag"
+  }, {
+    "id": "circle-globe",
+    "unicode": "e643",
+    "name": "circle globe"
+  }, {
+    "id": "circle-group",
+    "unicode": "e644",
+    "name": "circle group"
+  }, {
+    "id": "circle-links",
+    "unicode": "e645",
+    "name": "circle links"
+  }, {
+    "id": "circle-localize",
+    "unicode": "e646",
+    "name": "circle localize"
+  }, {
+    "id": "circle-lock",
+    "unicode": "e647",
+    "name": "circle lock"
+  }, {
+    "id": "circle-message",
+    "unicode": "e648",
+    "name": "circle message"
+  }, {
+    "id": "circle-mobile",
+    "unicode": "e649",
+    "name": "circle mobile"
+  }, {
+    "id": "circle-more",
+    "unicode": "e64a",
+    "name": "circle more"
+  }, {
+    "id": "circle-question",
+    "unicode": "e64b",
+    "name": "circle question"
+  }, {
+    "id": "circle-responsive",
+    "unicode": "e64c",
+    "name": "circle responsive"
+  }, {
+    "id": "circle-search",
+    "unicode": "e64d",
+    "name": "circle search"
+  }, {
+    "id": "circle-settings",
+    "unicode": "e64e",
+    "name": "circle settings"
+  }, {
+    "id": "circle-star",
+    "unicode": "e64f",
+    "name": "circle star"
+  }, {
+    "id": "circle-telepresence",
+    "unicode": "e650",
+    "name": "circle telepresence"
+  }, {
+    "id": "circle-unlock",
+    "unicode": "e651",
+    "name": "circle unlock"
+  }, {
+    "id": "circle-upload",
+    "unicode": "e657",
+    "name": "circle upload"
+  }, {
+    "id": "circle-user",
+    "unicode": "e652",
+    "name": "circle user"
+  }, {
+    "id": "circle-webex ",
+    "unicode": "e653",
+    "name": "circle webex "
+  }, {
+    "id": "circle-world ",
+    "unicode": "e654",
+    "name": "circle world "
+  }]
+}

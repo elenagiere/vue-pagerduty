@@ -1,0 +1,36 @@
+.close {
+  float: right;
+  font-size: ($font-size-base * 1.5);
+  font-weight: $close-font-weight;
+  line-height: 1;
+  color: $gray-light-1;
+  text-shadow: $close-text-shadow;
+
+  &:hover,
+  &:focus {
+    color: $gray-dark-2;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+button.close {
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  font-weight: normal;
+  min-width: initial;
+  @include easing-transition(all, 150ms, ease);
+  @extend .icon-close;
+  &:before {
+      font-family: $cisco-toolkit-icons;
+      font-size: 30px;
+      vertical-align: middle;
+  }
+  &:hover {
+    color: $gray-dark-2;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+

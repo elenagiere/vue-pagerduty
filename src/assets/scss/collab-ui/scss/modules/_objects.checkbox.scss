@@ -1,0 +1,153 @@
+/*------------------------------------*\
+    #CHECKBOX
+\*------------------------------------*/
+
+.cs-checkbox-group {
+    @include vr-spacing(mb, 1.5);
+    &:last-child {
+      margin-bottom: 0;
+    }
+}
+
+.cs-input-checkbox {
+  &.cs-input-group {
+    @include vr-spacing(mb, .5);
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+
+  + label,
+  + .cs-checkbox {
+    @extend .icon-check;
+    display: inline-flex;
+    align-items: center;
+    line-height: rem-calc(20);
+    cursor: pointer;
+    &:before {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.75rem;
+      font-family: $Cisco-Toolkit-Icons;
+      font-size: rem-calc(18);
+      color: transparent;
+      line-height: rem-calc(18);
+      text-align: center;
+      background-color: $white;
+      border: 1px solid $gray-light-2;
+      @include border-radius(2px);
+      transition: 300ms ease-in-out all;
+    }
+
+    &:hover,
+    &.hover {
+      &:before {
+        border-color: $gray-light-1;
+      }
+    }
+
+    &:active,
+    &.active {
+      &:before {
+        border-color: $gray-base;
+      }
+    }
+
+    + .cs-input__help-text {
+      padding-left: rem-calc(30);
+    }
+  }
+
+  &:checked {
+    + label,
+    + .cs-input {
+      @extend .icon-check;
+
+      &:before {
+        color: $color-primary;
+        font-style: normal;
+        cursor: pointer;
+      }
+      &:active,
+      &.active {
+        &:before {
+          border-color: $gray-base;
+        }
+      }
+    }
+  }
+
+  &:focus,
+  &.focus {
+    + label,
+    + .cs-input {
+      &:before {
+        border-color: $color-primary-dark;
+      }
+    }
+  }
+
+  &:disabled {
+    + label,
+    + .cs-checkbox {
+      color: $gray-light-1;
+      cursor: default;
+      &:before {
+        background-color: $gray-light-3;
+        border-color: $gray-light-2;
+        cursor: default;
+      }
+    }
+    &:checked,
+    &:indeterminate,
+    &.indeterminate {
+      + label,
+      + .cs-checkbox {
+        &:before {
+          color: $gray-light-1;
+        }
+      }
+    }
+  }
+
+  &:indeterminate,
+  &.indeterminate {
+    + label,
+    + .cs-input {
+      @extend .icon-indeterminate;
+
+      &:before {
+        font-size: rem-calc(12);
+        font-style: normal;
+        color: $color-primary;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.cs-input-checkbox.horizontal {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.form-horizontal .cs-input-checkbox.horizontal {
+  padding-top: 6px;
+}
+
+.cs-checkbox-help {
+  @extend .cs-input__help-text;
+  @include vr-spacing(pl, 2);
+}
+
+/* ---------- END CHECKBOX ---------- */
