@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # vue-pagerduty
 
 > A Vue.js project
